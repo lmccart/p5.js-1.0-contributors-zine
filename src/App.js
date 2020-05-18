@@ -53,32 +53,41 @@ class App extends Component {
       </Row>
       
       <a id='skipToContent' className='sr-only' href='/#contributor-0'>Skip To Content</a>
-        <Col xs={12} sm={4}><div className="headingBox"><h1>p5.js 1.0<br/>Contributors Zine</h1></div></Col>
+        <Col xs={12} sm={4}>
+          <div className="headingBox">
+            <h1>p5.js 1.0<br/>Contributors Zine&nbsp;&nbsp;</h1>
+          </div>
+        </Col>
         <Col xs={12} sm={4} className="index">
-          <h2 aria-labelledby='contributorsList'>Contributors</h2>
-          <ul id='contributorsList'>
+          <h2 id='contributorsList'>Contributors</h2>
+          <ul aria-labelledby='contributorsList'>
           {
             data.map((obj, index) => {
               return (
                 <li key={index} className="contributorLabel">
-                  <a href={"#contributor-"+index}>
-                  <p>{obj.Credit}</p></a>
+                  <Row>
+                    <Col sm={3}>&lt;</Col>
+                    <Col sm={9} className="noPadLeft"><a href={"#contributor-"+index}>{obj.Credit}</a></Col>
+                  </Row>
                 </li>
               )
             })
           }
           </ul>
+          <h2 id='reflectionsList'>Contributor Reflections</h2>
+          <ul aria-labelledby='reflectionsList'>
+          </ul>
         </Col>
         <Col sx={12} sm={8} className="content">
-          <h2 aria-labelledby='contributorsEntries' className='sr-only'>Contributors Entries</h2>
-          <ul id='contributorsEntries'>
+          <h2 id='contributorsEntries'className='sr-only'>Contributors Entries</h2>
+          <ul aria-labelledby='contributorsEntries'>
           {
             data.map((obj, index) => {
               return (
                 <li key={index} id={"contributor-"+index} className="contributorEntry">
                   <Row sm={12}>
                     <Col sm={3}><span className="figLabel">FIG. <Pad n={index}/></span><span className="curve">&lt;</span></Col>
-                    <Col sm={9}><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
+                    <Col sm={9} className="contributorCredit"><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
                     <a target="blank" href={decoratedHref} key={key}>
                       {decoratedText}
                     </a>
@@ -103,6 +112,10 @@ class App extends Component {
               )
             })
           }
+          </ul>
+
+          <h2 id='reflectionsEntries'>Contributor Reflections</h2>
+          <ul aria-labelledby='reflectionsEntries'>
           </ul>
         </Col>
 
