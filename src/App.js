@@ -84,14 +84,14 @@ class App extends Component {
                     </a>
                   )}>{obj.Credit}</Linkify></Col>
                   </Row>
-
-                  <Col sm={{ size: 6, offset: 3 }}><img src={obj.Image} alt={obj.Alt} className="contributorImg"/></Col>
-                  <div><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
-                    <a target="blank" href={decoratedHref} key={key}>
-                      {decoratedText}
-                    </a>
-                  )}>{obj.Contribution}</Linkify></div>
-
+                  <Row>
+                    <Col sm={{ size: 6, offset: 3 }}><img src={obj.Image} alt={obj.Alt} className="contributorImg"/></Col>
+                    <Col sm={12}>
+                      <div><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
+                        <a target="blank" href={decoratedHref} key={key}>{decoratedText}</a>
+                      )}>{obj.Contribution}</Linkify></div>
+                    </Col>
+                  </Row>
                   <Row className="alt">
                     <Col sm={3}><span className="curve">&lt;</span></Col>
                     <Col sm={9}>
