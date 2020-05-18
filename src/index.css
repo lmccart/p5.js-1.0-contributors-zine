@@ -8,13 +8,14 @@ html,body {
   width: 100%;
   top:0;
   left:0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'Union',
     sans-serif;
   font-size: 18pt;
   line-height: 24pt;
@@ -25,11 +26,21 @@ body {
   background: rgb(215, 215, 215);
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 32pt;
   line-height: 38pt;
   transform: skew(-32DEG);
   text-decoration: underline;
+  margin-left: 5em;
 }
 
 h2 {
@@ -48,29 +59,46 @@ h2 {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: rgb(240, 95, 40);
 }
 
 nav {
-
+  z-index: 10;
   font-size: 32pt;
   line-height: 38pt;
-  transform: skew(-32DEG);
   text-decoration: none;
+  background-color: rgb(240, 95, 40);
 }
 
+ul {
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+nav ul {
+  margin: 0;
+  transform: skew(-32DEG);
+}
+
+nav li {
+  display: inline;
+  margin-right: 3em;
+}
+
+nav li.current {
+  text-decoration: underline;
+}
+
+.clickable {
+  cursor: pointer;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
-[class*='col-'] {
-  padding-left:3.125%;
-  padding-right:3.125%;
-}
-
 
 .index {
   height: 100%;
@@ -93,12 +121,18 @@ code {
 }
 
 .contributorEntry {
-  margin-bottom: 2em;
+  padding-bottom: 2em;
+  margin: 2em 0;
+  border-bottom: 1px solid black;
+}
+
+.contributorEntry:last-child {
+  border: none;
 }
 
 .figLabel {
-  /* float: left; */
-  font-style: italic;
+  float: left;
+  transform: skew(-32DEG);
 }
 
 .curve {
@@ -107,12 +141,53 @@ code {
 
 .contributorImg {
   background: lightcoral;
+  width: 100%;
+  margin: 2em 0;
+}
+
+.alt {
+  margin-top: 2em;
 }
 
 .altLabel {
-  font-style: italic;
+  transform: skew(-32DEG);
 }
 
-img {
+
+@font-face {
+  font-family: Union;
+  src: url("/public/Union-Regular.otf") format("opentype");
+}
+
+
+#grid {
+  height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  pointer-events: none;
+}
+
+#grid .grid {
+  /* outline: 1px solid yellow; */
+}
+
+#grid .inner {
+  outline: 1px solid magenta;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: block;
+}
+
+#grid .halfInner {
+  outline: 1px solid cyan;
+  width: 50%;
+  height: 100%;
+  z-index: 10;
+  display: block;
 }
