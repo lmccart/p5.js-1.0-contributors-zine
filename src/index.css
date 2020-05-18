@@ -2,6 +2,7 @@ html,body {
   height: 100%;
 }
 
+
 .h-100 {
   position: absolute;
   height: 100%;
@@ -13,7 +14,8 @@ html,body {
 }
 
 body {
-  margin: 0;
+  position: relative;
+  margin: 0 12.5px;
   padding: 0;
   font-family: 'Union',
     sans-serif;
@@ -84,7 +86,7 @@ nav ul {
 
 nav li {
   display: inline;
-  margin-right: 3em;
+  margin: 1em;
 }
 
 nav li.current {
@@ -106,14 +108,16 @@ code {
   top: 8em;
   left: 0;
   overflow-y: scroll;
+  overflow-x: hide;
 }
 
 .content {
   height: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   overflow-y: scroll;
+  overflow-x: hide;
 }
 
 .contributorLabel {

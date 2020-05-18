@@ -58,25 +58,25 @@ class App extends Component {
           <h2 aria-labelledby='contributorsList'>Contributors</h2>
           <ul id='contributorsList'>
           {
-              data.map((obj, index) => {
-                return (
-                  <li key={index} className="contributorLabel">
-                    <a href={"#contributor-"+index}>
-                    <p>{obj.Credit}</p></a>
-                  </li>
-                )
-              })
-            }
-            </ul>
+            data.map((obj, index) => {
+              return (
+                <li key={index} className="contributorLabel">
+                  <a href={"#contributor-"+index}>
+                  <p>{obj.Credit}</p></a>
+                </li>
+              )
+            })
+          }
+          </ul>
         </Col>
         <Col sx={12} sm={8} className="content">
-        <h2 aria-labelledby='contributorsEntries' className='sr-only'>Contributors Entries</h2>
-        <ul id='contributorsEntries'>
-        {
+          <h2 aria-labelledby='contributorsEntries' className='sr-only'>Contributors Entries</h2>
+          <ul id='contributorsEntries'>
+          {
             data.map((obj, index) => {
               return (
                 <li key={index} id={"contributor-"+index} className="contributorEntry">
-                  <Row>
+                  <Row sm={12}>
                     <Col sm={3}><span className="figLabel">FIG. <Pad n={index}/></span><span className="curve">&lt;</span></Col>
                     <Col sm={9}><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
                     <a target="blank" href={decoratedHref} key={key}>
