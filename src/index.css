@@ -28,13 +28,20 @@ body {
   background: rgb(215, 215, 215);
 }
 
-a {
+a, button {
   color: black;
+  background: none;
+  border: none;
+  display: inline-block;
 }
 
-a:hover {
+a:hover, button:hover {
   color: black;
   text-decoration: underline;
+}
+
+button:focus {
+  outline: none;
 }
 
 h1 {
@@ -56,27 +63,45 @@ h2 {
   line-height: 24pt;
 }
 
-.headingBox {
+#headingBox {
   background-color: rgb(240, 95, 40);
   text-align: right;
+}
+
+.gray {
+  background-color: rgb(215, 215, 215) !important;
 }
 
 .menu {
   position: absolute;
   bottom: 0;
   right: 0;
+  z-index: 10;
+  text-align: right;
 }
 
 nav {
-  z-index: 10;
   font-size: 32pt;
   line-height: 38pt;
   text-decoration: none;
   background-color: rgb(240, 95, 40);
 }
 
+.navCondensed {
+  display: inline-block;
+}
+
+.navCondensed ul {
+  display: none;
+}
+
+#navButton {
+  cursor: pointer;
+}
+
 ul {
   padding: 0;
+  display: inline-block;
 }
 
 ul, li {
@@ -90,7 +115,7 @@ nav ul {
 
 nav li {
   display: inline;
-  margin: 1em;
+  margin: 0.5em;
 }
 
 nav li.current {
@@ -112,17 +137,18 @@ code {
   top: 8em;
   left: 0;
   overflow-y: scroll;
-  overflow-x: hide;
+  overflow-x: hidden;
   text-align: left;
 }
 
 .content {
+  background: yellow;
   height: 100%;
   position: absolute;
   top: 0;
   right: 0;
   overflow-y: scroll;
-  overflow-x: hide;
+  overflow-x: hidden;
 }
 
 .contributorLabel {
@@ -132,6 +158,7 @@ code {
 .contributorCredit {
   transform: skew(-32DEG);
 }
+
 
 .contributorEntry {
   padding-bottom: 2em;
@@ -166,12 +193,21 @@ code {
 }
 
 
-@font-face {
-  font-family: Union;
-  src: url("/public/Union-Regular.otf") format("opentype");
+.noPadLeft {
+  padding-left: 0;
 }
 
+/* ABOUT */
+#about {
+  background-color: rgb(240, 95, 40);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
+/* GRID */
 #grid {
   height: 100%;
   width: 100%;
@@ -204,6 +240,9 @@ code {
   display: block;
 }
 
-.noPadLeft {
-  padding-left: 0;
+
+/* FONTS */
+@font-face {
+  font-family: Union;
+  src: url("/public/Union-Regular.otf") format("opentype");
 }
