@@ -8,6 +8,8 @@ import Grid from './Grid';
 import About from './About';
 import Read from './Read';
 
+import Asterisk from './assets/asterisk.png';
+
 setConfiguration({ defaultScreenClass: 'sm', gridColumns: 12, gutterWidth: 50 });
 
 class App extends Component {
@@ -76,7 +78,7 @@ class App extends Component {
 
       
         <Col sx={12} sm={8} className="menu">
-          <nav className={`${navOpen ? "" : "navCondensed"}`}>
+          <nav className={`${navOpen ? "" : "navCondensed"} ${aboutOpen ? "gray" : ""}`}>
             <h2 id='mainNav' className="sr-only">Main Nav</h2>
             <ul aria-labelledby='mainNav'>
               <li><button id='readButton' className='current'>Read</button></li>
@@ -84,7 +86,7 @@ class App extends Component {
               <li><a href="http://processingfoundation.press/" target="_blank">Purchase</a></li>
               <li><a href="mailto:hello@p5js.org" target="_blank">Contact</a></li>
             </ul>
-            <span id='navButton'>*</span>
+            <img id='navButton' src={Asterisk} alt='p5 asterisk logo'/>
           </nav>
         </Col>
         {!introOpen && !aboutOpen && (					

@@ -63,21 +63,18 @@ class Read extends Component {
                   <Row sm={12}>
                     <Col sm={3}><span className="figLabel">FIG. <Pad n={index}/></span><span className="curve">&lt;</span></Col>
                     <Col sm={9} className="contributorCredit"><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
-                    <a target="blank" href={decoratedHref} key={key}>
+                    <a target="blank" href={decoratedHref} key={key} className='link'>
                       {decoratedText}
                     </a>
                   )}>{obj.Credit}</Linkify></Col>
                   </Row>
                   <Row>
                     <Col sm={{ size: 6, offset: 3 }}><img src={obj.Image} alt={obj.Alt} className="contributorImg"/></Col>
-                  </Row>
-                  <Row>
-
-                  <Col sm={12}>
-                      <div className="altLabel">ALT.TEXT</div>
-                      <div>{obj.Alt} {obj.Alt} {obj.Alt}</div>
+                    <Col sm={12}>
+                      <div ><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
+                        <a target="blank" href={decoratedHref} key={key} className='link'>{decoratedText}</a>
+                      )}>{obj.Contribution}</Linkify></div>
                     </Col>
-                    
                   </Row>
                   <Row className="alt">
                     <Col sm={3}><span className="curve">&lt;</span></Col>
