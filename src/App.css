@@ -72,6 +72,10 @@ h2 {
   background-color: rgb(215, 215, 215) !important;
 }
 
+.orange {
+  background-color: rgb(240, 95, 40);
+}
+
 .menu {
   position: absolute;
   bottom: 0;

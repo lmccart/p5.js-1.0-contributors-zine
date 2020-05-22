@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Col } from 'reactstrap';
 // import { setConfiguration } from 'react-grid-system';
-import $ from 'jquery';
 import './App.css';
 
 import Grid from './Grid';
@@ -40,12 +39,12 @@ class App extends Component {
   }
 
   showAbout(e) {
-    console.log('about')
     this.setState({ navOpen: false, introOpen: false, aboutOpen: true });
+    document.body.className = 'orange';
   }
   showRead(e) {
-    console.log('about')
     this.setState({ navOpen: false, introOpen: false, aboutOpen: false });
+    document.body.className = 'gray';
   }
   toggleNav(e) {
     const { navOpen } = this.state;
@@ -53,10 +52,11 @@ class App extends Component {
   }
 
   componentDidMount() {
-    $(document).keyup(this.handleKey);
-    $('#navButton').click(this.toggleNav);
-    $('#aboutButton').click(this.showAbout);
-    $('#readButton').click(this.showRead);
+    document.body.className = 'gray';
+    document.addEventListener('keyup', this.handleKey);
+    document.getElementById('navButton').addEventListener('click', this.toggleNav);
+    document.getElementById('aboutButton').addEventListener('click', this.showAbout);
+    document.getElementById('readButton').addEventListener('click', this.showRead);
     window.addEventListener("resize", this.resize.bind(this));
     this.resize();
   }
