@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 import $ from 'jquery';
 import Linkify from 'react-linkify';
 
-class Read extends Component {	 
+class DesktopRead extends Component {	 
   constructor() {
     super()
     this.state = {
@@ -32,7 +32,7 @@ class Read extends Component {
     };
     const { data } = this.state
 		return (
-      <Container >
+      <Container id="DesktopRead">
         <Col xs={12} sm={4} className="index">
           <h2 id='contributorsList'>Contributors</h2>
           <ul aria-labelledby='contributorsList'>
@@ -42,7 +42,7 @@ class Read extends Component {
                 <li key={index} className="contributorLabel">
                   <Row>
                     <Col sm={3}>&lt;</Col>
-                    <Col sm={9} className="noPadLeft"><a href={"#contributor-"+index}>{obj.Credit}</a></Col>
+                    <Col sm={9} className="noPadLeft"><a href={"#contributor-"+index}>{obj.Short}</a></Col>
                   </Row>
                 </li>
               )
@@ -66,7 +66,9 @@ class Read extends Component {
                     <a target="blank" href={decoratedHref} key={key} className='link'>
                       {decoratedText}
                     </a>
-                  )}>{obj.Credit}</Linkify></Col>
+                  )}>{obj.Credit.split('\n').map(function(item, key) {
+                    return (<span key={key}>{item}<br/></span>)
+                  })}</Linkify></Col>
                   </Row>
                   <Row>
                     <Col sm={{ size: 6, offset: 3 }}><img src={obj.Image} alt={obj.Alt} className="contributorImg"/></Col>
@@ -99,4 +101,4 @@ class Read extends Component {
   }
 }
 
-export default Read;
+export default DesktopRead;

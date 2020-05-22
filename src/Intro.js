@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'reactstrap';
+import { Row } from 'reactstrap';
 
 class Intro extends Component {	 
 	render() {
