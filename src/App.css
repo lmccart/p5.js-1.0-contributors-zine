@@ -36,7 +36,8 @@ a, button {
 
 a:hover, button:hover {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
+  transform: skew(-32DEG);
 }
 
 button:focus {
@@ -115,9 +116,14 @@ ul, li {
   list-style: none;
 }
 
-nav ul {
+nav a, nav button {
   margin: 0;
   transform: skew(-32DEG);
+}
+
+nav a:hover, nav button:hover {
+  color: black;
+  transform: none;
 }
 
 nav li {
