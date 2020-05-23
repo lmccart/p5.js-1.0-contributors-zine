@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import $ from 'jquery';
 import Linkify from 'react-linkify';
 
 class DesktopRead extends Component {	 
@@ -12,16 +11,17 @@ class DesktopRead extends Component {
   }
 
   componentDidMount() {
+    console.log('mount')
     let component = this;
-    $.ajax({
-        url: 'data.json',
-        type: 'GET',
-        dataType: 'JSON',
-        success: function (data) {
-            component.setState({
-                data: data
-            });
-        }
+
+    fetch('./data.json')
+    .then(res => res.json())
+    .then(result => {
+      console.log(result)
+      component.setState({ data: result })
+    },
+    error => {
+      console.log(error)
     });
   }
 
