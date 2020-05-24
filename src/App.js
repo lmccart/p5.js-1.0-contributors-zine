@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Col } from 'reactstrap';
+import { Container, Col, Row } from 'reactstrap';
 // import { setConfiguration } from 'react-grid-system';
 import './App.css';
 
@@ -75,19 +75,16 @@ class App extends Component {
     return (
       <Container fluid className="h-100">
         <a id='skipToContent' className='sr-only' href='/#contributor-0'>Skip To Content</a>
+        <Col xs={12} sm={4} id="headingBox" className={`justify-content-end ${aboutOpen ? "gray" : ""}`}>
+          <h1>p5.js 1.0<br/>Contributors Zine&nbsp;&nbsp;</h1>
+        </Col>
+        
         {gridOpen && (					
           <Grid/>
         )}
         {!introOpen && aboutOpen && (					
           <About/>
         )}
-
-        <Col xs={12} sm={4}>
-          <div id="headingBox" className={`${aboutOpen ? "gray" : ""}`}>
-            <h1>p5.js 1.0<br/>Contributors Zine&nbsp;&nbsp;</h1>
-          </div>
-        </Col>
-
       
         <Col sx={12} sm={8} className="menu">
           <nav className={`${navOpen ? "" : "navCondensed"} ${aboutOpen ? "gray" : ""}`}>

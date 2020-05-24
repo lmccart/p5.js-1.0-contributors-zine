@@ -11,17 +11,11 @@ class DesktopRead extends Component {
   }
 
   componentDidMount() {
-    console.log('mount')
     let component = this;
-
     fetch('./data.json')
     .then(res => res.json())
     .then(result => {
-      console.log(result)
       component.setState({ data: result })
-    },
-    error => {
-      console.log(error)
     });
   }
 

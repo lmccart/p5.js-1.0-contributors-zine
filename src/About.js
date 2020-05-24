@@ -4,24 +4,24 @@ import { Container, Row, Col } from 'reactstrap';
 class About extends Component {	 
 	render() {
 		return (
-			<Container>
-				<Col id='about' xs={12} sm={12}>
+			<Container id='about' >
+				<Col xs={12} sm={12}>
 					<p>p5.js is a JavaScript library that aims to make creative expression and coding on the web accessible and inclusive for artists, designers, educators, beginners, and anyone else. It uses the metaphor of “sketching with code”, drawing inspiration from its precursor, Processing.  p5.js is free and open-source because we believe software, and the tools to learn it, should be accessible to everyone.</p>
 					<p>To the p5.js community “contributing” means many different things including:</p>
 					<Row>
-						<Col xs={4} sm={4}>
+						<Col xs={12} sm={4}>
 							teaching,<br/>
 							docmentation,<br/>
 							writing code,<br/>
 							making art,<br/>
 						</Col>
-						<Col xs={4} sm={4}>
+						<Col xs={12} sm={4}>
 							writing,<br/>
 							design,<br/>
 						  activism,<br/>
 							curating,<br/>
 						</Col>
-						<Col xs={4} sm={4}>
+						<Col xs={12} sm={4}>
 							bug reporting,<br/>
 							organizing,<br/>
 						  outreach,<br/>
