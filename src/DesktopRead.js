@@ -7,7 +7,8 @@ class DesktopRead extends Component {
     super()
     this.state = {
       data: [],
-      reflections: []
+      reflections: [],
+      lastShort: ''
     }
   }
 
@@ -39,14 +40,17 @@ class DesktopRead extends Component {
           <ul aria-labelledby='contributorsList'>
           {
             data.map((obj, index) => {
-              return (
-                <li key={index} className="contributorLabel">
-                  <Row>
-                    <Col sm={3}>&lt;</Col>
-                    <Col sm={9} className="noPadLeft"><a href={"#contributor-"+index}>{obj.Short}</a></Col>
-                  </Row>
-                </li>
-              )
+              if (obj.Short !== this.lastShort) { 
+                this.lastShort = obj.Short;
+                return (
+                  <li key={index} className="contributorLabel">
+                    <Row>
+                      <Col sm={3}>&lt;</Col>
+                      <Col sm={9} className="noPadLeft"><a href={"#contributor-"+index}>{obj.Short}</a></Col>
+                    </Row>
+                  </li>
+                )
+              }
             })
           }
           </ul>
@@ -69,7 +73,7 @@ class DesktopRead extends Component {
         <Col sx={12} sm={8} className="content">
           <h2 id='contributorsEntries'className='sr-only'>Contributors Entries</h2>
           <ul aria-labelledby='contributorsEntries'>
-          {/* {
+          {
             data.map((obj, index) => {
               return (
                 <li key={index} id={"contributor-"+index} className="contributorEntry">
@@ -101,7 +105,7 @@ class DesktopRead extends Component {
                 </li>
               )
             })
-          } */}
+          }
           </ul>
 
           <h2 id='reflectionsEntries'>Contributor Reflections</h2>
