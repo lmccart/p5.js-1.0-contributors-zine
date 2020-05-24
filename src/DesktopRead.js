@@ -115,11 +115,11 @@ class DesktopRead extends Component {
                     <Col sm={9} className="contributorCredit">{obj.Author}</Col>
                   </Row>
                   <Row>
-                    <Col sm={{ size: 6, offset: 3 }}><img src={obj.Illustration} alt={obj.Alt} className="contributorImg"/></Col>
+                    <Col sm={{ size: 6, offset: 3 }}><img src={'./assets/Illustrations/'+obj.Illustration} alt={obj.Alt} className="contributorImg"/></Col>
                     <Col sm={12}>
-                      <div ><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
-                        <a target="blank" href={decoratedHref} key={key} className='link'>{decoratedText}</a>
-                      )}>{obj.Text}</Linkify></div>
+                      <div>{obj.Text.split('\n').map(function(item, key) {
+                    return (<span key={key}>{item}<br/></span>)
+                  })}</div>
                     </Col>
                   </Row>
                   <Row className="alt">

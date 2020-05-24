@@ -7,9 +7,6 @@ import Grid from './Grid';
 import About from './About';
 import MobileRead from './MobileRead';
 import DesktopRead from './DesktopRead';
-
-import Asterisk from './assets/asterisk.png';
-
 // setConfiguration({ defaultScreenClass: 'sm', gridColumns: 12, gutterWidth: 50 });
 
 class App extends Component {
@@ -95,7 +92,7 @@ class App extends Component {
               <li><a href="http://processingfoundation.press/" target="_blank">Purchase</a></li>
               <li><a href="mailto:hello@p5js.org" target="_blank">Contact</a></li>
             </ul>
-            <img id='navButton' src={Asterisk} alt='p5 asterisk logo'/>
+            <img id='navButton' src='./assets/asterisk.png' alt='p5 asterisk logo'/>
           </nav>
         </Col>
         {!introOpen && !aboutOpen && (					
