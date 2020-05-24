@@ -139,20 +139,21 @@ class DesktopRead extends Component {
                   <br/>
 
                   {obj.Bio.map(function(i, k) {
-                        return(
-                  <Row className="authorAlt">
-                    <Col sm={3}><span className="curve">&lt;</span></Col>
-                    <Col sm={9}>
-                        <div className="authorHeading">{obj.Author}</div>
-                        <div>
-                          <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
-                          <a target="blank" href={decoratedHref} key={key} className='link'>{decoratedText}</a>
-                        )}>{i.split('\n').map(function(item, key) {
-                        return (<span key={key}>{item}<br/></span>)
-                        })}</Linkify>
-                        </div>
-                    </Col>
-                  </Row>)})}
+                  return(
+                    <Row>
+                      <Col sm={3}><span className="curve">&lt;</span></Col>
+                      <Col sm={9}>
+                          <div className="authorHeading">{obj.Author}</div>
+                          <div>
+                            <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
+                            <a target="blank" href={decoratedHref} key={key} className='link'>{decoratedText}</a>
+                          )}>{i.split('\n').map(function(item, key) {
+                          return (<span key={key}>{item}<br/></span>)
+                          })}</Linkify>
+                          </div>
+                      </Col>
+                    </Row>
+                  )})}
                 </li>
               )
             })
