@@ -6,7 +6,8 @@ class DesktopRead extends Component {
   constructor() {
     super()
     this.state = {
-      data: []
+      data: [],
+      reflections: []
     }
   }
 
@@ -17,6 +18,12 @@ class DesktopRead extends Component {
     .then(result => {
       component.setState({ data: result })
     });
+
+    fetch('./reflections.json')
+    .then(res => res.json())
+    .then(result => {
+      component.setState({ reflections: result })
+    });
   }
 
 	render() {
@@ -24,7 +31,7 @@ class DesktopRead extends Component {
       let n = data.n + '';
       return n.length >= 3 ? n : new Array(3 - n.length + 1).join('0') + n;
     };
-    const { data } = this.state
+    const { data, reflections } = this.state
 		return (
       <Container id="DesktopRead">
         <Col xs={12} sm={4} className="index">
@@ -45,6 +52,18 @@ class DesktopRead extends Component {
           </ul>
           <h2 id='reflectionsList'>Contributor Reflections</h2>
           <ul aria-labelledby='reflectionsList'>
+          {
+            reflections.map((obj, index) => {
+              return (
+                <li key={index} className="contributorLabel">
+                  <Row>
+                    <Col sm={3}>&lt;</Col>
+                    <Col sm={9} className="noPadLeft"><a href={"#reflection-"+index}>{obj.Author}</a></Col>
+                  </Row>
+                </li>
+              )
+            })
+          }
           </ul>
         </Col>
         <Col sx={12} sm={8} className="content">
@@ -87,6 +106,33 @@ class DesktopRead extends Component {
 
           <h2 id='reflectionsEntries'>Contributor Reflections</h2>
           <ul aria-labelledby='reflectionsEntries'>
+          {
+            reflections.map((obj, index) => {
+              return (
+                <li key={index} id={"reflection-"+index} className="contributorEntry">
+                  <Row sm={12}>
+                    <Col sm={3}><span className="figLabel">TEXT <Pad n={index}/></span><span className="curve">&lt;</span></Col>
+                    <Col sm={9} className="contributorCredit">{obj.Author}</Col>
+                  </Row>
+                  <Row>
+                    <Col sm={{ size: 6, offset: 3 }}><img src={obj.Illustration} alt={obj.Alt} className="contributorImg"/></Col>
+                    <Col sm={12}>
+                      <div ><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
+                        <a target="blank" href={decoratedHref} key={key} className='link'>{decoratedText}</a>
+                      )}>{obj.Text}</Linkify></div>
+                    </Col>
+                  </Row>
+                  <Row className="alt">
+                    <Col sm={3}><span className="curve">&lt;</span></Col>
+                    <Col sm={9}>
+                      <div className="altLabel">ALT.TEXT</div>
+                      <div>{obj.Alt}</div>
+                    </Col>
+                  </Row>
+                </li>
+              )
+            })
+          }
           </ul>
         </Col>
       </Container>
