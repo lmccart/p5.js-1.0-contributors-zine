@@ -227,6 +227,17 @@ code {
   transform: skew(-32DEG);
 }
 
+#reflectionsList {
+  margin-top: 1em;
+  text-indent: -1em;
+  margin-left: 0.6em;
+}
+
+.authorHeading {
+  transform: skew(-32DEG);
+  text-transform: uppercase;
+}
+
 
 .noPadLeft {
   padding-left: 0;
