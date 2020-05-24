@@ -78,7 +78,7 @@ class DesktopRead extends Component {
               return (
                 <li key={index} id={"contributor-"+index} className="contributorEntry">
                   <Row sm={12}>
-                    <Col sm={3}><span className="figLabel">FIG. <Pad n={index+1} d='2'/></span><span className="curve">&lt;</span></Col>
+                    <Col sm={3}><span className="figLabel">FIG. <Pad n={index+1} d='3'/></span><span className="curve">&lt;</span></Col>
                     <Col sm={9} className="contributorCredit"><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
                     <a target="blank" href={decoratedHref} key={key} className='link'>
                       {decoratedText}
@@ -136,18 +136,23 @@ class DesktopRead extends Component {
                   })}</Linkify></div>
                     </Col>
                   </Row>
+                  <br/>
 
-                  <Row className="alt">
+                  {obj.Bio.map(function(i, k) {
+                        return(
+                  <Row className="authorAlt">
                     <Col sm={3}><span className="curve">&lt;</span></Col>
                     <Col sm={9}>
-                      <div className="authorHeading">{obj.Author}</div>
-                      <div><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
-                        <a target="blank" href={decoratedHref} key={key} className='link'>{decoratedText}</a>
-                      )}>{obj.Bio.split('\n').map(function(item, key) {
-                    return (<span key={key}>{item}<br/></span>)
-                  })}</Linkify></div>
+                        <div className="authorHeading">{obj.Author}</div>
+                        <div>
+                          <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
+                          <a target="blank" href={decoratedHref} key={key} className='link'>{decoratedText}</a>
+                        )}>{i.split('\n').map(function(item, key) {
+                        return (<span key={key}>{item}<br/></span>)
+                        })}</Linkify>
+                        </div>
                     </Col>
-                  </Row>
+                  </Row>)})}
                 </li>
               )
             })
