@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { Container, Col, Row } from 'reactstrap';
-// import { setConfiguration } from 'react-grid-system';
 import './App.css';
 
 import Grid from './Grid';
 import About from './About';
 import MobileRead from './MobileRead';
 import DesktopRead from './DesktopRead';
-// setConfiguration({ defaultScreenClass: 'sm', gridColumns: 12, gutterWidth: 50 });
+
+import asterisk from './assets/asterisk.png';
+import curve from './assets/curve.svg';
 
 class App extends Component {
   constructor() {
@@ -92,7 +93,7 @@ class App extends Component {
               <li><a href="http://processingfoundation.press/" target="_blank">Purchase</a></li>
               <li><a href="mailto:hello@p5js.org" target="_blank">Contact</a></li>
             </ul>
-            <img id='navButton' src='./assets/asterisk.png' alt='p5 asterisk logo'/>
+            <img id='navButton' src={asterisk} alt='p5 asterisk logo'/>
           </nav>
         </Col>
         {!introOpen && !aboutOpen && (					

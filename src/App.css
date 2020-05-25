@@ -168,11 +168,12 @@ code {
   overflow-x: hidden;
 }
 
+
 .contributorLabel {
   display: block;
 }
 
-.contributorCredit {
+.headingPiece {
   transform: skew(-32DEG);
 }
 
@@ -208,10 +209,29 @@ code {
 .figLabel {
   float: left;
   transform: skew(-32DEG);
+  width: 75%;
 }
 
-.curve {
-  float: right;
+.indexCurve {
+  margin-right: -25%;
+}
+
+.curveLabel img {
+  width: 25%;
+  display: inline-block;
+  margin-top: -.15em;
+}
+
+.firstCurve img {
+  margin-top: 0.5em;
+}
+
+.contributorsListCurves {
+  width: 100%;
+}
+
+.contributorsList {
+  margin-left: -77%;
 }
 
 .contributorImg {
@@ -238,9 +258,12 @@ code {
   text-transform: uppercase;
 }
 
-
 .noPadLeft {
-  padding-left: 0;
+  width: 200%;
+  background: yellow;
+  position: relative;
+  top: -0.5em;
+  left: -30%;
 }
 
 /* ABOUT */

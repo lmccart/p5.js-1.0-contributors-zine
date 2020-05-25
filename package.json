@@ -9,7 +9,6 @@
     "bootstrap": "^4.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-grid-system": "^6.4.2",
     "react-linkify": "^1.0.0-alpha",
     "react-scripts": "3.4.1",
     "reactstrap": "^8.4.1"

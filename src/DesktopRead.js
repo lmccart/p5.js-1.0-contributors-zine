@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Linkify from 'react-linkify';
+import curveFirst from './assets/curve-first.svg';
+import curve from './assets/curve.svg';
 
 class DesktopRead extends Component {	 
   constructor() {
@@ -45,8 +47,10 @@ class DesktopRead extends Component {
                 return (
                   <li key={index} className="contributorLabel">
                     <Row>
-                      <Col sm={3}>&lt;</Col>
-                      <Col sm={9} className="noPadLeft"><a href={"#contributor-"+index}>{obj.Short}</a></Col>
+                      <Col sm={6}>
+                        <span className="curveLabel"><img src={curveFirst} alt=''/></span>
+                      </Col>
+                      <Col sm={6} className="noPadLeft"><a href={"#contributor-"+index}>{obj.Short}</a></Col>
                     </Row>
                   </li>
                 )
@@ -61,7 +65,9 @@ class DesktopRead extends Component {
               return (
                 <li key={index} className="authorLabel">
                   <Row>
-                    <Col sm={3}>&lt;</Col>
+                    <Col sm={3}>
+                      <span className="curveLabel firstCurve"><img src={curveFirst} alt=''/></span>
+                    </Col>
                     <Col sm={9} className="noPadLeft"><a href={"#reflection-"+index}>{obj.Title}<br/>{obj.Author}</a></Col>
                   </Row>
                 </li>
@@ -77,15 +83,31 @@ class DesktopRead extends Component {
             data.map((obj, index) => {
               return (
                 <li key={index} id={"contributor-"+index} className="contributorEntry">
-                  <Row sm={12}>
-                    <Col sm={3}><span className="figLabel">FIG. <Pad n={index+1} d='3'/></span><span className="curve">&lt;</span></Col>
-                    <Col sm={9} className="contributorCredit"><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
-                    <a target="blank" href={decoratedHref} key={key} className='link'>
-                      {decoratedText}
-                    </a>
-                  )}>{obj.Credit.split('\n').map(function(item, key) {
-                    return (<span key={key}>{item}<br/></span>)
-                  })}</Linkify></Col>
+                  <Row>
+                    <Col sm={3} className="contributorCurve">
+                      <span className="figLabel">FIG. <Pad n={index+1} d='3'/></span>
+                      <span className="curveLabel firstCurve"><img src={curveFirst} alt=''/></span>
+                      {obj.Credit.split('\n').map(function(item, key) {
+                          return (
+                            key !== 0 ? 
+                            <span key={key}>
+                            <span className="figLabel">&nbsp;</span>
+                            <span className="curveLabel"><img src={curve} alt=''/></span>
+                            </span>
+                            : ""
+                          )
+                      })}
+                    </Col>
+                    <Col sm={9} className="contributorCredit">
+                      <div className="headingPiece">Contributor</div>
+                      <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
+                      <a target="blank" href={decoratedHref} key={key} className='link'>
+                        {decoratedText}
+                      </a>
+                    )}>{obj.Credit.split('\n').map(function(item, key) {
+                      return (<div className="headingPiece" key={key}>{item}</div>)
+                    })}</Linkify>
+                    </Col>
                   </Row>
                   <Row>
                     <Col sm={{ size: 6, offset: 3 }}><img src={obj.Image} alt={obj.Alt} className="contributorImg"/></Col>
@@ -96,7 +118,10 @@ class DesktopRead extends Component {
                     </Col>
                   </Row>
                   <Row className="alt">
-                    <Col sm={3}><span className="curve">&lt;</span></Col>
+                    <Col sm={3}>
+                      <span className="figLabel">&nbsp;</span>
+                      <span className="curveLabel firstCurve"><img src={curveFirst} alt=''/></span>
+                    </Col>
                     <Col sm={9}>
                       <div className="altLabel">ALT.TEXT</div>
                       <div>{obj.Alt}</div>
@@ -115,19 +140,36 @@ class DesktopRead extends Component {
               return (
                 <li key={index} id={"reflection-"+index} className="contributorEntry">
                   <Row sm={12}>
-                    <Col sm={3}><span className="figLabel">TEXT <Pad n={index+1} d='2' /></span><span className="curve">&lt;</span></Col>
-                    <Col sm={9} className="contributorCredit">Reflection</Col>
-                  </Row>
-                  <Row sm={12}>
-                    <Col sm={3}><span className="figLabel"></span><span className="curve">&lt;</span></Col>
-                    <Col sm={9} className="contributorCredit">{obj.Title}</Col>
-                  </Row>
-                  <Row sm={12}>
-                    <Col sm={3}><span className="figLabel"></span><span className="curve">&lt;</span></Col>
-                    <Col sm={9} className="contributorCredit">{obj.Author}</Col>
+                    <Col sm={3} className="contributorCurve">
+                        <span className="figLabel">TEXT <Pad n={index+1} d='2'/></span>
+                        <span className="curveLabel firstCurve"><img src={curveFirst} alt=''/></span>
+                        <span className="figLabel">&nbsp;</span>
+                        <span className="curveLabel"><img src={curve} alt=''/></span>
+                        {obj.Title.split('\n').map(function(item, key) {
+                            return (
+                              key !== 0 ? 
+                              <span key={key}>
+                                <span className="figLabel">&nbsp;</span>
+                                <span className="curveLabel"><img src={curve} alt=''/></span>
+                              </span>
+                              : ""
+                            )
+                        })}
+                      </Col>
+                      <Col sm={9} className="contributorCredit">
+                        <div className="headingPiece">Reflection</div>
+                        <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
+                        <a target="blank" href={decoratedHref} key={key} className='link'>
+                          {decoratedText}
+                        </a>
+                      )}>{obj.Title.split('\n').map(function(item, key) {
+                        return (<div className="headingPiece" key={key}>{item}</div>)
+                      })}</Linkify>
+                      <div className="headingPiece">{obj.Author}</div>
+                    </Col>
                   </Row>
                   <Row>
-                    <Col sm={{ size: 6, offset: 3 }}><img src={'./assets/Illustrations/'+obj.Illustration} alt={obj.Alt} className="contributorImg"/></Col>
+                    <Col sm={{ size: 6, offset: 3 }}><img src={'./Illustrations/'+obj.Illustration} alt={obj.Alt} className="contributorImg"/></Col>
                     <Col sm={12}>
                       <div><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
                         <a target="blank" href={decoratedHref} key={key} className='link'>{decoratedText}</a>
@@ -140,8 +182,11 @@ class DesktopRead extends Component {
 
                   {obj.Bio.map(function(i, k) {
                   return(
-                    <Row>
-                      <Col sm={3}><span className="curve">&lt;</span></Col>
+                    <Row key={k}>
+                      <Col sm={3}  className="contributorCurve">
+                        <span className="figLabel">&nbsp;</span>
+                        <span className="curveLabel firstCurve"><img src={curve} alt=''/></span>
+                      </Col>
                       <Col sm={9}>
                           <div className="authorHeading">{obj.Author}</div>
                           <div>
