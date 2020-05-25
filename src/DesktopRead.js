@@ -47,7 +47,7 @@ class DesktopRead extends Component {
                 return (
                   <li key={index} className="contributorLabel">
                     <Row>
-                      <Col sm={12}>
+                      <Col sm={12} className="indexEntry">
                         <span className={`indexCurveLabel ${index === 0 ? "firstCurve" : ""}`}><img src={curveFirst} alt=''/></span>
                         <span className="indexLabel"><a href={"#contributor-"+index}>{obj.Short}</a></span>
                       </Col>
@@ -62,24 +62,24 @@ class DesktopRead extends Component {
           <ul aria-labelledby='reflectionsList'>
           {
             reflections.map((obj, index) => {
-              return (
-                <li key={index} className="authorLabel">
-                  <Row>
-                    <Col sm={3}>
-                      <span className="curveLabel firstCurve"><img src={curveFirst} alt=''/></span>
-                    </Col>
-                    <Col sm={9} className="noPadLeft"><a href={"#reflection-"+index}>{obj.Title}<br/>{obj.Author}</a></Col>
-                  </Row>
-                </li>
-              )
-            })
+                return (
+                  <li key={index} className="authorLabel">
+                    <Row>
+                      <Col sm={12} className="indexEntry">
+                        <span className={`indexCurveLabel ${index === 0 ? "firstCurve" : ""}`}><img src={curveFirst} alt=''/></span>
+                        <span className="indexLabel"><a href={"#reflection-"+index}>{obj.Title}<br/>{obj.Author}</a></span>
+                      </Col>
+                    </Row>
+                  </li>
+                )
+              })
           }
           </ul>
         </Col>
         <Col sx={12} sm={8} className="content">
           <h2 id='contributorsEntries'className='sr-only'>Contributors Entries</h2>
           <ul aria-labelledby='contributorsEntries'>
-          {
+          {/* {
             data.map((obj, index) => {
               return (
                 <li key={index} id={"contributor-"+index} className="contributorEntry">
@@ -130,7 +130,7 @@ class DesktopRead extends Component {
                 </li>
               )
             })
-          }
+          } */}
           </ul>
 
           <h2 id='reflectionsEntries'>Contributor Reflections</h2>
