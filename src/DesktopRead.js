@@ -79,7 +79,7 @@ class DesktopRead extends Component {
         <Col sx={12} sm={8} className="content">
           <h2 id='contributorsEntries'className='sr-only'>Contributors Entries</h2>
           <ul aria-labelledby='contributorsEntries'>
-          {/* {
+          {
             data.map((obj, index) => {
               return (
                 <li key={index} id={"contributor-"+index} className="contributorEntry">
@@ -130,7 +130,7 @@ class DesktopRead extends Component {
                 </li>
               )
             })
-          } */}
+          }
           </ul>
 
           <h2 id='reflectionsEntries'>Contributor Reflections</h2>
