@@ -47,10 +47,10 @@ class DesktopRead extends Component {
                 return (
                   <li key={index} className="contributorLabel">
                     <Row>
-                      <Col sm={6}>
-                        <span className="curveLabel"><img src={curveFirst} alt=''/></span>
+                      <Col sm={12}>
+                        <span className={`indexCurveLabel ${index === 0 ? "firstCurve" : ""}`}><img src={curveFirst} alt=''/></span>
+                        <span className="indexLabel"><a href={"#contributor-"+index}>{obj.Short}</a></span>
                       </Col>
-                      <Col sm={6} className="noPadLeft"><a href={"#contributor-"+index}>{obj.Short}</a></Col>
                     </Row>
                   </li>
                 )

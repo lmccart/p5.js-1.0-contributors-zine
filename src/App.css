@@ -222,6 +222,18 @@ code {
   margin-top: -.15em;
 }
 
+.indexCurveLabel img {
+  width: 10%;
+  margin-right: 10%;
+  margin-top: -.15em;
+  display: inline-block;
+}
+
+.indexLabel {
+  width: 80%;
+  display: inline-block;
+}
+
 .firstCurve img {
   margin-top: 0.5em;
 }
@@ -258,12 +270,15 @@ code {
   text-transform: uppercase;
 }
 
-.noPadLeft {
-  width: 200%;
+.firstNoPadLeft {
+  margin-top: 1em;
   background: yellow;
-  position: relative;
-  top: -0.5em;
-  left: -30%;
+  padding: 0;
+}
+
+.noPadLeft {
+  background: yellow;
+  padding: 0;
 }
 
 /* ABOUT */
