@@ -157,7 +157,7 @@ code {
 
 /* INDEX */
 .index {
-  height: 80%;
+  height: calc(100vh - 6em);
   position: absolute;
   padding-top: 1em;
   left: 0;
@@ -241,6 +241,7 @@ code {
 
 .contributorEntry:last-child {
   border: none;
+  padding-bottom: 0;
 }
 
 .link {
@@ -278,6 +279,10 @@ code {
   margin: 1em;
   text-indent: -1em;
   margin-left: 0.6em;
+}
+
+#reflectionsUl {
+  padding-bottom: 2.5em;
 }
 
 .authorHeading {

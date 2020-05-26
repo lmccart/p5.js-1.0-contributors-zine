@@ -13,7 +13,7 @@ class App extends Component {
     this.state = {
       gridOpen: true,
       navOpen: true,
-      introOpen: false,
+      introOpen: true,
       aboutOpen: false,
       isMobile: false
     }

@@ -52,7 +52,7 @@ class DesktopRead extends Component {
           }
           </ul>
           <h2 id='reflectionsList'>Contributor<br/>Reflections</h2>
-          <ul aria-labelledby='reflectionsList'>
+          <ul aria-labelledby='reflectionsList' id='reflectionsUl'>
           {
             reflections.map((obj, index) => {
               return <IndexEntry key={index} index={index} prefix='#reflection-' short={obj.Author} title={obj.Title} last={index === reflections.length-1 ? "true" : "false"}/>
