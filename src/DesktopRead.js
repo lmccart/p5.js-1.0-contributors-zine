@@ -46,7 +46,7 @@ class DesktopRead extends Component {
             data.map((obj, index) => {
               if (obj.Short !== this.lastShort) { 
                 this.lastShort = obj.Short;
-                return <IndexEntry key={index} index={index} prefix='#contributor-' short={obj.Short}/>;
+                return <IndexEntry key={index} index={index} prefix='#contributor-' short={obj.Short} last={index === data.length-1 ? "true" : "false"}/>;
               } return null;
             })
           }
@@ -55,8 +55,8 @@ class DesktopRead extends Component {
           <ul aria-labelledby='reflectionsList'>
           {
             reflections.map((obj, index) => {
-                return <IndexEntry key={index} index={index} prefix='#reflection-' short={obj.Author} title={obj.Title}/>
-              })
+              return <IndexEntry key={index} index={index} prefix='#reflection-' short={obj.Author} title={obj.Title} last={index === reflections.length-1 ? "true" : "false"}/>
+            })
           }
           </ul>
         </Col>

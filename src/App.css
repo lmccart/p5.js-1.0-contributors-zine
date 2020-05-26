@@ -178,20 +178,20 @@ code {
   margin-top: 0.5em;
 }
 
-.indexCurveLabel img {
-  width: 10%;
-  margin-right: 10%;
-  margin-top: 0.5em;
-  display: inline-block;
+.indexCurveHolder {
+  float: left;
+  width: 3em;
+  text-align: left;
 }
 
 .indexEntry {
-  margin-top: -0.5em;
+  margin-bottom: -0.5em;
 }
 
 .indexLabel {
   width: 80%;
   display: inline-block;
+  float: right;
 }
 
 #contributorsList {

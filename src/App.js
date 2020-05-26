@@ -55,9 +55,6 @@ class App extends Component {
     window.addEventListener("resize", this.resize.bind(this));
     this.resize();
   }
-  shouldComponentUpdate() {
-    return false;
-  }
 
   resize() {
     let check = false;
