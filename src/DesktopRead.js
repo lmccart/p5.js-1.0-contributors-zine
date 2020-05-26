@@ -69,6 +69,7 @@ class DesktopRead extends Component {
             })
           }
           </ul>
+          <hr/>
 
           <h2 id='reflectionsEntries'>Contributor Reflections</h2>
           <ul aria-labelledby='reflectionsEntries'>
