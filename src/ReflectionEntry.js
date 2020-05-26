@@ -25,22 +25,17 @@ class ReflectionEntry extends Component {
     return (
       <li key={this.props.index} id={"reflection-"+this.props.index} className="contributorEntry">
         <Row sm={12}>
-          <Col sm={3} className="contributorCurve">
-              <span className="figLabel">TEXT <Pad n={this.props.index+1} d='2'/></span>
+        <Col sm={3} className="contributorCurve">
+            <span className="figLabel">TEXT. <Pad n={this.props.index+1} d='2'/></span>
+            <div className="curveHolder">
               <span className="curveLabel firstCurve"><img src='./assets/curve-first.svg' alt=''/></span>
-              <span className="figLabel">&nbsp;</span>
-              <span className="curveLabel"><img src='./assets/curve.svg' alt=''/></span>
               {this.props.obj.Title.split('\n').map(function(item, key) {
                   return (
-                    key !== 0 ? 
-                    <span key={key}>
-                      <span className="figLabel">&nbsp;</span>
-                      <span className="curveLabel"><img src='./assets/curve.svg' alt=''/></span>
-                    </span>
-                    : ""
+                    <span key={key} className="curveLabel"><img src='./assets/curve.svg' alt=''/></span>
                   )
               })}
-            </Col>
+            </div>
+          </Col>
             <Col sm={9} className="contributorCredit">
               <div className="headingPiece">Reflection</div>
               <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
@@ -68,9 +63,10 @@ class ReflectionEntry extends Component {
         {this.props.obj.Bio.map((i, k) => {
         return(
           <Row key={k}>
-            <Col sm={3}  className="contributorCurve">
-              <span className="figLabel">&nbsp;</span>
-              <span className="curveLabel firstCurve"><img src='./assets/curve.svg' alt=''/></span>
+            <Col sm={3} className="contributorCurve">
+              <div className="curveHolder">
+                <span className="curveLabel firstCurve"><img src='./assets/curve-first.svg' alt=''/></span>
+              </div>
             </Col>
             <Col sm={9}>
                 <div className="authorHeading">{this.props.obj.Author}</div>

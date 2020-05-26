@@ -27,17 +27,16 @@ class ContributorEntry extends Component {
         <Row>
           <Col sm={3} className="contributorCurve">
             <span className="figLabel">FIG. <Pad n={this.props.index+1} d='3'/></span>
-            <span className="curveLabel firstCurve"><img src='./assets/curve-first.svg' alt=''/></span>
-            {this.props.obj.Credit.split('\n').map(function(item, key) {
-                return (
-                  key !== 0 ? 
-                  <span key={key}>
-                  <span className="figLabel">&nbsp;</span>
-                  <span className="curveLabel"><img src='./assets/curve.svg' alt=''/></span>
-                  </span>
-                  : ""
-                )
-            })}
+            <div className="curveHolder">
+              <span className="curveLabel firstCurve"><img src='./assets/curve-first.svg' alt=''/></span>
+              {this.props.obj.Credit.split('\n').map(function(item, key) {
+                  return (
+                    key !== 0 ? 
+                    <span key={key} className="curveLabel"><img src='./assets/curve.svg' alt=''/></span>
+                    : ""
+                  )
+              })}
+            </div>
           </Col>
           <Col sm={9} className="contributorCredit">
             <div className="headingPiece">Contributor</div>
@@ -59,9 +58,10 @@ class ContributorEntry extends Component {
           </Col>
         </Row>
         <Row className="alt">
-          <Col sm={3}>
-            <span className="figLabel">&nbsp;</span>
-            <span className="curveLabel firstCurve"><img src='./assets/curve-first.svg' alt=''/></span>
+        <Col sm={3} className="contributorCurve">
+            <div className="curveHolder">
+              <span className="curveLabel firstCurve"><img src='./assets/curve-first.svg' alt=''/></span>
+            </div>
           </Col>
           <Col sm={9}>
             <div className="altLabel">ALT.TEXT</div>

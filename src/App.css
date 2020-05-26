@@ -17,7 +17,7 @@ body {
   font-family: 'Union',
     sans-serif;
   font-size: 18pt;
-  line-height: 24pt;
+  line-height: 1.33em;
   text-align: justify;
 
   -webkit-font-smoothing: antialiased;
@@ -161,10 +161,21 @@ code {
   text-align: left;
 }
 
+.curveHolder {
+  float: right;
+  width: 2em;
+  text-align: right;
+}
+
 .curveLabel img {
-  width: 25%;
+  height: 1.33em;
+  width: auto;
   display: inline-block;
   margin-top: -.15em;
+}
+
+.firstCurve img {
+  margin-top: 0.5em;
 }
 
 .indexCurveLabel img {
@@ -172,10 +183,6 @@ code {
   margin-right: 10%;
   margin-top: 0.5em;
   display: inline-block;
-}
-
-.firstCurve img {
-  margin-top: 0.5em;
 }
 
 .indexEntry {
@@ -216,9 +223,10 @@ code {
 .figLabel {
   float: left;
   transform: skew(-32DEG);
-  width: 75%;
+  position: relative;
+  top: 0;
+  left: 0;
 }
-
 
 .contributorEntry {
   padding-bottom: 2em;
