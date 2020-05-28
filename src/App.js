@@ -3,6 +3,7 @@ import { Container, Col } from 'reactstrap';
 import './App.css';
 
 import Grid from './Grid';
+import Intro from './Intro';
 import About from './About';
 import MobileRead from './MobileRead';
 import DesktopRead from './DesktopRead';
@@ -13,7 +14,7 @@ class App extends Component {
     this.state = {
       gridOpen: true,
       navOpen: true,
-      introOpen: false,
+      introOpen: true,
       aboutOpen: false,
       isMobile: false
     }
@@ -77,6 +78,9 @@ class App extends Component {
         
         {gridOpen && (					
           <Grid/>
+        )}
+        {introOpen && (					
+          <Intro/>
         )}
         {!introOpen && aboutOpen && (					
           <About/>
