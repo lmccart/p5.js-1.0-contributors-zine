@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
+import Skew from './Skew.js';
 
 class IndexEntry extends Component {	 
   constructor() {
@@ -37,9 +38,9 @@ class IndexEntry extends Component {
         </div>
         <span className="indexLabel" ref={indexRef => { this.indexRef = indexRef }}>
           <a href={this.props.prefix+this.props.index}>
-            {this.props.title ? (this.props.title) : ( "" )}
+            {this.props.title ? <Skew hover="true" text={this.props.title}/> : ( "" )}
             {this.props.title ? <br/> : ( "" )}
-            {this.props.short}
+            <Skew hover="true" text={this.props.short}/>
           </a>
           </span>
       </Col>

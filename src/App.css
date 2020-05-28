@@ -12,6 +12,26 @@ html,body {
   padding: 0;
 }
 
+.skew {
+  transform: skew(-32DEG);
+  display: inline-block;
+}
+
+.skewHover {
+  display: inline-block;
+}
+
+a:hover > .skewHover {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  transform: skew(-32DEG);
+}
+
+a:hover {
+  max-width: 110%;
+}
+
 body {
   overflow: hidden;
   font-family: 'Union',
@@ -30,9 +50,14 @@ a, button {
   background: none;
   border: none;
   display: inline-block;
+  padding: 0;
 }
 
-a:hover, button:hover {
+.headingPiece .link:hover {
+  transform: skew(32DEG);
+}
+
+.link:hover {
   color: black;
   text-decoration: none;
   transform: skew(-32DEG);
@@ -113,17 +138,25 @@ nav {
 #navButton {
   cursor: pointer;
   height: 1em;
-  margin: 0.25em;
+  margin: 0.25em 0.25em;
 }
 
 ul {
   margin: 0;
   padding: 0;
-  display: inline-block;
 }
+
+#contributorsList ul, #reflectionsList ul {
+  display: block;
+}
+
 
 ul, li {
   list-style: none;
+}
+
+nav ul {
+  display: inline-block;
 }
 
 nav a, nav button {
@@ -180,7 +213,7 @@ code {
 }
 
 .firstCurve img {
-  margin-top: 0.5em;
+  margin-top: 0.6em;
 }
 
 .indexCurveHolder {
@@ -190,7 +223,7 @@ code {
 }
 
 .indexEntry {
-  margin-bottom: -0.5em;
+  margin-bottom: -0.6em;
 }
 
 .indexLabel {
@@ -216,7 +249,6 @@ code {
   overflow-x: hidden;
 }
 
-
 .contentLabel {
   display: block;
 }
@@ -241,7 +273,7 @@ code {
 
 .contributorEntry:last-child {
   border: none;
-  padding-bottom: 0;
+  padding-bottom: 2em;
 }
 
 .link {
@@ -276,13 +308,12 @@ code {
 }
 
 #reflectionsList {
-  margin: 1em;
+  margin: 1.5em 0 1em 0.6em;
   text-indent: -1em;
-  margin-left: 0.6em;
 }
 
 #reflectionsUl {
-  padding-bottom: 2.5em;
+  padding-bottom: 4.5em;
 }
 
 .authorHeading {
@@ -302,21 +333,24 @@ code {
 }
 
 /* ABOUT */
-#about {
+.aboutText {
   height: 100vh;
   overflow-y: scroll;
   font-size: 24pt;
-  line-height: 24pt;
-  padding: 1em 0 5em 0;
+  line-height: 28pt;
+  padding: 1em 0 7em 0;
 }
 
-#about p {
+.mobileText p{
   margin-bottom: 1em;
   padding: 0;
-  /* transform: skew(-32DEG); */
 }
 
-#about .row {
+.mobileText p:last-child {
+  margin: 0;
+}
+
+.mobileText .row {
   margin-bottom: 1em;
 }
 
@@ -354,6 +388,13 @@ code {
   display: block;
 }
 
+.mobileOnly {
+  display: none;
+}
+
+.desktopOnly {
+  display: auto;
+}
 
 /* FONTS */
 @font-face {
@@ -367,16 +408,32 @@ code {
 @media only screen and (max-width: 768px) {
   h1 {
     font-size: 24pt;
-    line-height: 32pt;
+    line-height: 28pt;
     text-indent: -18pt;
     padding-top: 8pt;
   }
 
   nav {
-    font-size: 16pt;
+    font-size: 5.5vw;
   }
   nav li {
-    margin: 0.1em;
+    margin: 1vw;
+  }
+
+  .mobileOnly {
+    display: inline-block;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+
+  #navButton {
+    margin: 0.25em 0.75em;
+  }
+
+  .aboutText {
+    padding-bottom: 5em;
   }
 }
 
