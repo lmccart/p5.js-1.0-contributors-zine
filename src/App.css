@@ -187,6 +187,16 @@ code {
     monospace;
 }
 
+/* INTRO */
+.intoSvg {
+  position: absolute;
+  top: 0;
+}
+
+#svg {
+  height: 94vh;
+  margin-top: 6vh;
+}
 
 /* INDEX */
 .index {
@@ -434,6 +444,11 @@ code {
 
   .aboutText {
     padding-bottom: 5em;
+  }
+
+  #svg {
+    height: 73vh;
+    margin-top: 17vh;
   }
 }
 
