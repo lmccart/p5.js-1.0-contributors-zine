@@ -12,10 +12,10 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      gridOpen: true,
+      gridOpen: false,
       navOpen: true,
-      introOpen: false,
-      aboutOpen: true,
+      introOpen: true,
+      aboutOpen: false,
       isMobile: false
     }
     this.handleKey = this.handleKey.bind(this);

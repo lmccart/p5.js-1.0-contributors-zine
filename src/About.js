@@ -12,7 +12,7 @@ class About extends Component {
 					<p className='desktopOnly'><Skew text='To the p5.js community “contributing” means many different things including:'/></p>
 					<Row className='desktopOnly'>
 						<Col xs={12} sm={4}>
-							<div class="aboutCurves">
+							<div className="aboutCurves">
 							<Curve first/><Curve/><Curve/>
 							</div>
 							<Skew text='teaching,'/><br/>
@@ -21,7 +21,7 @@ class About extends Component {
 							<Skew text='making art,'/><br/>
 						</Col>
 						<Col xs={12} sm={4}>
-							<div class="aboutCurves">
+							<div className="aboutCurves">
 							<Curve first/><Curve/><Curve/>
 							</div>
 							<Skew text='writing,'/><br/>
@@ -30,7 +30,7 @@ class About extends Component {
 							<Skew text='curating,'/><br/>
 						</Col>
 						<Col xs={12} sm={4}>
-							<div class="aboutCurves">
+							<div className="aboutCurves">
 							<Curve first/><Curve/><Curve/>
 							</div>
 							<Skew text='bug reporting,'/><br/>

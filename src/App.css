@@ -12,6 +12,7 @@ html,body {
   padding: 0;
 }
 
+
 .skew {
   transform: skew(-32DEG);
   display: inline-block;
@@ -364,6 +365,7 @@ code {
   font-size: 24pt;
   line-height: 1.33em;
   padding: 1em 0 7em 0;
+  margin-left: 0.25em;
 }
 
 .mobileText p{
