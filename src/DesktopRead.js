@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Col } from 'reactstrap';
 import IndexEntry from './IndexEntry.js';
 import ContentEntry from './ContributorEntry';
 import ReflectionEntry from './ReflectionEntry';
@@ -35,7 +35,6 @@ class DesktopRead extends Component {
   }
 
 	render() {
-    console.log('render deskto')
     const { data, reflections } = this.state
 		return (
       <Container id="DesktopRead">

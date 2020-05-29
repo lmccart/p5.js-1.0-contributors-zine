@@ -66,7 +66,6 @@ class App extends Component {
   }
 
   render() {
-    console.log('render')
     const { gridOpen, navOpen, aboutOpen, introOpen, isMobile } = this.state
     
     return (
@@ -87,15 +86,15 @@ class App extends Component {
         )}
       
         <Col sx={12} sm={8} className="menu">
-          <nav className={`${navOpen ? "" : "navCondensed"} ${aboutOpen ? "gray" : ""}`}>
+          <nav tab-index="1" className={`${navOpen ? "" : "navCondensed"} ${aboutOpen ? "gray" : ""}`}>
             <h2 id='mainNav' className="sr-only">Main Nav</h2>
             <ul aria-labelledby='mainNav'>
               <li><button id='readButton' className='current'>Read</button></li>
               <li><button id='aboutButton'>About</button></li>
-              <li><a href="http://processingfoundation.press/" target="_blank">Purchase</a></li>
+              <li><a href="http://processingfoundation.press/" target="_blank" rel="noreferrer">Purchase</a></li>
               <li><a href="mailto:hello@p5js.org" target="_blank">Contact</a></li>
             </ul>
-            <img id='navButton' src='./assets/asterisk.png' alt='p5 asterisk logo'/>
+            <img id='navButton' src='./Assets/asterisk.png' alt='p5 asterisk logo'/>
           </nav>
         </Col>
         {!introOpen && !aboutOpen && (					

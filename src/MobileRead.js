@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Col, Row } from 'reactstrap';
+import { Container, Col } from 'reactstrap';
 import Skew from './Skew.js';
 
 class MobileRead extends Component {	 

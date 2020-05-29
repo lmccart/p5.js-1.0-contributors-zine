@@ -54,6 +54,7 @@ a, button {
   padding: 0;
 }
 
+
 .headingPiece .link:hover {
   transform: skew(32DEG);
 }
@@ -62,10 +63,6 @@ a, button {
   color: black;
   text-decoration: none;
   transform: skew(-32DEG);
-}
-
-button:focus {
-  outline: none;
 }
 
 h1 {
@@ -427,7 +424,8 @@ code {
 /* FONTS */
 @font-face {
   font-family: Union;
-  src: url("/public/Union-Regular.otf") format("opentype");
+  /* src: url("/public/Union-Regular.otf") format("opentype"); */
+  src: url("/fonts/Union-Regular.woff") format("woff");
 }
 
 

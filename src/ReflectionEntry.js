@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 import Linkify from 'react-linkify';
+import Curve from './Curve.js';
 
 class ReflectionEntry extends Component {	 
   constructor() {
@@ -20,21 +21,21 @@ class ReflectionEntry extends Component {
 	render() {    
     const Pad = (data) => {
       let n = data.n + '';
-      return n.length >= data.d ? n : new Array(data.d - n.length + 1).join('0') + n;
+      return n.length >= data.d ? data.name+n : data.name+' '+new Array(data.d - n.length + 1).join('0') + n;
     };
     return (
       <li key={this.props.index} id={"reflection-"+this.props.index} className="contributorEntry">
         <Row sm={12}>
         <Col sm={3} className="contributorCurve">
-            <span className="figLabel">TEXT. <Pad n={this.props.index+1} d='2'/></span>
-            <div className="curveHolder">
-              <span className="curveLabel firstCurve"><img src='./assets/curve-first.svg' alt=''/></span>
-              {this.props.obj.Title.split('\n').map(function(item, key) {
-                  return (
-                    <span key={key} className="curveLabel"><img src='./assets/curve.svg' alt=''/></span>
-                  )
-              })}
-            </div>
+          <span className="figLabel">{this.props.obj.Illustration ? <Pad name="TEXT" n={this.props.index+1} d='2'/> : "IMAGES"}</span>
+          <div className="curveHolder">
+            <Curve first/>
+            {this.props.obj.Title.split('\n').map(function(item, key) {
+                return (
+                  <Curve/>
+                )
+            })}
+          </div>
           </Col>
             <Col sm={9} className="contributorCredit">
               <div className="headingPiece">Reflection</div>
@@ -49,7 +50,9 @@ class ReflectionEntry extends Component {
           </Col>
         </Row>
         <Row>
-          <Col sm={{ size: 6, offset: 3 }}><img src={'./Illustrations/'+this.props.obj.Illustration} alt={this.props.obj.Alt} className="contributorImg"/></Col>
+          { this.props.obj.Illustration ? 
+            <Col sm={{ size: 6, offset: 3 }}><img src={'./Illustrations/'+this.props.obj.Illustration} alt={this.props.obj.Alt} className="contributorImg"/></Col>
+            : <Col sm={{ size: 6, offset: 3 }}>&nbsp;</Col>}
           <Col sm={12}>
             <div><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
               <a target="blank" href={decoratedHref} key={key} className='link'>{decoratedText}</a>
@@ -65,7 +68,7 @@ class ReflectionEntry extends Component {
           <Row key={k}>
             <Col sm={3} className="contributorCurve">
               <div className="curveHolder">
-                <span className="curveLabel firstCurve"><img src='./assets/curve-first.svg' alt=''/></span>
+                <span className="curveLabel firstCurve"><img src='./Assets/curve-first.svg' alt=''/></span>
               </div>
             </Col>
             <Col sm={9}>

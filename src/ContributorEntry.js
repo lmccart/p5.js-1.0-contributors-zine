@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 import Linkify from 'react-linkify';
+import Curve from './Curve.js';
 
 class ContributorEntry extends Component {	 
   constructor() {
@@ -28,19 +29,11 @@ class ContributorEntry extends Component {
           <Col sm={3} className="contributorCurve">
             <span className="figLabel">FIG. <Pad n={this.props.index+1} d='3'/></span>
             <div className="curveHolder">
-              <span className="curveLabel firstCurve">
-                <svg preserveAspectRatio="none" version="1.1" className="curve" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 25 17.94">
-                  <path vectorEffect="non-scaling-stroke" fill="none" stroke="#000000" strokeWidth="2" d="M25,0.45c-13.56,0-24.55,3.82-24.55,8.52S11.44,17.49,25,17.49"/>
-                </svg>
-                </span>
+              <Curve first/>
               {this.props.obj.Credit.split('\n').map(function(item, key) {
                   return (
                     key !== 0 ? 
-                    <span key={key} className="curveLabel"> 
-                      <svg preserveAspectRatio="none" version="1.1" className="curve" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 25 17.94">
-                        <path vectorEffect="non-scaling-stroke" fill="none" stroke="#000000" strokeWidth="2" d="M25,0.45c-13.56,0-24.55,3.82-24.55,8.52S11.44,17.49,25,17.49"/>
-                      </svg>
-                    </span>
+                    <Curve key={key}/>
                     : ""
                   )
               })}
@@ -68,11 +61,7 @@ class ContributorEntry extends Component {
         <Row className="alt">
         <Col sm={3} className="contributorCurve">
             <div className="curveHolder">
-              <span className="curveLabel firstCurve">
-                <svg preserveAspectRatio="none" version="1.1" className="curve" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 25 17.94">
-                  <path vectorEffect="non-scaling-stroke" fill="none" stroke="#000000" strokeWidth="2" d="M25,0.45c-13.56,0-24.55,3.82-24.55,8.52S11.44,17.49,25,17.49"/>
-                </svg>
-              </span>
+              <Curve first/>
             </div>
           </Col>
           <Col sm={9}>
