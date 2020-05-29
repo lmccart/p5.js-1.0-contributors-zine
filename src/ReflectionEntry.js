@@ -32,7 +32,7 @@ class ReflectionEntry extends Component {
             <Curve first/>
             {this.props.obj.Title.split('\n').map(function(item, key) {
                 return (
-                  <Curve/>
+                  <Curve key={key}/>
                 )
             })}
           </div>
@@ -67,9 +67,7 @@ class ReflectionEntry extends Component {
         return(
           <Row key={k}>
             <Col sm={3} className="contributorCurve">
-              <div className="curveHolder">
-                <span className="curveLabel firstCurve"><img src='./Assets/curve-first.svg' alt=''/></span>
-              </div>
+              <Curve className="curveHolder" first/>
             </Col>
             <Col sm={9}>
                 <div className="authorHeading">{this.props.obj.Author}</div>

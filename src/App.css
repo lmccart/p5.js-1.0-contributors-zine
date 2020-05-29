@@ -197,6 +197,10 @@ code {
 }
 
 /* INDEX */
+#DesktopRead {
+  display: none;
+}
+
 .index {
   height: calc(100vh - 6em);
   position: absolute;
@@ -353,7 +357,7 @@ code {
   height: 1.33em;
   width: 1.84em;
   display: block;
-  margin-top: -0.02em;
+  margin-top: -0.03em;
 }
 
 .aboutText {

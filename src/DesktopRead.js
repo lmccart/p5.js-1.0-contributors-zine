@@ -25,9 +25,11 @@ class DesktopRead extends Component {
       .then(res => res.json())
       .then(result => {
         component.setState({ reflections: result })
+        document.getElementById('DesktopRead').style.display = 'flex';
         this.forceUpdate();
       });
     });
+
   }
 
   shouldComponentUpdate() {
