@@ -215,14 +215,14 @@ code {
   text-align: right;
 }
 
-.curveLabel img {
+.curveLabel svg {
   height: 1.33em;
   width: auto;
   display: inline-block;
   margin-top: -.15em;
 }
 
-.firstCurve img {
+.firstCurve svg {
   margin-top: 0.6em;
 }
 
@@ -343,11 +343,26 @@ code {
 }
 
 /* ABOUT */
+.aboutCurves {
+  width: 25%;
+}
+
+.firstCurve svg {
+  margin-top: 0.6em !important;
+}
+
+.aboutCurve svg {
+  height: 1.33em;
+  width: 1.84em;
+  display: block;
+  margin-top: -0.02em;
+}
+
 .aboutText {
   height: 100vh;
   overflow-y: scroll;
   font-size: 24pt;
-  line-height: 28pt;
+  line-height: 1.33em;
   padding: 1em 0 7em 0;
 }
 
@@ -404,6 +419,7 @@ code {
 
 .desktopOnly {
   display: auto;
+  margin-bottom: 0.5em;
 }
 
 /* FONTS */

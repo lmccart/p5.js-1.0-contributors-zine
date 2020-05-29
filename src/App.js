@@ -14,8 +14,8 @@ class App extends Component {
     this.state = {
       gridOpen: true,
       navOpen: true,
-      introOpen: true,
-      aboutOpen: false,
+      introOpen: false,
+      aboutOpen: true,
       isMobile: false
     }
     this.handleKey = this.handleKey.bind(this);
