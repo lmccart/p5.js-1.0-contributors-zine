@@ -21,7 +21,8 @@ class App extends Component {
     this.handleKey = this.handleKey.bind(this);
     this.showAbout = this.showAbout.bind(this);
     this.showRead = this.showRead.bind(this);
-    this.toggleNav = this.toggleNav.bind(this);
+    this.navOn = this.navOn.bind(this);
+    this.navOff = this.navOff.bind(this);
   }
 
   handleKey(e) {
@@ -42,15 +43,20 @@ class App extends Component {
     this.setState({ navOpen: false, introOpen: false, aboutOpen: false });
     document.body.className = 'gray';
   }
-  toggleNav(e) {
-    const { navOpen } = this.state;
-    this.setState({ navOpen: !navOpen });
+  navOn(e) {
+    if (this.state.introOpen) return;
+    this.setState({ navOpen: true });
+  }
+  navOff(e) {
+    if (this.state.introOpen) return;
+    this.setState({ navOpen: false });
   }
 
   componentDidMount() {
     document.body.className = 'gray';
     document.addEventListener('keyup', this.handleKey);
-    document.getElementById('navButton').addEventListener('click', this.toggleNav);
+    document.querySelector('nav').addEventListener('mouseover', this.navOn);
+    document.querySelector('nav').addEventListener('mouseout', this.navOff);
     document.getElementById('aboutButton').addEventListener('click', this.showAbout);
     document.getElementById('readButton').addEventListener('click', this.showRead);
     window.addEventListener("resize", this.resize.bind(this));
@@ -72,7 +78,7 @@ class App extends Component {
       <Container fluid className="h-100">
         <a id='skipToContent' className='sr-only' href='/#contributor-0'>Skip To Content</a>
         <Col xs={12} sm={4} id="headingBox" className={`justify-content-end ${aboutOpen ? "gray" : ""}`}>
-          <h1>p5.js 1.0<br/>Contributors Zine&nbsp;&nbsp;</h1>
+          <h1>p5.js 1.0<br/>Contributors Zine&nbsp;</h1>
         </Col>
         
         {gridOpen && (					
@@ -97,8 +103,11 @@ class App extends Component {
             <img id='navButton' src='./Assets/asterisk.png' alt='p5 asterisk logo'/>
           </nav>
         </Col>
-        {!introOpen && !aboutOpen && (					
-          isMobile ? ( <MobileRead /> ) : ( <DesktopRead /> )
+        {!introOpen && !aboutOpen && (		
+          <>			
+          <MobileRead />
+          <DesktopRead />
+          </>
         )}
       </Container>
     );

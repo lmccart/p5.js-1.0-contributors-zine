@@ -67,21 +67,21 @@ a, button {
 
 h1 {
   font-size: 32pt;
-  line-height: 38pt;
+  line-height: 1.19em;
   transform: skew(-32DEG);
   text-decoration: underline;
   padding: 0.75em 0 0 0;
   text-align: left;
   display: inline-block;
-  text-indent: -32px;
-  margin-right: -1.5em;
+  text-indent: -1em;
+  margin: 0 -1.4em -0.5em 0;
 }
 
 h2 {
   text-decoration: none;
   transform: skew(-32DEG);
   font-size: 18pt;
-  line-height: 24pt;
+  line-height: 1.33em;
 }
 
 hr {
@@ -119,10 +119,11 @@ hr {
 
 nav {
   font-size: 32pt;
-  line-height: 38pt;
+  line-height: 1.19em;
   text-decoration: none;
   background-color: rgb(240, 95, 40);
   margin-right: -25px;
+  padding-top: 0.15em;
 }
 
 .navCondensed {
@@ -136,11 +137,11 @@ nav {
 #navButton {
   cursor: pointer;
   height: 1em;
-  margin: 0.25em 0.25em;
+  margin: 0.25em 0.4em;
 }
 
 ul {
-  margin: 0;
+  margin: 0 0 0 0;
   padding: 0;
 }
 
@@ -165,15 +166,12 @@ nav a, nav button {
 nav a:hover, nav button:hover {
   color: black;
   transform: none;
+  text-decoration: none;
 }
 
 nav li {
   display: inline;
   margin: 0.5em;
-}
-
-nav li.current {
-  text-decoration: underline;
 }
 
 .clickable {
@@ -197,7 +195,7 @@ code {
 }
 
 /* INDEX */
-#DesktopRead {
+#hiddenLoad {
   display: none;
 }
 
@@ -239,9 +237,8 @@ code {
 }
 
 .indexLabel {
-  width: 80%;
+  width: 23vw;
   display: inline-block;
-  float: right;
 }
 
 #contributorsList {
@@ -349,6 +346,11 @@ code {
   width: 25%;
 }
 
+.aboutList {
+  width: 65%;
+  display: inline-block;
+}
+
 .firstCurve svg {
   margin-top: 0.6em !important;
 }
@@ -432,34 +434,46 @@ code {
   src: url("/fonts/Union-Regular.woff") format("woff");
 }
 
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-  h1 {
+@media only screen and (max-width: 1215px) {
+  h1, h2, nav {
     font-size: 24pt;
-    line-height: 28pt;
-    text-indent: -18pt;
-    padding-top: 8pt;
   }
-
-  nav {
-    font-size: 5.5vw;
+  body {
+    font-size: 12pt;
+  }
+  .indexLabel {
+    width: 18vw;
   }
   nav li {
     margin: 1vw;
   }
 
-  .mobileOnly {
-    display: inline-block;
+}
+@media only screen and (max-width: 855px) {
+  .contributorCredit {
+    margin-top: 1.6em;
+  }
+  .indexLabel {
+    width: 16vw;
   }
 
-  .desktopOnly {
-    display: none;
+  .aboutCurve {
+    /* display: none; */
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+  h1, h2, nav {
+    font-size: 18pt;
+  }
+  nav li {
+    margin: 0.5vw;
   }
 
   #navButton {
-    margin: 0.25em 0.75em;
+    margin: 0.25em 0.25em;
   }
 
   .aboutText {
@@ -472,7 +486,27 @@ code {
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* Small devices */
+@media only screen and (max-width: 576px) {
 
+  h1, h2, nav {
+    font-size: 24pt;
+  }
+  nav li {
+    margin: 0.2vw;
+  }
+
+  #navButton {
+    margin: 0.25em 0.25em;
+  }
+
+  .aboutText {
+    padding-bottom: 5em;
+  }
+
+  #svg {
+    height: 73vh;
+    margin-top: 17vh;
+  }
 }
+

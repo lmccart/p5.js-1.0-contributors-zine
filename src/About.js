@@ -9,39 +9,45 @@ class About extends Component {
 			<div className='aboutText'>
 				<Col xs={12} sm={12}>
 					<p><Skew text='p5.js is a JavaScript library that aims to make creative expression and coding on the web accessible and inclusive for artists, designers, educators, beginners, and anyone else. It uses the metaphor of “sketching with code”, drawing inspiration from its precursor, Processing.  p5.js is free and open-source because we believe software, and the tools to learn it, should be accessible to everyone.'/></p>
-					<p className='desktopOnly'><Skew text='To the p5.js community “contributing” means many different things including:'/></p>
-					<Row className='desktopOnly'>
+					<p  className="d-none d-lg-block"><Skew text='To the p5.js community “contributing” means many different things including:'/></p>
+					<Row  className="d-none d-lg-flex">
 						<Col xs={12} sm={4}>
 							<div className="aboutCurves">
 							<Curve first/><Curve/><Curve/>
 							</div>
-							<Skew text='teaching,'/><br/>
-							<Skew text='documentation,'/><br/>
-							<Skew text='writing code,'/><br/>
-							<Skew text='making art,'/><br/>
+							<div className="aboutList">
+								<Skew text='teaching,'/><br/>
+								<Skew text='documentation,'/><br/>
+								<Skew text='writing code,'/><br/>
+								<Skew text='making art,'/><br/>
+							</div>
 						</Col>
 						<Col xs={12} sm={4}>
 							<div className="aboutCurves">
 							<Curve first/><Curve/><Curve/>
 							</div>
-							<Skew text='writing,'/><br/>
-							<Skew text='design,'/><br/>
-							<Skew text='activism,'/><br/>
-							<Skew text='curating,'/><br/>
+							<div className="aboutList">
+								<Skew text='writing,'/><br/>
+								<Skew text='design,'/><br/>
+								<Skew text='activism,'/><br/>
+								<Skew text='curating,'/><br/>
+							</div>
 						</Col>
 						<Col xs={12} sm={4}>
 							<div className="aboutCurves">
 							<Curve first/><Curve/><Curve/>
 							</div>
-							<Skew text='bug reporting,'/><br/>
-							<Skew text='organizing,'/><br/>
-							<Skew text='outreach,'/><br/>
-							<Skew text='and more.'/><br/>
+							<div className="aboutList">
+								<Skew text='bug reporting,'/><br/>
+								<Skew text='organizing,'/><br/>
+								<Skew text='outreach,'/><br/>
+								<Skew text='and more.'/><br/>
+							</div>
 						</Col>
 					</Row>
-					<Row className='mobileOnly'>
+					<Row  className="d-block d-lg-none">
 						<Col xs={12}>
-							<Skew text='To the p5.js community “contributing” means many different things including: teaching, coding, documentation, making art, writing, design, activism, curating, bug reporting, outreach, and more.'/>
+							<p><Skew text='To the p5.js community “contributing” means many different things including: teaching, coding, documentation, making art, writing, design, activism, curating, bug reporting, outreach, and more.'/></p>
 						</Col>
 					</Row>
 					<p><Skew text='We seek to erase the line between user and contributor, and expand the definitions of both as far and wide as possible. Diverse perspectives come together to make a tool that enables many different people to express themselves creatively.'/></p>

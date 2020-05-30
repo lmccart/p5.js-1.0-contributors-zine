@@ -11,7 +11,9 @@ class IndexEntry extends Component {
 
   componentDidMount() {
     if (this.imgRef) {
-      let n = this.indexRef.clientHeight / 32;
+      let singleHeight = this.imgRef.clientHeight;
+      if (!singleHeight) return;
+      let n = this.indexRef.clientHeight / singleHeight;
       if (n > 1) {
         this.imgRef.style.height = (1.33 * n) + 'em';
         this.imgRef.style.width = '1.84em';
@@ -30,8 +32,13 @@ class IndexEntry extends Component {
         {this.props.type === 0 || this.props.type === -1 ?
           <span className="curveLabel firstCurve">
             <svg  aria-hidden="true" role="img" ref={imgRef => { this.imgRef = imgRef }} preserveAspectRatio="none" version="1.1" className="curve" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 25 17.94">
-              <path vectorEffect="non-scaling-stroke" fill="none" stroke="#000000" strokeWidth="2" d="M25,0.45c-13.56,0-24.55,3.82-24.55,8.52S11.44,17.49,25,17.49"/>
+              <path vectorEffect="non-scaling-stroke" fill="none" stroke="#000000" strokeWidth="2" d="M25,0.47c-13.56,0-24.55,3.81-24.55,8.51s10.99,8.5,24.55,8.5"/>
             </svg>
+          </span>
+          : ""}
+        {this.props.type === -2 ?
+          <span className="curveLabel firstCurve">
+            <svg  aria-hidden="true" role="img" ref={imgRef => { this.imgRef = imgRef }} preserveAspectRatio="none" version="1.1" className="curve" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 25 17.94"></svg>
           </span>
           : ""}
         {this.props.type > 0 ?

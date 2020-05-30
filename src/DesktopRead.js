@@ -25,7 +25,7 @@ class DesktopRead extends Component {
       .then(res => res.json())
       .then(result => {
         component.setState({ reflections: result })
-        document.getElementById('DesktopRead').style.display = 'flex';
+        document.getElementById('hiddenLoad').style.display = 'flex';
         this.forceUpdate();
       });
     });
@@ -39,7 +39,8 @@ class DesktopRead extends Component {
 	render() {
     const { data, reflections } = this.state
 		return (
-      <Container id="DesktopRead">
+      <Container className="d-none d-sm-block">
+        <div id="hiddenLoad">
         <Col xs={12} sm={4} className="index">
           <h2 id='contributorsList'>Contributors</h2>
           <ul aria-labelledby='contributorsList'>
@@ -87,6 +88,7 @@ class DesktopRead extends Component {
           }
           </ul>
         </Col>
+        </div>
       </Container>
 
     );

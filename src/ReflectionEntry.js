@@ -21,7 +21,7 @@ class ReflectionEntry extends Component {
 	render() {    
     const Pad = (data) => {
       let n = data.n + '';
-      return n.length >= data.d ? data.name+n : data.name+' '+new Array(data.d - n.length + 1).join('0') + n;
+      return n.length >= data.d ? data.name+' '+n : data.name+' '+new Array(data.d - n.length + 1).join('0') + n;
     };
     return (
       <li key={this.props.index} id={"reflection-"+this.props.index} className="contributorEntry">
