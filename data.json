@@ -1146,7 +1146,7 @@
    "Timestamp": "12/30/2019 11:46:12",
    "Email Address": "steve@architectronics.com",
    "Credit": "Stephen Lewis Architectronics\nwww.funkey.net\nwww.makesense.co/P5JSDuino",
-   "Short": "Stephen Lewis Architectronics",
+   "Short": "Stephen Lewis",
    "Contribution": "Program Arduino boards directly from P5JS.  Analog sensor input, digital and servo outputs directly coded from P5JS.  www.makesense.co/p5jsduino",
    "Image": "https://drive.google.com/uc?export=view&id=1B3G41lqqfEOxsOL8nPK1g6wK_bUkcBaf",
    "Alt": "Inputs and outputs connected to an Arduino Leonardo board and controlled directly from P5JS"
