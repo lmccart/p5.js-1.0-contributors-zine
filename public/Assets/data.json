@@ -13,7 +13,7 @@
    "Credit": "Adelle Lin\n@adellelin\nwww.github.com/adellelin",
    "Short": "Adelle Lin",
    "Contribution": "As a member and educator of Code Liberation Foundation, I've enjoyed using p5.js to share with the community concepts of coding and game design. I created a class using the p5 play library by Paolo Pedercini, teaching the class to use sprites, control assets, create a simple game state machine, user input and scoring systems. The class was very popular amongst game designers as well as Javascript developers. For me it was amazing to unlock this joy amongst our talented community, that often have to deal with very heavy handed game engines. p5.js allowed what really matters to shine through, telling a story and the expression of personal style. The class and other Code liberation class material can be found at https://github.com/CodeLiberation/CLF-slides/tree/master/Classes_and_Workshops/p5_Play\nI’ve continued to use p5.js for personal projects and other playful interactions. I am so proud to be part of such an impactful community. Thank you!",
-   "Image": "./Images/.Adelle Lin.png",
+   "Image": "./Images/Adelle Lin.png",
    "Alt": "A wedding invite game using feature detection"
 },
 {
@@ -1141,15 +1141,6 @@
    "Contribution": "Realtime data display from Arduino boards, up to 8 channels from analog sensors, many features.  Installable local app for Mac and PC.",
    "Image": "./Images/Stephen Lewis.png",
    "Alt": "Data plotter in real time"
-},
-{
-   "Timestamp": "12/30/2019 11:46:12",
-   "Email Address": "steve@architectronics.com",
-   "Credit": "Stephen Lewis Architectronics\nwww.funkey.net\nwww.makesense.co/P5JSDuino",
-   "Short": "Stephen Lewis",
-   "Contribution": "Program Arduino boards directly from P5JS.  Analog sensor input, digital and servo outputs directly coded from P5JS.  www.makesense.co/p5jsduino",
-   "Image": "./Images/Stephen Lewis_1.png",
-   "Alt": "Inputs and outputs connected to an Arduino Leonardo board and controlled directly from P5JS"
 },
 {
    "Timestamp": "12/3/2019 12:42:17",
