@@ -31,19 +31,19 @@ class IndexEntry extends Component {
         <div className="indexCurveHolder">
         {this.props.type === 0 || this.props.type === -1 ?
           <span className="curveLabel firstCurve">
-            <svg  aria-hidden="true" role="img" ref={imgRef => { this.imgRef = imgRef }} preserveAspectRatio="none" version="1.1" className="curve" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 25 17.94">
+            <svg focusable="false" aria-hidden="true"  role="img" ref={imgRef => { this.imgRef = imgRef }} preserveAspectRatio="none" version="1.1" className="curve" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 25 17.94">
               <path vectorEffect="non-scaling-stroke" fill="none" stroke="#000000" strokeWidth="2" d="M25,0.47c-13.56,0-24.55,3.81-24.55,8.51s10.99,8.5,24.55,8.5"/>
             </svg>
           </span>
           : ""}
         {this.props.type === -2 ?
           <span className="curveLabel firstCurve">
-            <svg  aria-hidden="true" role="img" ref={imgRef => { this.imgRef = imgRef }} preserveAspectRatio="none" version="1.1" className="curve" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 25 17.94"></svg>
+            <svg focusable="false" aria-hidden="true"  role="img" ref={imgRef => { this.imgRef = imgRef }} preserveAspectRatio="none" version="1.1" className="curve" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 25 17.94"></svg>
           </span>
           : ""}
         {this.props.type > 0 ?
           <span className="curveLabel firstCurve">
-            <svg  aria-hidden="true" role="img" ref={imgRef => { this.imgRef = imgRef }} preserveAspectRatio="none" version="1.1" className="curve" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 25 17.94">
+            <svg focusable="false" aria-hidden="true"  role="img" ref={imgRef => { this.imgRef = imgRef }} preserveAspectRatio="none" version="1.1" className="curve" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 25 17.94">
               <path vectorEffect="non-scaling-stroke" fill="none" stroke="#000000" strokeWidth="2" d="M25,0C11.44,0,0.45,4.02,0.45,8.97S11.44,17.94,25,17.94"/>
             </svg>
           </span>
