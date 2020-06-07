@@ -1,0 +1,1272 @@
+[{
+   "Timestamp": "12/3/2019 16:40:07",
+   "Email Address": "arthurcloche@gmail.com",
+   "Credit": "@a.mehow.c",
+   "Short": "@a.mehow.c",
+   "Contribution": "I love to do type-based design ! And p5 was my first experience with code at all, so i have a soft spot for it. This \"artwork\" is like the sum of a full year of practice and pushing myself to be able to do more with code than i would ever be able to do with conventional design tools. p5 really unlocked something in my brain, i used to be a little close-minded to alternative to the 'holy trinity' of graphic design, Illustrator, Photoshop and InDesign but now i'm just swimming around within a gigantic pool of possibilities and i like to think that it made me a better designer. I've done it in one sitting during a rainy Sunday and it's probably the most complex mathematical object i ever had to figure out, mostly because i didnt found any clue online about how to build it so i had to discover everything by myself. Truly an amazing experience that taught me i wasn't as dumb as i thought haha",
+   "Image": "./Images/@a.mehow.c.png",
+   "Alt": "This a spiral of spirals around a spiral. It's built to support texture and UV mapping to be able to display text on it."
+},
+{
+   "Timestamp": "1/3/2020 11:02:53",
+   "Email Address": "adelle.lin@gmail.com",
+   "Credit": "Adelle Lin\n@adellelin\nwww.github.com/adellelin",
+   "Short": "Adelle Lin",
+   "Contribution": "As a member and educator of Code Liberation Foundation, I've enjoyed using p5.js to share with the community concepts of coding and game design. I created a class using the p5 play library by Paolo Pedercini, teaching the class to use sprites, control assets, create a simple game state machine, user input and scoring systems. The class was very popular amongst game designers as well as Javascript developers. For me it was amazing to unlock this joy amongst our talented community, that often have to deal with very heavy handed game engines. p5.js allowed what really matters to shine through, telling a story and the expression of personal style. The class and other Code liberation class material can be found at https://github.com/CodeLiberation/CLF-slides/tree/master/Classes_and_Workshops/p5_Play\nI’ve continued to use p5.js for personal projects and other playful interactions. I am so proud to be part of such an impactful community. Thank you!",
+   "Image": "./Images/.Adelle Lin.png",
+   "Alt": "A wedding invite game using feature detection"
+},
+{
+   "Timestamp": "12/28/2019 15:09:06",
+   "Email Address": "devonkay223@gmail.com",
+   "Credit": "@devnfrost (insta)",
+   "Short": "@devnfrost",
+   "Contribution": "Tap Encoding Decoding (TED) is a performance art program we developed to decode language from live tap dancing (or any percussive audio). The dancer must predetermine what text they want to tap and perform steps that encode dots or dashes, as determined by the programmatic constraints of TED. TED then listens to the audio and uses signal processing techniques to decode what text the dancer is performing, leading to a performance partnership between dancer and TED. Get more information and play with TED at devonkay223.github.io/projects/TED",
+   "Image": "./Images/@devnfrost.png",
+   "Alt": "black screen with various audio visualizers in white and morse code paired with english text ('hello'), an insert in the top right corner shows a tap dancer performing the text"
+},
+{
+   "Timestamp": "12/30/2019 15:30:50",
+   "Email Address": "ksiwoff@nyu.edu",
+   "Credit": "@indefinit (Github)",
+   "Short": "@indefinit",
+   "Contribution": "Co-authored the first 3d/webgl renderer for p5.js",
+   "Image": "./Images/@indefinit.jpg",
+   "Alt": "box, cylinder, ellipsoid, and toroid 3d primitives"
+},
+{
+   "Timestamp": "12/18/2019 4:29:42",
+   "Email Address": "simon@simonkatan.co.uk",
+   "Credit": "@kimonsatan",
+   "Short": "@kimonsatan",
+   "Contribution": "At Goldsmiths Computing @goldcompting, where I teach, p5.js is a fundamental tool in our teaching of programming. Together with my colleague Edward Anstead we have developed Sleuth - a film-noir detective story themed coding game to practice rudimentary techniques in p5.js. In the game, students play a rookie detective working for ‘Sleuth & Co’. Guided by the ‘Chief’ students solve code crimes by completing p5.js sketches which are are procedurally generated and auto-graded through an online platform. By providing instant feedback and an inexhaustible supply of crimes to practice on the game motivates and supports our students in mastering coding. Sleuth features as a core part of our undergraduate degrees and also on our Coursera Introduction to Computer Programming MOOC and Computer Science BSc. So far over 3500 students have played Sleuth and learnt to program in p5.js. You can find out more about the project here https://medium.com/@kimonsatan/assessment-for-gamers-7edafac3cdea.",
+   "Image": "./Images/@kimonsatan.jpg",
+   "Alt": "A series of screenshots from Sleuth"
+},
+{
+   "Timestamp": "1/1/2020 7:30:46",
+   "Email Address": "mail@naotohieda.com",
+   "Credit": "@naoto_hieda",
+   "Short": "@naoto_hieda",
+   "Contribution": "Naoto is a Japanese artist based in Germany. I have been using p5.js for creating generative visuals (https://naotohieda.com/blog) and sometimes submitting issues to Github. In 2019, I started Processing Community Day (PCD) Tokyo with Ayumu Nagamatsu and Yasuto Nakanishi (https://pcd-tokyo.github.io/). Reflecting the philosophy of p5.js, we successfully brought enthusiasts, students, teachers, artists, and researchers together, and the community is still growing towards the PCD in 2020. In Germany, I recently launched Creative Code Köln, a regular meetup for people interested in code and art, and again, we are independent of schools and institutions. Without p5.js, I would not have initiated these movements - p5.js is not only about inclusion to the p5.js community, but it also has a positive influence to the community members to be inclusive to others, which inspired me and totally changed my approach to art and code.",
+   "Image": "./Images/@naoto_hieda.jpg",
+   "Alt": "A group photo of the participants at Processing Community Day 2019 Tokyo"
+},
+{
+   "Timestamp": "12/27/2019 3:34:09",
+   "Email Address": "naziafakhruddin@gmail.com",
+   "Credit": "@NZAmbience",
+   "Short": "@NZAmbience",
+   "Contribution": "I have been teaching p5.js to the Year 9 students for the past 2 years as Royal Institution Computer Science Masterclass Speaker and 6 years as a coding club volunteer.The ease students find in working in p5.js environment is incredible .To reach to more people, I have also wrote a book \"Superfun p5.js projects for beginners\" , which is available on Amazon Kindle.\nhttps://www.amazon.co.uk/Superfun-P5-js-Projects-Nazia-Fakhruddin-ebook/dp/B07YP1M69Q/\nI have been creating free p5.js resources  on my website https://bytesizecoding.com/ and on my YouTube channel https://www.youtube.com/channel/UCTWCJh3YwDTQ8hM_4MJ2YJA.\nRecently, my lesson plan \"Texturing 3D Shapes\nwith 2D Graphics\" is published in Hello World Magazine https://helloworld.raspberrypi.org/issues/11\nI have learned a lot by using p5.js and still learning .And my aim is to share this amazing library with more beginners who find programming like me, difficult thing to understand and apply.",
+   "Image": "./Images/@NZAmbience.jpg",
+   "Alt": "The first two images are the screenshot  of my article in HelloWorld Magazine, next is review of my class and students artwork .Finally the picture of my book"
+},
+{
+   "Timestamp": "12/30/2019 15:13:01",
+   "Email Address": "pattern.seeing@gmail.com",
+   "Credit": "@patternseeing",
+   "Short": "@patternseeing",
+   "Contribution": "\"We live in an era where some huge discoveries are really the result of giant collaborations, with major contributions coming from very large numbers of people. I hope that in the future the Nobel Prize committee finds a way to award the prize to the large collaborations that make this and not just to the people who may have been seminal to the beginning of the project, as we were.\"\n\n- Kip S Thorne, 2017 Nobel Prize in Physics for his contributions to the LIGO Detector and the observation of gravitational waves.\n\n“Mapping LIGO Scientific Collaborations” is a data visualization project aimed at making visible the powerful network of researchers, institutions and agencies that were part of a milestone moment in the history of science,  Visualizations produced also reflect the importance of Network and how they are shaping the ambitious scientific pursuits of our times. \n\nMore about the project @\nhttps://patternseeing.wordpress.com/2018/04/13/mapping-the-ligo-collaborations/\n",
+   "Image": "./Images/@patternseeing.jpg",
+   "Alt": "This is a poster representation of a data visualization project aimed at mapping the LIGO Scientific collaborations (LSC). The poster includes the screenshots of a mapped globe with locations highlighting the LSC Institutions, Funding agencies and the Gravitational wave observatories. The poster also includes other visualizations further to elaborate on the institutions and agencies, sorted based on their country names. "
+},
+{
+   "Timestamp": "12/30/2019 23:17:59",
+   "Email Address": "pattern.seeing@gmail.com",
+   "Credit": "@patternseeing",
+   "Short": "@patternseeing",
+   "Contribution": "\"Hypnotic functions\" explore the collective behavior of a system of points in motion, producing various harmonic movements that are soothing and sometimes visually familiar to our perceptual memories and physical world experiences. The visuals showcased are excerpts from the vast number of emergent behaviors demonstrated by a simple generative system.\n\"Hypnotic functions\" was part of curated art collections made with Javascript at JSNation Conference at Amsterdam 2019, and exhibited in the main hall during the 3 day conference.",
+   "Image": "./Images/@patternseeing_1.jpg",
+   "Alt": "Grid of bright points with varying sizes harmoniosly moving on a black background."
+},
+{
+   "Timestamp": "12/13/2019 13:52:10",
+   "Email Address": "raphael.gabbay@gmail.com",
+   "Credit": "@raphaelgabbay on instagram",
+   "Short": "@raphaelgabbay",
+   "Contribution": "I make digital art using p5js. Here is one of my favorite pieces, it's called Color the flag, it's basically a simulation of a capture the flag game. Even though it's one of my oldest sketches, I keep coming back to it every now and then because it is the one that made me realise how fun coding could be. So thank you for that. I'm really grateful to have been born in the same time interval as p5js :)\n\nhttps://raphaelgabbay.github.io/Color-the-flag/",
+   "Image": "./Images/@raphaelgabbay.png",
+   "Alt": "A lot of small circles of different colors appear to be running after a bigger circle."
+},
+{
+   "Timestamp": "12/3/2019 19:08:36",
+   "Email Address": "reona396@gmail.com",
+   "Credit": "@reona396",
+   "Short": "@reona396",
+   "Contribution": "making art / writing tech blog / speaking at lightning talks and workshop ",
+   "Image": "./Images/@reona396.png",
+   "Alt": "p5.js art work, \"Dancing Wave\""
+},
+{
+   "Timestamp": "12/30/2019 10:33:46",
+   "Email Address": "code.ayush@gmail.com",
+   "Credit": "a-y-u-s-h",
+   "Short": "a-y-u-s-h",
+   "Contribution": "I created 160 projects with p5.js with controls during 2017-2018 and promoted p5 in communities and among my juniors by showing how it's so easy to make awesome things with it. I still use it and teach it to developers who join a company called Raincode that I founded because of my experiments in p5.\n\nExperiments : ayushsharma.net/experiments",
+   "Image": "./Images/a-y-u-s-h.jpg",
+   "Alt": "One possible output of an algorithmic tree creator based on L-systems inspired from a Coding Challenge by Daniel Shiffman."
+},
+{
+   "Timestamp": "12/30/2019 13:52:27",
+   "Email Address": "code.ayush@gmail.com",
+   "Credit": "a-y-u-s-h",
+   "Short": "a-y-u-s-h",
+   "Contribution": "During 2017-2018, I created a collection of 160 p5.js experiments (collection contains educational and artistic tools) a lot of which were used in my university as teaching aid. Apart from that, I've been teaching kids, juniors and developers in one of my own startups creative coding concepts with the help of p5.\n\nHere's the link to 160 p5.js experiments that I did as a \"make one cool thing everyday\" challenge during 3rd year of my bachelor's degree: ayushsharma.net/experiments",
+   "Image": "./Images/a-y-u-s-h_1.jpg",
+   "Alt": "Snowflake made using a fractal creator tool that uses p5.js"
+},
+{
+   "Timestamp": "12/3/2019 15:21:41",
+   "Email Address": "montoyamoraga@gmail.com",
+   "Credit": "Aarón Montoya-Moraga",
+   "Short": "Aarón Montoya-Moraga",
+   "Contribution": "p5.js translations to Spanish and teaching workshops :)",
+   "Image": "./Images/Aarón Montoya-Moraga.jpg",
+   "Alt": "cover of the Spanish translation of the p5.js book"
+},
+{
+   "Timestamp": "12/4/2019 7:12:52",
+   "Email Address": "aatish@gmail.com",
+   "Credit": "Aatish Bhatia",
+   "Short": "Aatish Bhatia",
+   "Contribution": "Documentation, bug reports",
+   "Image": "./Images/Aatish Bhatia.png",
+   "Alt": "A 30 x 30 grid of large green dots each moving in a small circle, with different offsets. When seen together, wave patterns emerge in their collective motion, like seaweed in an underwater garden."
+},
+{
+   "Timestamp": "12/3/2019 3:18:27",
+   "Email Address": "abe@hamoid.com",
+   "Credit": "Abe Pazos\nhttps://hamoid.com",
+   "Short": "Abe Pazos",
+   "Contribution": "workshops, github, forum",
+   "Image": "./Images/Abe Pazos.png",
+   "Alt": "An image created collaboratively by several participants live-coding with p5.js"
+},
+{
+   "Timestamp": "12/2/2019 20:08:42",
+   "Email Address": "helloadilrabbani@gmail.com",
+   "Credit": "Adil Rabbani",
+   "Short": "Adil Rabbani",
+   "Contribution": "Worked on p5.js' WebGL primitives as a Google Summer of Code (2018) student.",
+   "Image": "./Images/Adil Rabbani.PNG",
+   "Alt": "A Pacman shaped arc with a yellow fill, some points of different sizes and strokes of curves."
+},
+{
+   "Timestamp": "1/2/2020 17:53:42",
+   "Email Address": "mail@ahreelee.com",
+   "Credit": "Ahree Lee (Instagram: @ahreelee)",
+   "Short": "Ahree Lee",
+   "Contribution": "While Artist in Residence at the Women’s Center for Creative Work in Los Angles in the fall of 2019, I created a workshop series in creative coding and electronic textiles. During my residency, I reactivated the innate connections between weaving and computing by creating and exhibiting weavings, video, and conducting workshops that examined the interrelationships between technology, craft, and women’s labor. Qianqian Ye, Evelyn Masso, Berfin Ataman, and I collaborated in teaching a series of three workshops in which students learned to draw and create patterns in p5.js, used data sets to create patterns, made small hand weavings, and then used the computational principles they learned to make their weavings interactive with Arduinos. ",
+   "Image": "./Images/Ahree Lee.JPG",
+   "Alt": "Qianqian Ye sits at her laptop in front of a class and looks at a projected slide with a p5.js code example while students follow along on their laptops."
+},
+{
+   "Timestamp": "12/23/2019 19:25:53",
+   "Email Address": "amandastojanov@gmail.com",
+   "Credit": "Amanda Stojanov\n@a_stojanov_",
+   "Short": "Amanda Stojanov",
+   "Contribution": "Sticker Designer. Workshop Creator. Using p5.js I ran two \"drawing with code workshops\", one at Monmouth University and another at the 2020 SLSA Conference with my collaborator Leah Horgan.",
+   "Image": "./Images/Amanda Stojanov.png",
+   "Alt": "This is a square image with a greenish background with the letter P and number 5 set large in the center. The P and 5 are shades of pink and there are black lines that create eyes, a mouth, a nose, and eyelashes in the square. "
+},
+{
+   "Timestamp": "12/30/2019 10:33:36",
+   "Email Address": "contact@andrescolubri.net",
+   "Credit": "Andres Colubri",
+   "Short": "Andres Colubri",
+   "Contribution": "This contribution is about a project where I've been using p5.js to develop an interactive visualizer for the special collections of the national library in Colombia: https://www.banrepcultural.org/visor-colecciones\nThe contribution could describe motivation and outcomes, as well as the the process, including concept+design, sketching with Processing, porting to p5, integration with redux for the UI.",
+   "Image": "./Images/Andres Colubri.jpg",
+   "Alt": "Screenshot of the web-based visualization tool for the special documents and collections of the bank of the Republic of Colombia, showing a possible search path through the available documents and their mutual relationships"
+},
+{
+   "Timestamp": "1/2/2020 13:11:20",
+   "Email Address": "antonio@spadial.com",
+   "Credit": "Antonio J. Sánchez-Padial\n@ajspadial",
+   "Short": "Antonio J. Sánchez-Padial",
+   "Contribution": "When I knew about P5.js I had enjoyed the original java-based Processing for a couple of years, and at the same time I had been learning Javascript and using it at job. \n\nI expected P5.js to allow chaining commands as many other Javascript did then, specially JQuery, which had been very popular until then. I realized this chainability was not a Javascript feature but, something offered by each API. It took me only a few hours to learn how to add this chainability feature to P5.js.\n\nI am not a great contributor to open source projects, but this opportunity made me very happy and proud. I wish these few lines had helped people to write easier-to-read code, and to bring to P5.js the techniques they may have learnt in other Javascript libraries.",
+   "Image": "./Images/Antonio J. Sánchez-Padial.png",
+   "Alt": "select('idElement').position(100,100).size(64,64);"
+},
+{
+   "Timestamp": "1/7/2020 23:56:25",
+   "Email Address": "adavey@andrew.cmu.edu",
+   "Credit": "Aren Davey\n@aah_dee_",
+   "Short": "Aren Davey",
+   "Contribution": "I love all geometric shapes, but the one I cherish the most are hexagons. On its own, it feels balanced and mysterious, but when tiled, together they resemble solidarity, strength, and, personally, a sense of comfort so I tend to incorporate hexagons and triangles into my practice. With those thoughts and the desire to have a gross amount of hexagons, I started to develop an efficient way for myself and others to generate and manipulate many grids of the six sided shape. When I spoke to others about my project, I was met with interest and enthusiasm, especially from those who live code. So I started to design and develop a library called p5grid, which allows artists to create hexagon, triangle, square, and octagon grids in p5.js. As of publication, the hexagon implementation is functional and posted on GitHub (github.com/aahdee/p5grid). The rest will come over the course of 2020, and I hope that this contribution will be able to allow others to create gorgeous arrays of geometries. ",
+   "Image": "./Images/Aren Davey.png",
+   "Alt": "A yellow hexagon surrounded by green hexagons with a lot of space inbetween them. Smaller beige hexagons that become more transparent the closer they get to the yellow hexagon fills the empty space."
+},
+{
+   "Timestamp": "12/30/2019 11:50:43",
+   "Email Address": "arimelenciano@gmail.com",
+   "Credit": "Ari Melenciano\n@ariciano",
+   "Short": "Ari Melenciano",
+   "Contribution": "As a DJ, I loved using sound interactive p5js code to create visuals to project at the parties I'd play music at - so that not only were the people dancing, but the visuals to the same rhythm. I created an online video tutorial platform to learn about exciting possibilities at the intersections of art and technology by teaching about different ways to use p5js. I was also awarded a Processing Foundation scholarship where I used p5js to make interactive data visualizations highlighting racial disparities within police enforcement.",
+   "Image": "./Images/Ari Melenciano.png",
+   "Alt": "This is an illustrated data visualization showcasing the racial disparity of pedestrian violation tickets awarded to community members by the police. Two feet are next to each other. The brown skinned foot is 3 times longer than the white skinned foot, representing how Black community members were 3x more likely to be given ticket violations."
+},
+{
+   "Timestamp": "12/30/2019 23:00:52",
+   "Email Address": "ashleykang@csu.fullerton.edu",
+   "Credit": "Ashley Kang\nashleykang.dev",
+   "Short": "Ashley Kang",
+   "Contribution": "As a Google Summer of Code (GSoC) 2019 participant, I worked with my mentor Kate Hollenbach to curate 6 projects and interviews from the online and offline p5.js community and create a new section for them on the p5.js website as p5js.org/showcase. We hope this would be another way to highlight and inspire creative and inclusive ways to engage with p5.js, including but not limited to: making art and design, learning and teaching computation, improving and translating documentation, ensuring accessibility, integrating other libraries and devices, and contributing to open source. We have also established an open nomination process for people to submit or nominate work to be featured, especially for educators and students throughout the school year. p5.js Showcase has gone through an accessibility review and will launch on the occasion of the p5.js 1.0 release! More from my GSoC here: https://bit.ly/2Q9Vkc4",
+   "Image": "./Images/Ashley Kang.png",
+   "Alt": "A preview for the new p5.js Showcase section: \"Introducing Showcase, curated by Ashley Kang. We’re celebrating how people are using p5.js to make creative work, learning, and open source more interesting and inclusive. Together, we make community.\""
+},
+{
+   "Timestamp": "12/30/2019 9:35:54",
+   "Email Address": "berenger.recoules@gmail.com",
+   "Credit": "b2renger",
+   "Short": "b2renger",
+   "Contribution": "I have mostly contributed to the code base of p5.sound on the early releases : I've worked on the first implementations of synths (monophonic and polyphonic and how to modularise their implementation), I also produced many examples and curriculum (in french) to teach p5js from scratch or learning by doing that can be found on github : \nhttps://github.com/b2renger\nhttps://github.com/b2renger/Introduction_p5js\nhttps://github.com/b2renger/p5js-designing-interactive-patterns\nhttps://github.com/b2renger/p5js_codecreatif\nhttps://github.com/b2renger/p5js_typo\nhttps://github.com/b2renger/p5js-shaders\nAnd I plan on continuing !",
+   "Image": "./Images/b2renger.png",
+   "Alt": "A vinyl deformed by noise, entitled noisy works"
+},
+{
+   "Timestamp": "12/30/2019 15:01:41",
+   "Email Address": "grosser@bengrosser.com",
+   "Credit": "Ben Grosser\nhttps://bengrosser.com",
+   "Short": "Ben Grosser",
+   "Contribution": "teaching, sharing, art making, financial support, bug reports",
+   "Image": "./Images/Ben Grosser.png",
+   "Alt": "facebook reaction emoji noise field from the Go Rando project"
+},
+{
+   "Timestamp": "12/7/2019 17:00:16",
+   "Email Address": "ben@benmoren.com",
+   "Credit": "Ben Moren\n@bmoren",
+   "Short": "Ben Moren",
+   "Contribution": "My primary contributions are building tools and resources to extend p5.js. I have created several libraries for p5.js including p5.geolocation, p5.collide2D, p5.localmessage & p5.pathRecorder. I also created the p5js cheat sheet for beginner workshops and the p5js snippets and toolbar for the atom.io text editor. I teach creative coding at the Minneapolis College of Art and Design where amazing and dedicated students create incredible p5.js projects!",
+   "Image": "./Images/Ben Moren.jpg",
+   "Alt": "puple, blue, and pink risograph print of a generated wave pattern based on gestural input"
+},
+{
+   "Timestamp": "12/17/2019 11:08:53",
+   "Email Address": "josephkanglee@gmail.com",
+   "Credit": "Benedikt Groß, Hartmut Bohnacker,\nJulia Laub, &\nClaudius Lazzeroni with\ncontributions by Joey Lee\n& Niels Poldervaart",
+   "Short": "Benedikt Groß, Hartmut Bohnacker, Julia Laub, & Claudius Lazzeroni. With contributions by Joey Lee & Niels Poldervaart",
+   "Contribution": "\nGenerative Design: Visualize, Program, and Create with JavaScript in p5.js is a book introducing the fundamental principles of creative coding and generative design. In the spirit of the first edition of Generative Design, the goal is to remove the fear of programming and to prompt fellow artists and designers to explore new ways of interacting with color, form, typography, and images using code. The book is supplemented by a website where users can download all of the programs (sketches) for free and start experimenting immediately. Website: http://www.generative-gestaltung.de/2/",
+   "Image": "./Images/Benedikt Groß, Hartmut Bohnacker,\nJulia Laub, &\nClaudius Lazzeroni with\ncontributions by Joey Lee\n& Niels Poldervaart.jpg",
+   "Alt": "The image shows the cover of the Generative Design book which has big bold text and is decorated with swirling lines."
+},
+{
+   "Timestamp": "12/15/2019 11:47:51",
+   "Email Address": "birgerpost@gmail.com",
+   "Credit": "Birger Eriksson and Lillian Brevik, Köpings kommun",
+   "Short": "Birger Eriksson and Lillian Brevik, Köpings kommun",
+   "Contribution": "We made a open programming course for Swedish teachers and students with P5.JS, the best JS library ever made! Visit us: https://köpingkodar.nu",
+   "Image": "./Images/Birger Eriksson and Lillian Brevik, Köpings kommun.png",
+   "Alt": "Img from xn--kpingkodar-ecb.nu"
+},
+{
+   "Timestamp": "1/13/2020 10:02:43",
+   "Email Address": "carlosga@gmail.com",
+   "Credit": "Carlos Garcia (L05)\nhttps://L05.is\nhttps://github.com/L05\nhttps://twitter.com/L05_",
+   "Short": "Carlos Garcia (L05)",
+   "Contribution": "I served as a co-coordinator for the 2019 p5.js Contributors Conference in Pittsburgh. Together with Lauren McCarthy, Luisa Pereira, shawné michaelain holloway, Omayeli Arenyeka, and Dorothy Santos, we coordinated a 6 day gathering of participants that contributed to conversations about Access, Music and Code in Performance, Landscape of Creative Tech, and Internationalization.\n\nI developed p5.touchgui, a multi-touch and mouse GUI library for p5.js. p5.touchgui is intended to extend p5.js and make it easy to add buttons, sliders, and other GUI (graphical user interface) objects to your p5.js sketches, enabling you to focus on quickly iterating ideas with easily created GUI objects that work with both mouse and multi-touch input.\n\nI also created p5.multiplayer, a set of template files for building a multi-device, multiplayer game where multiple clients can connect to a specified host page.",
+   "Image": "./Images/Carlos Garcia (L05).png",
+   "Alt": "Buttons, sliders, and checkboxes available in p5.touchgui, shown in blue, red, and green color ways."
+},
+{
+   "Timestamp": "12/30/2019 9:26:22",
+   "Email Address": "kcconch@gmail.com",
+   "Credit": "Casey Conchinha\nSocials: @kcconch\nGithub: https://github.com/kcconch/\nLouise Lessél\n@louiselessel\nlouiselessel.com",
+   "Short": "Casey Conchinha and Louise Lessél",
+   "Contribution": "p5.js shaders is a guide by Casey Conchinha and Louise Lessél that removes some of the stumbling blocks of getting started learning shaders in p5.js.\n\nShaders are a great way to make moving graphics for your projects, without slowing down your sketch! They execute exclusively on your graphics card and can really supercharge your visuals. If you've ever used loadPixels() or done pixel by pixel manipulations in your code, it's likely that the same operation would run much faster as a shader. That being said, programmers often find shaders intimidating when try to start using them. This ongoing project aims to make getting started with shaders more accessible and less confusing. By placing shaders in p5.js, where many new programmers start out, we hope to show that shaders do not need to be for advanced programmers only.\n\nThere are a few examples from our guide on the p5.js examples page, for more please visit bit.ly/p5shadersexamples. \nFor the guide itself please visit bit.ly/p5shaders.",
+   "Image": "./Images/Casey Conchinha and Louise Lessél.png",
+   "Alt": "p5 shaders website getting started page"
+},
+{
+   "Timestamp": "1/3/2020 22:12:50",
+   "Email Address": "ctarakajian@gmail.com",
+   "Credit": "Cassie Tarakajian\n@catarak\nmaintainer p5.js Web Editor",
+   "Short": "Cassie Tarakajian",
+   "Contribution": "I started and maintain the p5.js Web Editor (editor.p5js.org). I also have taught many workshops and classes with p5.js, and I also use it to make interactive web apps. Despite being a “professional software developer”, I love how quick and easy it is to get something on the page. I wrote a lot of adoring things in my letter (attached!) so I’ll let that do the rest of the talking.  ",
+   "Image": "./Images/Cassie Tarakajian.jpeg",
+   "Alt": "A handwritten letter that says, “To the p5.js community, I’m so excited about the 1.0 release! I started the p5.js Web Editor in April of 2016, wholeheartedly believing in this community but unsure where this project would take me. Leading an open source project has been incredibly rewarding and challenging, and I have done so many things besides just writing code. It’s honestly terrifying to lead a project that so many people use and rely upon. Sometimes I focus on its imperfections and I want to quit and hide. But most of the time, I feel a ton of support and gratitude. I never thought I would start and lead a project of this magnitude, and that I would be given so much trust and autonomy. I had no idea it would help me grow a career that I love. Along the way I have gained so many friends, mentors, and mentees. This community is beautiful and powerful and I have learned so much from all of you. With love and gratitude, Cassie”"
+},
+{
+   "Timestamp": "12/30/2019 23:48:11",
+   "Email Address": "chanjunshern@gmail.com",
+   "Credit": "Chan Jun Shern",
+   "Short": "Chan Jun Shern",
+   "Contribution": "I've been a hobby user and big fan of p5.js for years! My first serious involvement with the p5.js community was through a Google Summer of Code project in 2018, where I worked on the p5.sound library, under the guidance of Jason Sigal, to create a tutorial and examples for algorithmic music composition using p5 (https://junshern.github.io/algorithmic-music-tutorial/). \n\nSince then, I've been continuing to dabble in art and music projects; most recently, I collaborated with my musician friend Shereen Cheong, using p5.js to create an entire music video for her original song, One Last Time! (https://www.youtube.com/watch?v=v3F3P88a1LE)\n\nI believe there is so much more to be explored at the intersection of art and programming, and I hope to continue being inspired and hopefully inspire the community to push the envelope further!",
+   "Image": "./Images/Chan Jun Shern.png",
+   "Alt": "A screenshot from a music video created in p5.js, with the words \"One Last Time\" in bold over a background of blue, red and yellow paint splatters."
+},
+{
+   "Timestamp": "12/3/2019 12:30:20",
+   "Email Address": "cbmcwilliams@ucla.edu",
+   "Credit": "Chandler McWilliams",
+   "Short": "Chandler McWilliams",
+   "Contribution": "Long ago I worked on some ideas around the preload function and submitted an implementation for it. I've also fixed build tool issues here and there as wel as teaching and creating learning materials.",
+   "Image": "./Images/Chandler McWilliams.jpg",
+   "Alt": "Three black straight pins are stuck into fabric pointing from top-right to bottom-left. The pins are surrounded by a circle of embroidery thread."
+},
+{
+   "Timestamp": "1/7/2020 18:06:52",
+   "Email Address": "chellyashleyjin@gmail.com",
+   "Credit": "Chelly Jin\nDesigner, https://chellyj.in",
+   "Short": "Chelly Jin",
+   "Contribution": "Diversity with Code+Art is an interactive artwork curation aimed to highlight art and code communities through valuing representation and visibility of various identities. The hope is to inspire; listening to stories and showcasing more voices in a collective conversation. All of these diversify what code can do- who is able to code- who gets to make the changes for code. Diversity with Code+Art doesn’t fix the homogenous parts of tech culture, but was a creative and positive approach for open discussion. \n\nThe project consists of two components: (1) a curation of interactive artwork created by artists, designers, and coders on the p5.js homepage and (2) a website of qualitative interviews with each creator discussing their experiences around the topic of diversity in tech. \n\nThe first series focused on Asian women and gender non-conforming creators and the second series was an interactive book club created by Sharon Lee De La Cruz and Aatish Bhatia.\n\nhttp://diversity.p5js.org/",
+   "Image": "./Images/Chelly Jin.png",
+   "Alt": "Photo collage of sketch contributions and contributors to the Diversity with Code + Art project."
+},
+{
+   "Timestamp": "12/30/2019 1:03:30",
+   "Email Address": "mhliuchang@gmail.com",
+   "Credit": "Cici Liu\nAssistant Professor\nIMA, NYU Shanghai\nwww.liuchang.work",
+   "Short": "Cici Liu",
+   "Contribution": "I am glad to be included in the p5.js community, this lovely and growing community. In 2015, I participated the Contributor Conference in CMU, Pittsburg, where I met with so many new friends, joined in many different groups, and collaborated with other contributors in terms of implementing the \"Documentation\" page, establishing the \"Gallery\" page on p5.js website. Even though I don't know why that the gallery page doesn't exist anymore, I still think it is important for new people to understand what p5.js can do at the very beginning of their learning journey. In February 2019, Qianqian Ye, Yuli Cai, and I organized the \"PCD Day Shanghai\" event at NYU SH, where we received a lot of support from the IMA Program where I teach. The event was very successful, and almost 200 people participated in various activities, such as workshops, show & tell, talks, panel discussion, etc. In my teaching, class Programming Design Systems involve p5.js in creative coding and graphic design.",
+   "Image": "./Images/Cici Liu.jpg",
+   "Alt": "The image that I uploaded is a group picture from the event of Processing Community Day in Shanghai in 2019, which I co-organized with Qianqian Ye and Yuli Cai. "
+},
+{
+   "Timestamp": "12/2/2019 15:03:51",
+   "Email Address": "faithwyu@gmail.com",
+   "Credit": "Constance Yu",
+   "Short": "Constance Yu",
+   "Contribution": "workshops, tutorials, and bug fixes 👩🏻‍💻🐛",
+   "Image": "./Images/Constance Yu.jpg",
+   "Alt": "This image is from a Creative Coding Fest teaching p5.js held at UCLA DMA led by Saber Khan. Young child and adult with computer and a p5 sketch."
+},
+{
+   "Timestamp": "12/4/2019 19:17:54",
+   "Email Address": "cristobal.hvb@gmail.com",
+   "Credit": "Cristobal Valenzuela, @c_valenzuelab",
+   "Short": "Cristobal Valenzuela",
+   "Contribution": "Teaching, writing code, and supporting p5 in any possible way!",
+   "Image": "./Images/Cristobal Valenzuela.png",
+   "Alt": "An image with two boxes. One describing a project called Mappa.js and the other one describing a project called ml5.js"
+},
+{
+   "Timestamp": "12/31/2019 8:43:45",
+   "Email Address": "daniel@rednoise.org",
+   "Credit": "Daniel Howe",
+   "Short": "Daniel Howe",
+   "Contribution": "2D text rendering engine",
+   "Image": "./Images/Daniel Howe.jpg",
+   "Alt": "vertical bar"
+},
+{
+   "Timestamp": "12/5/2019 11:18:10",
+   "Email Address": "shiffman@processing.org",
+   "Credit": "Daniel Shiffman ",
+   "Short": "Daniel Shiffman",
+   "Contribution": "Enthusiastic Processing Foundation person and tutorial maker person!",
+   "Image": "./Images/Daniel Shiffman.png",
+   "Alt": "Screenshot of Learning Playlist \"Code! Programming with p5.js\" on YouTube."
+},
+{
+   "Timestamp": "12/9/2019 11:16:55",
+   "Email Address": "daveb@davebsoft.com",
+   "Credit": "Dave Briccetti\nSoftware Developer an\nProgramming Teacher\n@dcbriccetti",
+   "Short": "Dave Briccetti",
+   "Contribution": "I teach programming to kids in grades 3–12. I have created a lot of p5.js resources on my web site, https://davebsoft.com/programming-for-kids/, and YouTube channel, https://www.youtube.com/davebriccetti.",
+   "Image": "./Images/Dave Briccetti.png",
+   "Alt": "A screenshot of a 3D elevator simulator written using p5.js"
+},
+{
+   "Timestamp": "12/3/2019 7:22:13",
+   "Email Address": "david.newbury@gmail.com",
+   "Credit": "David Newbury",
+   "Short": "David Newbury",
+   "Contribution": "Helped coordinate the first contributor's conference in 2015.",
+   "Image": "./Images/David Newbury.jpeg",
+   "Alt": "A group of contributors looking at a screen of code at the 2015 P5 contributors conference in 2015."
+},
+{
+   "Timestamp": "12/5/2019 18:44:51",
+   "Email Address": "chris.d.coleman@gmail.com",
+   "Credit": "digitalcoleman",
+   "Short": "digitalcoleman",
+   "Contribution": "a touch of documentation - because I love to help people learn!",
+   "Image": "./Images/digitalcoleman.png",
+   "Alt": "a white square and a smaller black square on a grey background"
+},
+{
+   "Timestamp": "12/4/2019 10:10:55",
+   "Email Address": "dorothy@processing.org",
+   "Credit": "Dorothy R. Santos\nProgram Manager\nProcessing Foundation\n@dorothysantos\n@deedottiedot (Twitter and IG)",
+   "Short": "Dorothy R. Santos",
+   "Contribution": "Creating and playing around with p5.js to create poem generators made me think of my writing differently. I also felt encouraged to learn coding and not be so scared of it by being a part of such a supportive community. :)",
+   "Image": "./Images/Dorothy R. Santos.png",
+   "Alt": "Black text against an off white background. The words read \"the rapacious helix diminishes.\""
+},
+{
+   "Timestamp": "12/6/2019 9:11:22",
+   "Email Address": "kindlecbook@gmail.com",
+   "Credit": "Dr. Robert Cook",
+   "Short": "Dr. Robert Cook",
+   "Contribution": "Contributed the p5.particle library as well as a Box2d physics library and tutorial, which makes Box2d easy to use with P5.  Both are listed at the p5.particle web site.  Wrote an e-book (sold at amazon.com) \"Introduction to Programming with JavaScript, P5, and Processing.\"  Created an online P5 Game Technology course for young people at sites.google.com/site/professorcookga.",
+   "Image": "./Images/Dr. Robert Cook.jpg",
+   "Alt": "P5 book cover image by Robert Cook"
+},
+{
+   "Timestamp": "12/24/2019 15:20:48",
+   "Email Address": "emilyxxie@gmail.com",
+   "Credit": "Emily Xie\nGithub: github.com/emilyxxie",
+   "Short": "Emily Xie",
+   "Contribution": "Teaching: Created the Matrix Digital Rain tutorial for Coding Train (https://www.youtube.com/watch?v=S1TQCi9axzg), and gave p5 workshops at tech conferences such as StrangeLoop and OSCON.\n\nCode: Made the p5 homepage sketch for August, 2016.",
+   "Image": "./Images/Emily Xie.jpg",
+   "Alt": "Emily teaching how to replicate the Matrix Digital Rain animation in p5."
+},
+{
+   "Timestamp": "12/21/2019 1:04:25",
+   "Email Address": "flourflour@flourflour.com",
+   "Credit": "Flour Flour",
+   "Short": "Flour Flour",
+   "Contribution": "As a band, Flour Flour uses p5.js to create guitar tablature videos for our songs. It's so easy to write a script that gets something appealing up on the screen quickly I don't know what we'd do without it.  Here's one example: https://youtu.be/P7uhR19G3fo",
+   "Image": "./Images/Flour Flour.jpg",
+   "Alt": "Guitar tablature"
+},
+{
+   "Timestamp": "12/2/2019 13:39:35",
+   "Email Address": "freddie.rawlins@mail.com",
+   "Credit": "Freddie Rawlins\nGithub @FreddieRa",
+   "Short": "Freddie Rawlins",
+   "Contribution": "Documentation, Bug Fixes, a library to convert 2D text and images to 3D (https://github.com/FreddieRa/p5.3D), lessons, classes, and tutorials on OpenProcessing.",
+   "Image": "./Images/Freddie Rawlins.png",
+   "Alt": "\"FreddieRa\" in 3D rendered text from my p5.3D library. "
+},
+{
+   "Timestamp": "12/30/2019 20:20:41",
+   "Email Address": "marcabbey@gmail.com",
+   "Credit": "futuremarc",
+   "Short": "futuremarc",
+   "Contribution": "Worked on the p5 DOM library during Google Summer of Code 2015, it was a blast! The p5 DOM library is a great way to manipulate HTML elements creatively! ",
+   "Image": "./Images/futuremarc.jpeg",
+   "Alt": "Words jumping around a screen with no block structure"
+},
+{
+   "Timestamp": "12/12/2019 19:57:54",
+   "Email Address": "gene@genekogan.com",
+   "Credit": "Gene Kogan",
+   "Short": "Gene Kogan",
+   "Contribution": "With Andreas Refsgaard, we made some learning materials connecting p5.js to ml5.js (https://ml4a.github.io/demos/). I also contributed tutorials on Perlin noise (https://genekogan.com/code/p5js-perlin-noise/), transforming the canvas (https://genekogan.com/code/p5js-perlin-noise/), and connecting p5 to other applications with OSC (https://vimeo.com/157024760).",
+   "Image": "./Images/Gene Kogan.png",
+   "Alt": "Tutorial on Perlin noise"
+},
+{
+   "Timestamp": "12/30/2019 13:21:13",
+   "Email Address": "kaganjd@fastmail.com",
+   "Credit": "github: @kaganjd",
+   "Short": "@kaganjd",
+   "Contribution": "I first learned about p5 in Shiffman’s ICM class. I quickly realized that, more than wanting to make p5 sketches, I wanted to help make the thing that we used to make the sketches. I learned that that thing was called a “library.” The idea that we were using something that other people were still in the process of making, that would never be completely done, was & continues to be fascinating to me. How tf?!\n\nIn those early years of my learning about computers & software, p5 provided a set of projects to focus my energy & a community of incredible humans to learn with & from. When I wanted to contribute to an OSS project, I contributed docs & the library graphic for p5.serial. When I wanted to share technical skills I was learning, I used p5 to teach workshops. When I wanted to learn about building bigger features, I prototyped an autocomplete feature for the web editor.\n\nMore to say, but char counts! Endlss thx, p5, for yr thoughtfulnss, creativity, & generous mentors & collaborators.",
+   "Image": "./Images/@kaganjd.png",
+   "Alt": "Screen shot of an \"Intro to Coding with p5.js\" workshop website taught at the Allied Media Conference in 2016. Headings read \"here's what we're doing today,\" \"1. political software projects,\" \"2. words and concepts,\" and \"3. examples.\" The website is https://kaganjd.github.io/p5-at-amc"
+},
+{
+   "Timestamp": "12/18/2019 15:33:57",
+   "Email Address": "vinzzz81@gmail.com",
+   "Credit": "github.com/vincentsijben",
+   "Short": "@vincentsijben",
+   "Contribution": "I'm using p5 as an introduction 'programming language' for all new students at Maastricht Academy of Media Design and Technology as a creative coding lecturer. Students learn to visualize data in the first semester and will use processing in the next to create gen art, controlled by arduino for their target audience. Did some minor contributions on p5 docs and bugs, as well as helped out with a new version of a p5 cheat sheet https://bmoren.github.io/p5js-cheat-sheet/nl.html. In 2020 I will launch an application which converts personal data into visual art with P5 to be framed and shipped to customers. I'm teaching kids (and my own kid) programming and basic skills with P5, especially in the last semester (Coding for kids, STEM II)",
+   "Image": "./Images/@vincentsijben.jpg",
+   "Alt": "Teaching my kid how to program using P5 coordinates and shapes."
+},
+{
+   "Timestamp": "12/31/2019 0:01:04",
+   "Email Address": "golan@andrew.cmu.edu",
+   "Credit": "Golan Levin",
+   "Short": "Golan Levin",
+   "Contribution": "Photo of p5.js contributor's conference at CMU",
+   "Image": "./Images/Golan Levin.jpg",
+   "Alt": "honored to have been a part of this journey!"
+},
+{
+   "Timestamp": "12/31/2019 0:10:40",
+   "Email Address": "golan@andrew.cmu.edu",
+   "Credit": "Golan Levin",
+   "Short": "Golan Levin",
+   "Contribution": "I'm immensely honored and privileged to share this journey with the p5.js and Processing.org community. My moments of greatest pride would definitely be in 2015 and 2019, when my lab, the Frank-Ratchye STUDIO for Creative Inquiry at CMU, hosted the first and second p5.js Contributor's Conferences. These events helped focus the development, catalyze the community, and articulate the philosophy of this transformative technology. ",
+   "Image": "./Images/Golan Levin_1.jpg",
+   "Alt": "A group photo of the participants in the 2nd p5.js contributor's conference, August 2019, Carnegie Mellon University"
+},
+{
+   "Timestamp": "12/18/2019 0:04:58",
+   "Email Address": "mail@hartmut-bohnacker.de",
+   "Credit": "Hartmut Bohnacker",
+   "Short": "Hartmut Bohnacker",
+   "Contribution": "p5.screenPosition is a small library which adds the screenX and screenY functionality from Processing to P5js. I developed it because I and obviously some others were missing it.",
+   "Image": "./Images/Hartmut Bohnacker.png",
+   "Alt": "The corner of a cube is projected to a plane "
+},
+{
+   "Timestamp": "12/27/2019 4:57:23",
+   "Email Address": "haseebzeeshan2010@gmail.com",
+   "Credit": "Hasseb Zeeshan",
+   "Short": "Hasseb Zeeshan",
+   "Contribution": "I am 9 years old .I love making  3D simulations using p5.js WEBGL. The reason that I love making 3D simulations is because you can change ,modify and create almost all of the objects around you, from a ball with texture to an entire interactive world with planes ,cars, and boats.The best part about p5.js WEBGL is that everything can move , touch ,interact with the user and you can make anything from your imagination.I also like mixing different libraries and I have presented a project using Posenet and WEBGL at Coolest Projects UK 2019.On Medium ,I have posted some tutorials of WEBGL so that if anyone wants to learn for free WEBGL they can learn from basics of just creating 3D shapes , to spheres in orbital motion .\nhttps://medium.com/@haseebzeeshan2010/making-a-floating-illusion-in-3d-b483321ffdf3?",
+   "Image": "./Images/Hasseb Zeeshan.jpg",
+   "Alt": "In the first picture, I am presenting my p5.js PoseNet project  and rest are my 3D simulations with key controls"
+},
+{
+   "Timestamp": "12/30/2019 11:54:34",
+   "Email Address": "hiradsab@gmail.com",
+   "Credit": "Hirad Sab",
+   "Short": "Hirad Sab",
+   "Contribution": "Transitioned p5.js to ES6, consisting of minor changes to the build system to facilitate processing, linting and testing the library with ES6 syntax and standards, as well as major and ubiquitous syntactical modification in line with ES6 features.",
+   "Image": "./Images/Hirad Sab.jpg",
+   "Alt": "This image is from a p5.js meetup at UCLA with portal to a meetup at NYU ITP. Dozens of people in front of a projected image posing for group photo.",
+   "FIELD7": "Dozens of people in front of a projected image posing for group photo."
+},
+{
+   "Timestamp": "12/30/2019 1:46:23",
+   "Email Address": "jatinpanjwani111@gmail.com",
+   "Credit": "https://www.linkedin.com/in/jatinpanjwani",
+   "Short": "Jatin Panjwani",
+   "Contribution": "I have contributed by enhancing documentation of method belonging to p5 DOM area. PR url : https://github.com/processing/p5.js/pull/4210",
+   "Image": "./Images/Jatin Panjwani.png",
+   "Alt": "The screenshot is describes the Pull request I made for enhancing document for createSelect() method of p5 DOM"
+},
+{
+   "Timestamp": "12/14/2019 9:34:36",
+   "Email Address": "redsheepdev@gmail.com",
+   "Credit": "https://www.youtube.com/channel/UCmth-THBKWxLMw3aPsp-jQg",
+   "Short": "Red Hen dev",
+   "Contribution": "Help given to new coders, and tutorials made on YouTube",
+   "Image": "./Images/Red Hen dev.png",
+   "Alt": "A cute, round, red chicken, cartoon-style"
+},
+{
+   "Timestamp": "12/30/2019 20:26:29",
+   "Email Address": "illestpreacha@outlook.com",
+   "Credit": "IllestPreacha",
+   "Short": "IllestPreacha",
+   "Contribution": "The following is  an experimentation with words :  https://illestpreacha.itch.io/interactive-mood-poems, which contain a short series of poems that reflect a mood based on the user's choice. I felt that given the creative aspects of P5.JS, it will be a nice journey to see how it can give poems, a life of their own. The snippet provided with this form is a rough draft of that thought process where, the words on the screen interact uniquely to the reader's mood.  As if the poem chosen is giving a self reflection of how it should move and react, in regard to what the reader wants.",
+   "Image": "./Images/IllestPreacha.png",
+   "Alt": "A  Poem that is being read as an embodiment of the word it is portraying"
+},
+{
+   "Timestamp": "12/30/2019 13:14:42",
+   "Email Address": "jason.sigal@gmail.com",
+   "Credit": "Jason Sigal\n@therewasaguy",
+   "Short": "Jason Sigal",
+   "Contribution": "In 2014, I was exploring sound in Processing. I wanted to share my audio sketch on the web. I learned about p5.js and about the web audio api, which were both in early stages, and was encouraged to explore. That summer, I started the p5.Sound library, in coordination with Wilm Thobin's Processing Sound library, and mentored by Evelyn Eastmond for Google Summer of Code. The next summer, I prototyped a web IDE with Dan Shiffman as my mentor. That was a fun experiment! I have since been a mentor for Jeevan Farias, Jun Shern Chan, and Oren Shoham for their contributions to the sound library. I've grown so much from contributing to p5. This is the most supportive, inspiring, and encouraging community. Thank you for welcoming me, I am so grateful to be a contributor!",
+   "Image": "./Images/Jason Sigal.png",
+   "Alt": "audio visualization with p5 from a p5-music-viz workshop"
+},
+{
+   "Timestamp": "12/18/2019 6:34:05",
+   "Email Address": "jagracar@gmail.com",
+   "Credit": "Javier Gracia Carpio\nhttps://github.com/jagracar",
+   "Short": "Javier Gracia Carpio",
+   "Contribution": "Grafica is a simple, but highly configurable, plotting library for Processing. I initially developed it in Java because I couldn't find a library with the same functionality in Processing. Years later I ported it to p5.js with the intention of learning JavaScript in the way. Now there is even a C++ version for OpenFrameworks called ofxGrafica. With grafica you can create the typical 2D line and scatter plots and histograms, but, in addition to that, you can use the full power of p5.js to make them interact with the mouse, the touch screen, any sound input, your face expressions as seen by the webcam, or whatever media you can imagine. Visit https://jagracar.com/grafica.php for some code examples and please keep me posted with your art experiments using the lib!",
+   "Image": "./Images/Javier Gracia Carpio.png",
+   "Alt": "Many plot examples, rotated scaled and blurred with p5.js"
+},
+{
+   "Timestamp": "12/12/2019 8:16:41",
+   "Email Address": "jeff@unterbahn.com",
+   "Credit": "Jeffrey Yoo Warren\nIG @unterbahn",
+   "Short": "Jeffrey Yoo Warren",
+   "Contribution": "I was so inspired and energized by the welcoming tone of the p5.js project and community (in part with Turkle/Papert's Epistemological Pluralism in mind) that I wanted to find a way for people to more easily use sensors and physical interfaces in their sketches. So I wrote an Arduino interface that uses the WebJack library, of which I'm a co-author, so that people can send data back and forth between their p5.js sketches and an Arduino. I wrote an example and debugged the audio API to make the process as simple as possible. Because WebJack uses audio pulses, now p5.js can send and receive messages with an Arduino using beeps and boops. I hope people build on this to do all kinds of interesting work!",
+   "Image": "./Images/Jeffrey Yoo Warren.jpg",
+   "Alt": "A hand holding an Arduino microcontroller connected to a box labeled \"Dust Sensor.\" A headphones cable comes out of the bottom of the Arduino."
+},
+{
+   "Timestamp": "12/30/2019 8:39:10",
+   "Email Address": "jeonghopark@jeonghopark.de",
+   "Credit": "JeongHo Park\nScanSeq JS\nhttps://experiments.withgoogle.com/scan-sequencer\nhttps://github.com/jeonghopark/scanseqjs\nhttps://twitter.com/jeonghopark",
+   "Short": "JeongHo Park",
+   "Contribution": "Make a Music with your motion. This Experiment will take a realtime web cam image and then makes a realtime Music. It works like a Virtual Keyboard. The vertical keyboard is recognizing a change of the color of pixels and make a trigger signal. The circles that was made by trigger signals move to from left to right. At the middle they will be playing note\n\nIt is written based on the p5js and tonejs libraries.",
+   "Image": "./Images/JeongHo Park.jpg",
+   "Alt": "Screenshot with numerous vertical bars and a sound wave line drawn down the middle."
+},
+{
+   "Timestamp": "12/28/2019 8:20:13",
+   "Email Address": "jereljohnson@gmail.com",
+   "Credit": "Jerel Johnson\njereljohnson.com",
+   "Short": "Jerel Johnson",
+   "Contribution": "I’m grateful for the time working with Lauren, Cassie and other collaborators on many facets of the design for p5.js — from the identity system through to the website and editor itself. Although I’ve had to step away, I take great pride in our work together and have loved watching it grow.",
+   "Image": "./Images/Jerel Johnson.png",
+   "Alt": "A collection of design sketches and screens for the p5.js editor and brand."
+},
+{
+   "Timestamp": "12/29/2019 11:41:14",
+   "Email Address": "jesse@s01e01.xyz",
+   "Credit": "Jesse Cahn Thompson",
+   "Short": "Jesse Cahn Thompson",
+   "Contribution": "I am lucky enough to say that I got to work closely with Processing Foundation / p5 for a year. During that time, I was involved in a lot of early efforts geared toward sustainability and growth. Since then, my biggest contribution has been advocacy. While recently studying for my MA, I was able to gleefully introduce p5 to classmates in the studio, and I ran an intro workshop to teach basics to a larger group. I think the idea(l) of what p5 is – a foundation of diversity, a space for radical subversion, an expressive tool, and a tech community grounded in empathy as opposed to ambition – inspires me and how I strive to embed these principles in my own life and work.",
+   "Image": "./Images/Jesse Cahn Thompson.jpg",
+   "Alt": "A rectangular Valentine's Day invitation for a p5 workshop at the Royal College of Art. Top-to-bottom, p5-red gradient to complimentary green. Blurry, ambiguous color-burnt lovers side by side. A rose. An inner-border pink glow for dreamy warmth and invitation <3 "
+},
+{
+   "Timestamp": "12/28/2019 11:45:03",
+   "Email Address": "jingw3n.zhu@gmail.com",
+   "Credit": "Jingwen Zhu\nDesigner & Engineer\nGithub @ZhuJingwen",
+   "Short": "Jingwen Zhu",
+   "Contribution": "I developed p5.ble.js in collaboration with Yining Shi and Tom Igoe. This is a library for communication between BLE devices and p5 sketches. It bridges the physical and digital interactions and provides a powerful tool for people who are new to programming and physical computing. Besides developing the library, I also created a series of tutorials on Arduino Project Hub and other platforms. p5.ble.js: https://github.com/ITPNYU/p5.ble.js Arduino Project Hub: https://create.arduino.cc/projecthub/jingwen_zhu/getting-started-with-p5-ble-js-using-arduino-nano-33-ble-120ea6",
+   "Image": "./Images/Jingwen Zhu.png",
+   "Alt": "A screen shot of tutorial Getting Started with p5.ble.js Using Arduino Nano 33 BLE on Arduino Project Hub"
+},
+{
+   "Timestamp": "12/17/2019 11:36:25",
+   "Email Address": "josephkanglee@gmail.com",
+   "Credit": "jk-lee.com\nGithub @joeyklee",
+   "Short": "jk-lee.com",
+   "Contribution": "nocjs (tentative name!) is a p5.js library based on Dan Shiffman's Nature of Code book and code examples. Credits go to Dan and all of the people who have contributed to building those examples. This library is being built to make it easier to quickly breath \"life\" into your p5.js projects by simulating natural systems and behaviors with code. Dan's Nature of Code helped me to discover the beauty and expressiveness of code and continues to be a major influence in my creative practice. I hope you too can find inspiration in the natural world and find new ways to simulate them with code. Happy coding!. website: https://joeyklee.github.io/nocjs",
+   "Image": "./Images/jk-lee.com.png",
+   "Alt": "nocjs logo with particle system attractors and repellers making an organic swirling shape."
+},
+{
+   "Timestamp": "12/30/2019 16:29:49",
+   "Email Address": "joe.cridge@me.com",
+   "Credit": "Joe Cridge\n@joecridge",
+   "Short": "Joe Cridge",
+   "Contribution": "I ironed out the kinks in the arc-drawing code and tidied up color conversion :)",
+   "Image": "./Images/Joe Cridge.png",
+   "Alt": "A series of concentric rings, randomly broken up into segments. The color of the segments varies with position."
+},
+{
+   "Timestamp": "12/2/2019 20:55:42",
+   "Email Address": "me@joelgethinlewis.com",
+   "Credit": "Joel Gethin Lewis\nLecturer\nCreative Computing Institute",
+   "Short": "Joel Gethin Lewis",
+   "Contribution": "I’ve been using p5.js in my practice for the past three years - in the past three months I’ve also been using it exclusively to teach the diploma in Creative Computing at the brand new Creative Computing Institute at the University of the Arts London. I love p5.js because of the open and welcoming community spirit that Lauren, Daniel and others have imbued right from the start with joy! I also love making work in an open way, and p5.js makes it fun as well as ethical. Thanks everyone! 👻🏴‍☠️🙇🏻‍♂️",
+   "Image": "./Images/Joel Gethin Lewis.jpeg",
+   "Alt": "The Creative Coding Institute badge by Cathy Hoste"
+},
+{
+   "Timestamp": "12/4/2019 20:11:03",
+   "Email Address": "aronsonjoey@gmail.com",
+   "Credit": "Joey Aronson",
+   "Short": "Joey Aronson",
+   "Contribution": "For a year and a half I taught hundreds of students from 1st to 10th grade how to code using p5.js. They created generative art, games, and tools all while learning how to code. I have also created many pieces of generative art using p5.js which can be found here https://www.openprocessing.org/user/134483#sketches",
+   "Image": "./Images/Joey Aronson.png",
+   "Alt": "Perlin Sphere: this is a piece of generative art I made using p5.js. It is the result of about 3 hours of letting the program run"
+},
+{
+   "Timestamp": "12/30/2019 13:17:21",
+   "Email Address": "john@theartboy.net",
+   "Credit": "John McCaffrey\n@theartboy",
+   "Short": "John McCaffrey",
+   "Contribution": "P5.js is a fantastic evolution to Processing. In my teaching I begin with Processing but migrate to P5.js so the students can share their projects easily on the web. It is such an easy way to get students engaged with code and creativity. https://theartboy.github.io/P5jsPlatformGame/index.html is a simple platform style game ported from Processing to P5.js. It is a learning project built step by step.",
+   "Image": "./Images/John McCaffrey.png",
+   "Alt": "Platform game with jumping unicorns"
+},
+{
+   "Timestamp": "12/30/2019 14:37:00",
+   "Email Address": "jchambers@saic.edu",
+   "Credit": "Jon Chambers",
+   "Short": "Jon Chambers",
+   "Contribution": "I teach new media art and use p5.js extensively in my curriculum as tool for creating both basic and complex coding projects. I also use p5.js as part of a coding environment in my own work that can be found here: https://jonchambers.net. I learned to code with Processing, and p5.js has been another important resource in contributing to my evolution and knowledge as an artist and educator. During the 2019 p5.js Contributors Conference, I created a mini library as way to generate and manipulate content for A-Frame through p5.js. It’s a work in progress, but the GitHub repository for that project can be found here: https://github.com/jonchambers/p5Aframe",
+   "Image": "./Images/Jon Chambers.jpg",
+   "Alt": "Pink 3D scan of a hand over a grid of blobby peach colored shapes with two purple lines intersecting at the bottom right corner"
+},
+{
+   "Timestamp": "12/5/2019 9:13:15",
+   "Email Address": "jrdnshw@gmail.com",
+   "Credit": "Jordan Shaw\njordanshaw.com\nIG @jshaw3)",
+   "Short": "Jordan Shaw",
+   "Contribution": "The contributions I've made over the years have been doing bug fixes in the library and website code examples, along with doing some documentation updates and edits. Being apart of the p5.js community and seeing how much opportunity it has allowed for people to be introduced to creative coding and programming, creating a platform for artistic expression and the formation of a community focusing on openness, sharing and collaborations has been incredibly inspiring. I do not doubt that the p5.js community will continue to thrive :) ",
+   "Image": "./Images/Jordan Shaw.jpg",
+   "Alt": "A person smiling against a brick wall. Joy of solving a programming challenge."
+},
+{
+   "Timestamp": "12/30/2019 11:20:04",
+   "Email Address": "amodeijoseph@gmail.com",
+   "Credit": "Joseph Amodei\nNew Media Artist\nand Theater Designer\nwww.jamodei.com",
+   "Short": "Joseph Amodei",
+   "Contribution": "I am an artist, activist and theater designer who uses p5.js in many ways throughout my work! I am also a teacher and I introduce young artists to creative coding by having them learn to draw with p5.js. This image is from a project called ‘Looking For the Horizon.’ One would walk into a meditative space, sit in a comfy chair, and be guided through a simple mindfulness audio experience while watching live-generated projections. Next, the experience asks the visitor questions about their life – as you replied, my p5 program captured your words and amalgamated them into a visual poetic interpretation of the words spoken. Then, it would be printed on a sticker-receipt for you to take back out into the world. The p5 program also connected all the audio, video, devices and other control mechanisms/data flows! The hope was to provide a moment of relaxation that ends with a transaction of poetic exchange and not of monetary exchange. A moment to use tech to return your attention back to you.",
+   "Image": "./Images/Joseph Amodei.jpeg",
+   "Alt": "Picture of poetry on a sticker with the p5.js program that created the sticker in the background."
+},
+{
+   "Timestamp": "12/3/2019 13:07:00",
+   "Email Address": "j@jtn.im",
+   "Credit": "JT Nimoy",
+   "Short": "JT Nimoy",
+   "Contribution": "tutorials and addons",
+   "Image": "./Images/JT Nimoy.png",
+   "Alt": "Render of grayscale noise, divided into islands by an aqua contour."
+},
+{
+   "Timestamp": "12/31/2019 7:58:23",
+   "Email Address": "juanolayafi@gmail.com",
+   "Credit": "Juan Olaya\nPhD Student\nhttps://juanolaya.github.io/",
+   "Short": "Juan Olaya",
+   "Contribution": "Game Development with Creative Coding using Object-Oriented Programming (OOP)\n \nCurriculum of the course Object-Oriented Programming with Creative Coding focused on 2D Game Development. This project includes subjects such as collision detections, player movements and platforms. The following are the 4 main products of this project\n\n1. This OpenProcessing Class has the structure of this curriculum with teacher examples and student projects:\nhttps://www.openprocessing.org/class/57891\n\n2. Github repository where you can find the structure of this curriculum, code and documentation with class diagrams:\nhttps://github.com/JuanOlaya/OOP\n\n3. A list of some video games created and published by the students on itch.io. These video games were developed using the curriculum of this project\nhttps://juanolaya.itch.io/\n\n4. A summary document with the main 20 steps of this curriculum:\nhttps://github.com/JuanOlaya/OOP/blob/master/ProcessingFellowship/%5BProjectDescription%5D%20OOPGameDevelopmentP5.pdf",
+   "Image": "./Images/Juan Olaya.png",
+   "Alt": "2D video game developed with p5.js using Object-Oriented Programming (OOP). Link: https://www.openprocessing.org/sketch/676865 "
+},
+{
+   "Timestamp": "12/31/2019 17:07:08",
+   "Email Address": "kadamwhite@gmail.com",
+   "Credit": "K. Adam White",
+   "Short": "K. Adam White",
+   "Contribution": "I helped out a bit with early infrastructure work on the p5 code repository around tooling and automation, converting the build to Browserify and contributing some style and testing fixes. I also got involved with some performance debugging to try to speed up `random()` and other key methods which had been written in a way that browsers couldn't optimize.\nThe contribution I'm most proud of was adding support for named CSS colors like \"red\" in p5.Color (fixing the first \"gotcha\" I encountered when trying to use the library myself!) Conversely, this is also the project where I realized I was precluding somebody else's contribution by \"claiming\" an open issue by saying I would work on it when I didn't actually have time, which taught me an important lesson about open source participation.\nI haven't been able to stay as involved as I once hoped to, but I'm extremely excited p5 is reaching 1.0 — congratulations!!",
+   "Image": "./Images/K. Adam White.png",
+   "Alt": "A watercolor bloom pixel-sorted with p5.js around an abstract rectangular geometric structure generated by parsing the p5.Color reference webpage's HTML hierarchy (bloom by artist Emily Garfield, used with permission)"
+},
+{
+   "Timestamp": "12/30/2019 20:45:14",
+   "Email Address": "kjhollen@gmail.com",
+   "Credit": "Kate Hollenbach\nkjhollen",
+   "Short": "Kate Hollenbach",
+   "Contribution": "I've added to the webgl implementation and contributed miscellaneous bug fixes. In just the last few years, I've also taught p5.js to at least 175 students, which feels huge!",
+   "Image": "./Images/Kate Hollenbach.png",
+   "Alt": "Screenshot of sketch running at 50 frames per second while drawing 1000 randomly placed triangles, all shades of bright pink and purple"
+},
+{
+   "Timestamp": "12/27/2019 16:21:09",
+   "Email Address": "limzy.kenneth@gmail.com",
+   "Credit": "Kenneth Lim (@limzykenneth)",
+   "Short": "Kenneth Lim",
+   "Contribution": "I started contributing to p5.js in around 2015, initially just correcting typos in the documentation. Eventually I started contributing code and answering issues on github which I still do today. In 2018 I was chosen as a Processing Fellow to work on the Chinese translation of the p5.js website and documentation. The fellowship work greatly influences my practice today as a designer/artist The constant engagement with the p5.js community through github and other means also widen my skillsets as well as creating new connections with people I would otherwise not have had the chance to work with. Even now I'm still looking for new and interesting way to contribute!",
+   "Image": "./Images/Kenneth Lim.png",
+   "Alt": "Homepage of p5.js website in Simplified Chinese. The background is a p5.js sketch created to look like traditional Chinese ink drawing of mountains."
+},
+{
+   "Timestamp": "12/30/2019 20:00:28",
+   "Email Address": "kevinaworkman@gmail.com",
+   "Credit": "Kevin Workman",
+   "Short": "Kevin Workman",
+   "Contribution": "I believe that code is more than just ones and zeroes. I believe programming is a craft that involves as much creativity as any other form of art. I'm a proponent of the \"worse is better\" philosophy, and I think making things easier to understand is better than making things more complicated.\n\nBy day I work at Google, and I run HappyCoding.io in my free time. I hang out in the Processing and p5.js tags on Stack Overflow, as well as on the Processing forum. If you've posted a question about Processing or p5.js on the internet, chances are you've talked to me! Come say \"hello world\" at HappyCoding.io!",
+   "Image": "./Images/Kevin Workman.png",
+   "Alt": "Pixel art of Kevin and his cat Stanley"
+},
+{
+   "Timestamp": "12/23/2019 19:46:03",
+   "Email Address": "lartu@lartu.net",
+   "Credit": "Lartu\nwww.lartu.net",
+   "Short": "Lartu",
+   "Contribution": "I made the p5.clickable library. p5.clickable is a a p5.js library that lets you create and customize buttons and assign event-based behaviors to them. With p5.clickable you can create buttons and define what happens when the user hovers over, clicks, releases or moves the cursor outside of them.\n\nI used to work a lot with Flash and ActionScript back in the day and one of the things I loved the most about it was how easy it was to create buttons and assign actions to them using simple event handlers like \"on(press)\" and \"on(rollOut)\". I felt that p5.js was lacking a feature like this and would benefit from having it, so I wrote this library. I hope you like what I did and find it useful for your own projects!",
+   "Image": "./Images/Lartu.png",
+   "Alt": "(p5.js logo, a rectangle button with the text \"p5.clickable\" inside it with a hand-cursor clicking it)"
+},
+{
+   "Timestamp": "12/30/2019 20:32:17",
+   "Email Address": "lauren.zll.zhang@gmail.com",
+   "Credit": "Lauren Zhang\n@lzmunch on twitter\nzhauren.wixsite.com/home",
+   "Short": "Lauren Zhang",
+   "Contribution": "Lively Christmas forest. I was coding a \"natural\" random placement of trees for a Christmas card but then the p5 web editor auto-refresh feature gave me the idea to turn it into an animation. https://twitter.com/lzmunch/status/1205952193146359808?s=19",
+   "Image": "./Images/Lauren Zhang.jpg",
+   "Alt": "Animation of forest of red and green pine tree icons seeming to move up and down."
+},
+{
+   "Timestamp": "12/30/2019 17:27:38",
+   "Email Address": "leetusman@gmail.com",
+   "Credit": "Lee Tusman\nleetusman.com\nGithub @lee2sman",
+   "Short": "Lee Tusman",
+   "Contribution": "It's nice to be able to 'grow up' with p5. It's both a tool and a community that sustains me in my creative practice. It's been a flexible tool that I can wield and modify and use to build my own artistic tools and to make my work. And through Processing Community Day in NYC and LA I've met so many likeminded people. In this process I'm reaching out to others, spreading a community of those dedicated to code, social justice, art, activism and friendship. From helping students to debug their code, providing feedback and support to Processing Fellows and jumping into the p5 GitHub issues - I've loved being part of this community. Most recently I've been creating browser-based tools to create zines, posters, music, visual art, and games. People are using my software to make their own art. They're using p5 potentially without even knowing it, and as I write about and teach others, more folks will join, participate in and shape the tool and community.",
+   "Image": "./Images/Lee Tusman.jpg",
+   "Alt": "A photo of the participants at Processing Community Day NYC 2019"
+},
+{
+   "Timestamp": "12/6/2019 14:31:03",
+   "Email Address": "lenoirc.fr@gmail.com",
+   "Credit": "Lenoir Christopher",
+   "Short": "Lenoir Christopher",
+   "Contribution": "education",
+   "Image": "./Images/Lenoir Christopher.jpeg",
+   "Alt": "Simplon St Gaudens Web Dev School"
+},
+{
+   "Timestamp": "12/3/2019 8:54:12",
+   "Email Address": "lia@liaworks.com",
+   "Credit": "LIA\nwww.liaworks.com",
+   "Short": "LIA",
+   "Contribution": "Interactive, generative software art: https://isaidif.net",
+   "Image": "./Images/LIA.png",
+   "Alt": "Interactive, generative software art"
+},
+{
+   "Timestamp": "12/8/2019 15:22:10",
+   "Email Address": "luisa.ph@gmail.com",
+   "Credit": "Luisa Pereira\nFaculty\nNYU ITP\nTwitter @luisa_ph",
+   "Short": "Luisa Pereira",
+   "Contribution": "Teaching, creating curricula, organizing",
+   "Image": "./Images/Luisa Pereira.png",
+   "Alt": "Screenshot of a hand-drawn tutorial about the relationship between the browser, p5 sketches, and the DOM "
+},
+{
+   "Timestamp": "12/30/2019 9:28:08",
+   "Email Address": "dasmanaswini10@gmail.com",
+   "Credit": "Manaswini Das",
+   "Short": "Manaswini Das",
+   "Contribution": "I was a 2019 Processing Foundation fellow. My fellowship work included translating P5.js YouTube tutorials and website to Hindi and spreading the word  about p5.js to schools and colleges in Bhubaneswar, India.",
+   "Image": "./Images/Manaswini Das.jpg",
+   "Alt": "A girl clad in white talking to 6 college students with p5.js on the projector."
+},
+{
+   "Timestamp": "12/30/2019 10:04:41",
+   "Email Address": "0000marcosg@gmail.com",
+   "Credit": "Marcos Giménez\nhttps://github.com/0000marcosg",
+   "Short": "Marcos Giménez",
+   "Contribution": "3 years ago I discovered p5.js and since then I have added it to my courses as an art teacher at a Faculty of Fine Arts in Uruguay. Today, it is part of the curriculum along with Processing. The versatility and communication possibilities make it a great tool both for education, and  development of narratives and inclusion. My contribution to this beautiful project has been teaching classes and workshops to coding beginners, from college students to high school students, creating examples and tutorials in Spanish.",
+   "Image": "./Images/Marcos Giménez.png",
+   "Alt": "A photo of a screen with the text \"its a undefined!\""
+},
+{
+   "Timestamp": "12/18/2019 8:36:16",
+   "Email Address": "mario@mariov.ch",
+   "Credit": "Mario von Rickenbach\n& Michael Frei",
+   "Short": "Mario von Rickenbach & Michael Frei",
+   "Contribution": "https://projects.playables.net/coin/",
+   "Image": "./Images/Mario von Rickenbach & Michael Frei.png",
+   "Alt": "Coin"
+},
+{
+   "Timestamp": "12/30/2019 17:27:43",
+   "Email Address": "masakiyamabe@gmail.com",
+   "Credit": "Masaki YAMABE",
+   "Short": "Masaki YAMABE",
+   "Contribution": "I have been teaching creative coding with Processing or P5js since 2007 at several art universities in Tokyo.\n\nIn recent years, I often use openprocessing.org with my students. A lot of awesome sketches inspire them to try generative art, data-visualization, games,  and so on.\n\nI have published many sketches to openprocessing.org. the aim is not only my curiosity but also an easy understanding for beginners.\n\nA few years ago I made \"Attractor0\" and posted it on openorocessin.org as an easy example to understand particle system.  I’m pleased to it became one of the most popular sketches on openorocessin.org.\n\nhttps://www.openprocessing.org/sketch/394718",
+   "Image": "./Images/Masaki YAMABE.png",
+   "Alt": "\"Attractor0\" posted on openorocessin.org in 2017."
+},
+{
+   "Timestamp": "12/31/2019 0:00:07",
+   "Email Address": "vihavira@protonmail.com",
+   "Credit": "Matilda Wysocki",
+   "Short": "Matilda Wysocki",
+   "Contribution": "We organized Processing Community Day in New York! A lot of us were new to organizing gatherings like this one, and I think that we really benefited from building consensus around our shared intent of the gathering; education seemed to be our foci, but through it we integrated hacktivism and art, something we hope to develop with the coming year.\n\nhttp://processing.nyc/",
+   "Image": "./Images/Matilda Wysocki.jpg",
+   "Alt": "Processing Community Day participants sitting for a group photo"
+},
+{
+   "Timestamp": "12/4/2019 4:58:37",
+   "Email Address": "kouichi.matsuda@gmail.com",
+   "Credit": "Matsuda, Kouichi\nOtsuma Women's University",
+   "Short": "Matsuda, Kouichi",
+   "Contribution": "writing a book and initiating a discussion about how the implementation of accelerationX, accelerationY, and accelerationZ should be.",
+   "Image": "./Images/Matsuda, Kouichi.jpg",
+   "Alt": "p5.js programming guide (Japanese)"
+},
+{
+   "Timestamp": "12/18/2019 13:49:49",
+   "Email Address": "hello@mayaontheinter.net",
+   "Credit": "Maya Man\nArtist and Technologist\nmayaontheinter.net",
+   "Short": "Maya Man",
+   "Contribution": "p5.js is the most important tool that has inspired and shaped me as a maker. My contributions have come in many forms: attending the [first p5.js conference](https://p5js.org/community/contributors-conference-2015.html) in 2015, creating a [homepage sketch](http://mayaontheinter.net/dulynoted/) and [discussing my journey](https://www.youtube.com/watch?v=hRZCrEjeBUw&feature=emb_logo) to computer science/creative coding for Chelly Jin's [diversity in Code and Art series](https://diversity.p5js.org/about.html), teaching p5.js workshops from LA to NYC, and most recently donating my print [Not a picture but an event](https://www.instagram.com/p/B6DnhH5p1PJ/) (created using p5.js!) to [The Processing Foundation's 2019 fundraising campaign](https://donorbox.org/supportpf2019-fundraising-campaign). In my mind, p5.js has always been a prime example of ~really good technology~ that make it easy to get started and prioritizes giving back to the community that it is intended to serve.",
+   "Image": "./Images/Maya Man.png",
+   "Alt": "A screenshot of the p5.js homepage with a variety of colored music notes randomly distributed on the background. In the bottom left corner it says duly noted by Maya Man."
+},
+{
+   "Timestamp": "12/30/2019 8:40:30",
+   "Email Address": "michael.zoellner@hof-university.de",
+   "Credit": "Michael Zöllner",
+   "Short": "Michael Zöllner",
+   "Contribution": "My students are learning creative coding at Hof University from the first Semester on with P5.js and create wonderful projects with it.",
+   "Image": "./Images/Michael Zöllner.png",
+   "Alt": "Drawing tools"
+},
+{
+   "Timestamp": "12/30/2019 9:17:02",
+   "Email Address": "hi@elizaldemiguel.com",
+   "Credit": "Miguel Elizalde",
+   "Short": "Miguel Elizalde",
+   "Contribution": "I have been teaching p5js for 3 years in the United States (MN, NY, PA) and China. Additionally, I proofread the translation of the book \"Getting Started with P5.js\" to Spanish. ",
+   "Image": "./Images/Miguel Elizalde.png",
+   "Alt": "Screenshot with the message \"Hello Inne, come and be positive\". This is part of an assignment with Chinese students to develop an app that give them positive message every time they shake their mobile phones. "
+},
+{
+   "Timestamp": "12/17/2019 11:19:47",
+   "Email Address": "josephkanglee@gmail.com",
+   "Credit": "ml5.js contributors\nml5js.org\ngithub.com/ml5js",
+   "Short": "ml5.js contributors",
+   "Contribution": "ml5.js is a JavaScript library that aims to make machine learning approachable for a broad audience of artists, creative coders, and students. The library provides access to machine learning algorithms and models in the browser, building on top of TensorFlow.js. The ml5.js project inspired by and is designed with p5.js users in mind, allowing people to more easily explore the intersections of creativity and machine learning. The library is supported by code examples, tutorials, and sample data sets with an emphasis on ethical computing. ",
+   "Image": "./Images/ml5.js contributors.png",
+   "Alt": "The ml5 logo designed by Andy Anzollitto."
+},
+{
+   "Timestamp": "12/30/2019 9:46:47",
+   "Email Address": "nancychn1@gmail.com",
+   "Credit": "Nancy Chauhan",
+   "Short": "Nancy Chauhan",
+   "Contribution": "Conducted workshop for students of various schools at Himachal Pradesh, India as a processing fellow 2019 & Introduced intercative coding with p5.js to students ",
+   "Image": "./Images/Nancy Chauhan.jpeg",
+   "Alt": "Woman teaches p5.js to a group of young women in India"
+},
+{
+   "Timestamp": "12/30/2019 2:04:58",
+   "Email Address": "contact@niklaspeters.com",
+   "Credit": "Niklas Peters\nhttps://github.com/nikfm",
+   "Short": "Niklas Peters",
+   "Contribution": "As a 2017 Processing Foundation Fellow, I designed a p5.js curriculum for students with low computer literacy, with the end goal of having participants make basic programs and feel comfortable to continue their coding education by accessing the numerous free resources on their own. After learning the basics of p5.js, students feel motivated to explore new ideas and skills which previously seemed unattainable. This curriculum was piloted in Johannesburg, South Africa, and subsequently delivered to several groups of high school students in the country. Full fellowship recap: https://medium.com/processing-foundation/anyone-can-code-a-creative-coding-curriculum-for-students-with-low-computer-literacy-69e121149abc",
+   "Image": "./Images/Niklas Peters.jpg",
+   "Alt": "High school students from Soweto, South Africa who participated in an intro to creative coding course"
+},
+{
+   "Timestamp": "12/3/2019 16:28:33",
+   "Email Address": "crlobdell@lansingindustrialgroup.com",
+   "Credit": "None",
+   "Short": "None",
+   "Contribution": "Advocacy",
+   "Image": "./Images/None.jpg",
+   "Alt": "This image is from a Creative Coding Fest event held at NYU organized by Saber Khan. Four excited children and an adult working together using p5.js."
+},
+{
+   "Timestamp": "12/3/2019 19:11:33",
+   "Email Address": "joseph.stewart@gmail.com",
+   "Credit": "octetta",
+   "Short": "octetta",
+   "Contribution": "writing code",
+   "Image": "./Images/octetta.JPG",
+   "Alt": "Control panel for 18 actuators"
+},
+{
+   "Timestamp": "12/30/2019 13:22:02",
+   "Email Address": "info@olafval.de",
+   "Credit": "Olaf Val",
+   "Short": "Olaf Val",
+   "Contribution": "DADA-Font\n\"The coded font greeting card app!\"\nMotivation is the key to a successful introduction to the abstract and very complex world of programming. With the goal in mind to build a greeting card app, all students had a lot of fun designing and programming their letters. Thus, an exciting application could emerge in this cooperative project.\n\nwww.digipool.info/dada-font\n\nLetters coded by: Michael Schreiner, Dorothee Hase, Arthur Seefried, Stella Jondral, Jennifer Witulla, Natalie Witulla, Lea Luedtke, Jule Leinpinsel, Ferdinand Fach, Arne Dohrmann, Lisa Heinze, Martin Tony Häußler, Ruth Firsching, Eva Bullermann, Sarah Metz, Konstantin Frey, Philipp Thomas, Johanna Baum, Helena Bolte, Camille Achilles, Jonathan Zabel, Sascha Kleczka, Verena Hutter, Alexander Schomburg, Lena Hellmann, Johanna Hofmann\n\nStudent project at Kunsthochschule Kassel\nby Olaf Val, 2017\n\n",
+   "Image": "./Images/Olaf Val.gif",
+   "Alt": "Screenshot showing the whole Dada-Font alphabet"
+},
+{
+   "Timestamp": "12/20/2019 3:02:27",
+   "Email Address": "paweljanicki@interia.pl",
+   "Credit": "Pawel Janicki\nhttps://paweljanicki.jp",
+   "Short": "Pawel Janicki",
+   "Contribution": "While working on some projects (especially \"TeToKi!\" - a collection of interactive sketches referring to existing artworks, scientific and artistic concepts, cultural phenomena - partly available here: https://paweljanicki.jp) based on the fantastic P5js I noticed that large parts of the code I write may be useful for other people. I also discovered that the values and methodology of the P5js community are close to mine and I want to be part of it. This is how Vida was created (a library for simple CV, such as motion detection and tracking), ASCII Art (a library supporting the creation of ASCII graphics) and MaxAndP5js (a mechanism simplifying work with p5js sketches from within MaxMSP). Vida and ASCII Art libraries are available via the P5js website and the MaxAndP5js mechanism through my web page.",
+   "Image": "./Images/Pawel Janicki.png",
+   "Alt": "illustrations showing how the Vida and ASCII Art libraries work"
+},
+{
+   "Timestamp": "12/30/2019 10:04:26",
+   "Email Address": "ngompung@gmail.com",
+   "Credit": "Phuong Ngo\nhttps://www.yonaymoris.me/",
+   "Short": "Phuong Ngo",
+   "Contribution": "In July 2019 I made a game with p5js and Teachable Machine 2 and presented it at the exhibition in Berlin which over 400 people attended. It was so much fun because my word inspired many people to get out of their comfort zone and some of them even considered learning to code after they discovered my work. :) I described everything in my portfolio post: https://www.yonaymoris.me/projects/airiflies",
+   "Image": "./Images/Phuong Ngo.gif",
+   "Alt": "A gif of Airi Flies in action, the user says the word \"pew\" in the microphone and the character flies up and tries to avoid the obstacles above."
+},
+{
+   "Timestamp": "12/31/2019 8:02:51",
+   "Email Address": "me@pierdr.com",
+   "Credit": "Pierluigi Dalla Rosa\nwww.pierdr.com",
+   "Short": "Pierluigi Dalla Rosa",
+   "Contribution": "In multiple years teaching interactive spaces there was a need for a toolkit that facilitates a new way of thinking of computation. Expanding the set of inputs and outputs without increasing the complexity is a the core of tramontana, a toolkit for spatial computing. \nYou can read more at www.tramontana.xyz",
+   "Image": "./Images/Pierluigi Dalla Rosa.jpg",
+   "Alt": "Tramontana-Logo"
+},
+{
+   "Timestamp": "12/30/2019 22:11:27",
+   "Email Address": "qianqian.ye44@gmail.com",
+   "Credit": "Qianqian Ye\nwebsite: qianqian-ye.com\nIG @44ian",
+   "Short": "Qianqian Ye",
+   "Contribution": "I helped translate a small portion of p5.js examples documentation to Chinese, as part of Chinese Translation for p5.js project by 2018 Processing Fellow Kenneth Lim. My sketch 'Shan Shui II' was featured as the homepage of p5js.org when it launched its Chinese version.",
+   "Image": "./Images/Qianqian Ye.png",
+   "Alt": "p5.js website homepage with a background of inky mountains, inspired by traditional Chinese landscape paintings."
+},
+{
+   "Timestamp": "12/30/2019 22:18:20",
+   "Email Address": "qianqian.ye44@gmail.com",
+   "Credit": "Qianqian Ye\nwebsite: qianqian-ye.com\nIG @44ian",
+   "Short": "Qianqian Ye",
+   "Contribution": "The sketch 'Superwoman' is made for  'Diversity with Code+Art' project created by Chelly Jin,  sending a message that' it is never just a dress'.  It was featured as p5j.s homepage in May, 2017.",
+   "Image": "./Images/Qianqian Ye_1.png",
+   "Alt": "p5.js website hompage with a background of colorful women figures flying around with superwoman cape."
+},
+{
+   "Timestamp": "12/30/2019 21:59:39",
+   "Email Address": "qianqian.ye44@gmail.com",
+   "Credit": "Qianqian Ye\nwebsite: qianqian-ye.com\nIG @44ian",
+   "Short": "Qianqian Ye",
+   "Contribution": "For my Processing fellowship, I created Qtv — a video channel with one-minute videos in Mandarin, about creative coding, art, and technology. I recorded a series of video tutorials for beginners and shared them on Chinese video sites, like Bilibili and TikTok, and also sites like Youtube and Instagram. In the videos, I covered a basic intro of the p5.js web editor, website, color and shape, program flow, variables, and a couple of coding challenges.",
+   "Image": "./Images/Qianqian Ye_2.png",
+   "Alt": "A grid of thumbnails of episode of Qtv — a video channel with one-minute videos in Mandarin, about creative coding, art, and technology. "
+},
+{
+   "Timestamp": "12/30/2019 19:04:15",
+   "Email Address": "raclim@nyu.edu",
+   "Credit": "Rachel Lim",
+   "Short": "Rachel Lim",
+   "Contribution": "For Google Summer of Code 2019, I worked with Cassie Tarakajian to add a search bar to the p5 Web Editor! \nhttps://medium.com/processing-foundation/search-bar-for-sketches-in-the-p5-js-web-editor-e6e9cda3909d",
+   "Image": "./Images/Rachel Lim.png",
+   "Alt": "p5.js editor search bar variations"
+},
+{
+   "Timestamp": "12/28/2019 0:25:20",
+   "Email Address": "tyler.yin@gmail.com",
+   "Credit": "Rachel Simanjuntak\nTristan Espinoza\n andTyler Yin\nhttp://tinytechzines.org\nIG, Twitter @tinytechzines",
+   "Short": "Rachel Simanjuntak, Tristan Espinoza, Tyler Yin",
+   "Contribution": "Tiny Tech Zines (TTZ) is an LA-based zine fair that provides space for underrepresented voices to share their perspectives on technology and digital culture. TTZ supports criticality in these fields through zines, workshops, and art. The first TTZ took place at NAVEL LA on August 11, 2019, and featured a range of local and international artists, technologists, educators, and activists. TTZ was inspired by the original New York Tech Zine fair.",
+   "Image": "./Images/Rachel Simanjuntak, Tristan Espinoza, Tyler Yin.jpg",
+   "Alt": "A tabler walks through the venue entrance carrying a box of zines. The event poster for Tiny Tech Zines is seen on the right."
+},
+{
+   "Timestamp": "12/30/2019 10:11:07",
+   "Email Address": "rebeccaleopold@gmail.com",
+   "Credit": "rebecca (marks) leopold\nGithub @rebleo\nFB, IG, TW @rebeccaleopold",
+   "Short": "rebecca (marks) leopold",
+   "Contribution": "As a young artist, I knew about Processing for over a decade before I started taking a serious interest in programming. For me, the draw of computers is networks and p5.js is an amazing tool for fostering interest in learning these technologies. Using the web browser as a creative tool, I am able to explore computational techniques for working with and understanding digital images.\n\nMy background is in photography + I started really contributing to the p5.js community when I helped document the Obamathon (Obama hack-a-thon) at NYU’s ITP in early 2017 and the first Processing Community Day later that year. Since then, I’ve started co-organizing PCD NYC and teach p5.js in all of my visual culture + web production classes. I have brought it into computer science classrooms at Fordham University, introduced it to Film + Media students at Hunter College and encourage my Pratt MFA students to experiment in the browser. I look forward to the future - to what my students (and I) invent! ",
+   "Image": "./Images/rebecca (marks) leopold.png",
+   "Alt": "A screenshot of different colored text on a dark background. A text editor with JavaScript / p5.js code. p5.js functions include, “loadJSON” and “loadImage.” Variable names include, “viewerWords, emotions,” + names of tech companies: “fb, google, apple, samsung, windows, twitter” and an array named, “theMedia.” "
+},
+{
+   "Timestamp": "12/30/2019 13:04:17",
+   "Email Address": "ola@weavingxcoding.studio",
+   "Credit": "Renata Gaui\n@gauini\nFrancesca Rodriguez Sawaya\n@lefunchi",
+   "Short": "Renata Gaui and Francesca Rodriguez Sawaya",
+   "Contribution": "We have been facilitating a series of workshops called “Weaving to Code, Coding to Weave” in which we demystify the complexity of programming through hands on weaving, by showing their similarities in how they work that are not often exposed. Through the history of the craft and its practice, the workshop braids the relationship between both, showing how it led to the invention of the first computers and programming logic. Attendees are instigated to learn creative coding through p5.js and weave pieces digitally. For more information about the project and new workshops you can visit our website: http://weavingxcoding.studio/",
+   "Image": "./Images/Renata Gaui and Francesca Rodriguez Sawaya.JPG",
+   "Alt": "The p5.js web editor is open on a laptop screen in which a digital pattern is programmed and visualized. The same pattern is drawn on graph paper and it’s in the process of being woven on a small wooden frame loom. You can see the hands of the participant filling up the shuttle with yarn. "
+},
+{
+   "Timestamp": "12/3/2019 15:13:52",
+   "Email Address": "rune@runemadsen.com",
+   "Credit": "Rune Madsen",
+   "Short": "Rune Madsen",
+   "Contribution": "Programming Design Systems is a book about graphic design in P5.js",
+   "Image": "./Images/Rune Madsen.jpeg",
+   "Alt": "A color spectrum "
+},
+{
+   "Timestamp": "12/12/2019 11:54:22",
+   "Email Address": "saber@processing.org",
+   "Credit": "Saber Khan/nEducation Community Director/nProcessing Foundation",
+   "Short": "Saber Khan",
+   "Contribution": "I helped start a series of free creative coding events for students and teachers with a group of educators in NYC in 2016. Since then CC Fest, Creative Coding Fest, has expanded to LA and SF.  In three years we have help twelve of these events and engaged with more than a thousand students and teachers. A huge part of these events has been teaching and introducing p5.js as a engaging and creative way to get into coding. I think our events has helped establish a community of K12 educators engaged with p5.js and creative computing. We hope to grow the event to include more locations and partner with more educators to lead their own event.\n\nCC Fest - http://ccfest.rocks ",
+   "Image": "./Images/Saber Khan.jpg",
+   "Alt": "A picture of the group attending Creative Coding Festival NYC in June 2019. There are three rows of people standing in front of a wall and projector screen. Some folks are standing, some are sitting. Many are smiling."
+},
+{
+   "Timestamp": "12/27/2019 14:14:50",
+   "Email Address": "saksham_saxena@outlook.com",
+   "Credit": "sakshamsaxena",
+   "Short": "sakshamsaxena",
+   "Contribution": "I worked on p5.js along with its wonderful community during summer of 2017 as a Google Summer of Code student. I primarily worked on building an end-to-end automated release pipeline in grunt for p5.js library, along with improving and adding other build tasks. As an undergrad student at that time, it was an amazing opportunity to learn so much about writing code for a production grade open source library, and working with a diverse and lovely set of community members. I’m extremely happy that today p5.js released its v1.0, and even more excited and humbled at the same time to realise the impact which my modest contributions have made through p5.",
+   "Image": "./Images/sakshamsaxena.jpg",
+   "Alt": "A picture of groups of young women experimenting with p5.js at CC Fest (Photo by Ryan Gallagher and Eric Wild)"
+},
+{
+   "Timestamp": "12/4/2019 21:47:13",
+   "Email Address": "sanketsingh24@gmail.com",
+   "Credit": "sanketsingh24",
+   "Short": "sanketsingh24",
+   "Contribution": "I mainly contributed to p5.js's WebGL mode, that is the 3D rendering mode by bug fixing and implementing new and missing features. ",
+   "Image": "./Images/sanketsingh24.gif",
+   "Alt": "A rotating spotlight at the top of the scene, illuminating the spheres below. The angle of spotlight is small, so we can see a hard edge. [Image Description: Five dark gray spheres arranged linearly in front of a black background. There is a rotating spotlight of green color illuminating the spheres one by one.]"
+},
+{
+   "Timestamp": "12/29/2019 7:25:57",
+   "Email Address": "sarah.groff.palermo@gmail.com",
+   "Credit": "Sarah Groff\nHennigh-Palermo\nhttp://art.sarahghp.com/",
+   "Short": "Sarah Groff Hennigh-Palermo",
+   "Contribution": "I worked on the Color class in p5.js core and created a (now probably out-of-date) library for connecting p5.js in the browser with your microcontroller: p5bots (https://github.com/sarahgp/p5bots)",
+   "Image": "./Images/Sarah Groff Hennigh-Palermo.jpg",
+   "Alt": "a microcontroller, breadboard, led, and cables"
+},
+{
+   "Timestamp": "12/17/2019 17:06:48",
+   "Email Address": "sarahrosalenabrady@gmail.com",
+   "Credit": "Sarah Rosalena Brady\nAssistant Professor of Art\nUCSB\n@sarah_rosalena",
+   "Short": "Sarah Rosalena Brady",
+   "Contribution": "In the spring of 2017, I contributed a workshop called Data Weaving as Cultural Text for Scopelab. The workshop combined creative code with feminist and decolonial principles to weave immigrant hate crime data in the browser. The workshop used the loom as a platform to discuss bias against women in computation, the Jacquard loom, Ada Lovelace, and the ENIAC. Participants learned Navajo and Pueblo weaving methods to employ a design called the spirit line. It is an independent line created to release weavers from the objects they create and produce new patterns. \nDuring the rise of Trump, hate crimes towards immigrants skyrocketed along with demands for a new US/Mexico border wall. Data collected from 2015-2017, such as hate crime, victim race, victim sex, place, offender race, and offender sex were used as variables. Spirit lines were added as a form of glitch and release. Collective designs were put together as a data quilt, creating new constructions of American identity and politic.\n",
+   "Image": "./Images/Sarah Rosalena Brady.GIF",
+   "Alt": "Data Quilt from Hate Crimes 2015-2017 with spirit lines"
+},
+{
+   "Timestamp": "12/30/2019 8:10:17",
+   "Email Address": "scott@j38.net",
+   "Credit": "Scott Garner",
+   "Short": "Scott Garner",
+   "Contribution": "In 2014, I worked with Dan Shiffman to create \"Hello p5.js\", an interactive introduction that combined video footage with code examples, composited live in a web browser. I've also led various workshops and written articles introducing new users to the library.",
+   "Image": "./Images/Scott Garner.png",
+   "Alt": "Dan Shiffman in \"Hello p5.js\""
+},
+{
+   "Timestamp": "12/30/2019 9:47:20",
+   "Email Address": "shaharyarshamshi@gmail.com",
+   "Credit": "Shaharyar shamshi",
+   "Short": "Shaharyar shamshi",
+   "Contribution": "I have been part of processing fellowship 2019 in this we promoted interactive coding using p5.js among Indian students and teenager through various workshops and also started the p5 website translation in hindi",
+   "Image": "./Images/Shaharyar shamshi.jpg",
+   "Alt": "I introduced p5 js and conducted workshop in one of premier institute of INDIA National Institute of technology hamirpur "
+},
+{
+   "Timestamp": "12/6/2019 13:23:25",
+   "Email Address": "Shawn.Van.Every@nyu.edu",
+   "Credit": "Shawn Van Every - ITP/IMA at NYU",
+   "Short": "Shawn Van Every - ITP/IMA at NYU",
+   "Contribution": "p5.serial library, bug reports, and teaching",
+   "Image": "./Images/Shawn Van Every - ITP/IMA at NYU.jpg",
+   "Alt": "NYU ITP students experimenting with p5.js during a workshop called One Button Day. A large wall projection and a long table of laptops surrounded by dozens of students working with p5.js"
+},
+{
+   "Timestamp": "12/30/2019 17:48:13",
+   "Email Address": "tkwshnsk@gmail.com",
+   "Credit": "Shunsuke Takawo",
+   "Short": "Shunsuke Takawo",
+   "Contribution": "Takawo held a workshop on p5.js for static graphics in Tokyo in September. He teached how to create pictures that are more attractive because they don't move, such as colors, shapes, and effective use of random and noise, while actually writing code on p5.js.\n\nhttps://paper.dropbox.com/doc/--ArfJO5sqU0~9IoIhhLhNvZZ2Ag-Fk8qxFWjaJWeH1cAc8FT0\n\nhttps://fabcafe.com/tokyo/events/190913_neort_exhibition_workshop",
+   "Image": "./Images/Shunsuke Takawo.png",
+   "Alt": "creative coding for static graphics"
+},
+{
+   "Timestamp": "1/7/2020 7:34:02",
+   "Email Address": "sina@sinabahram.com",
+   "Credit": "Sina Bahram\n@SinaBahram",
+   "Short": "Sina Bahram",
+   "Contribution": "Attending the P5JS workshop at CMU was an awesome experience to work with such wonderful collaborators. We focused on trying to enhance the inclusivity and accessibility of the P5JS ecosystem for all users, especially those who rely upon assistive technologies. This work is not complete and it is important to iterate on these efforts often, but much progress, conceptual and code, was able to be made at this event.",
+   "Image": "./Images/Sina Bahram.jpg",
+   "Alt": "In front of an attentive audience seated around tables pushed into a U formation, Sina, bearded and in a blue shirt, speaks at a podium labeled \"Carnegie Mellon.\" A screen is projected behind him. Laptops and coffee cups clutter the tables in the high-ceilinged lab space. The audience, their backs to the camera, are informally dressed."
+},
+{
+   "Timestamp": "12/31/2019 0:24:09",
+   "Email Address": "sinan@openprocessing.org",
+   "Credit": "Sinan\nOpenProcessing",
+   "Short": "Sinan",
+   "Contribution": "# Processing Zine Notes\nI created OpenProcessing.org as my thesis project in 2008, for Processing users to code online and share their sketches in an open-source environment. Since then, it became a platform where thousands of artists, designers, teachers, and students inspire each other every day with their projects, share knowledge, and collaborate. Thanks to P5js, it became much more intuitive and accessible to code online and experiment with digital arts, design, and new technology. \nToday, P5js is playing a very critical role in the history of computer science and digital literacy. It enables us to be creators and experimenters of technology instead of being a consumer of it.\nProcessing changed my life as I was looking for the intersection of engineering and design. Today, P5js is doing the same for many others, online. I am very honored to have contributed to this initiative with OpenProcessing, and I am looking forward to seeing what we all will build in the future together!",
+   "Image": "./Images/Sinan.png",
+   "Alt": "A brief list of sketches shared on OpenProcessing"
+},
+{
+   "Timestamp": "12/15/2019 4:07:15",
+   "Email Address": "sparshpaliwal123@gmail.com",
+   "Credit": "Sparsh Paliwal",
+   "Short": "Sparsh Paliwal",
+   "Contribution": "About 800 lines of bug-fixes and documentation.",
+   "Image": "./Images/Sparsh Paliwal.png",
+   "Alt": "A screenshot from the p5js.org website referencing the loadPixels element. Rocky Mountains picture duplicated on canvas."
+},
+{
+   "Timestamp": "12/30/2019 10:36:46",
+   "Email Address": "stalgia.grigg@gmail.com",
+   "Credit": "Stalgia Grigg",
+   "Short": "Stalgia Grigg",
+   "Contribution": "I contributed my always earnest, often clumsy determination to learn through making something that encourages others to learn through making.\n\nAlso, I thought about the p5 community at least once every day for the past 3 years, which must have done something.",
+   "Image": "./Images/Stalgia Grigg.jpg",
+   "Alt": "stalgia grigg, a child; stalgia grigg, a pink-stipled mad scientist"
+},
+{
+   "Timestamp": "12/30/2019 11:35:36",
+   "Email Address": "steve@architectronics.com",
+   "Credit": "Stephen Lewis\nwww.funkey.net\nwww.makesense.co/plotsense",
+   "Short": "Stephen Lewis",
+   "Contribution": "Realtime data display from Arduino boards, up to 8 channels from analog sensors, many features.  Installable local app for Mac and PC.",
+   "Image": "./Images/Stephen Lewis.png",
+   "Alt": "Data plotter in real time"
+},
+{
+   "Timestamp": "12/30/2019 11:46:12",
+   "Email Address": "steve@architectronics.com",
+   "Credit": "Stephen Lewis Architectronics\nwww.funkey.net\nwww.makesense.co/P5JSDuino",
+   "Short": "Stephen Lewis",
+   "Contribution": "Program Arduino boards directly from P5JS.  Analog sensor input, digital and servo outputs directly coded from P5JS.  www.makesense.co/p5jsduino",
+   "Image": "./Images/Stephen Lewis_1.png",
+   "Alt": "Inputs and outputs connected to an Arduino Leonardo board and controlled directly from P5JS"
+},
+{
+   "Timestamp": "12/3/2019 12:42:17",
+   "Email Address": "steve@architectronics.com",
+   "Credit": "Stephen Lewis\nwww.funkey.net",
+   "Short": "Stephen Lewis",
+   "Contribution": "A way to code in P5JS directly to Arduino. https://www.makesense.co/p5jsduino",
+   "Image": "./Images/Stephen Lewis_2.png",
+   "Alt": "An Arduino Leonard with inputs and outputs coded in P5JS"
+},
+{
+   "Timestamp": "12/30/2019 13:06:47",
+   "Email Address": "sylaguinaga@gmail.com",
+   "Credit": "Sylvia Aguiñaga",
+   "Short": "Sylvia Aguiñaga",
+   "Contribution": "As a part of DIY Girls, we led P5.js (6-8 grade) curriculum development and translation of the P5.js zine into Spanish. Vanessa, a PHD student in Biomedical Engineering, and I worked with our mentors Lauren McCarthy and Jesse Cahn-Thompson from the Processing Foundation to expand, iterate, and improve DIY Girls’ current P5.js curriculum & contracted with translator, Gabriela Hussong, to translate our work into Spanish. We held week-long creative coding camps for girls and used their feedback to further iterate and improve our work. The creation and implementation of our P5.js curriculum and zine has broadened our scope of impact with girls in underserved areas of Los Angeles and in Mexico. Our bilingual zine is a stand-alone resource for girls to explore -- a tool that encourages self-led learning and awakens a love for code. \n",
+   "Image": "./Images/Sylvia Aguiñaga.png",
+   "Alt": "Our Spanish p5.js zine cover"
+},
+{
+   "Timestamp": "12/9/2019 18:49:52",
+   "Email Address": "tanvikumar777@gmail.com",
+   "Credit": "Tanvi Kumar",
+   "Short": "Tanvi Kumar",
+   "Contribution": "I helped resolve some issues, wrote documentation and improved the I/O handling for p5.js as a part of Google Summer of Code 2018! ",
+   "Image": "./Images/Tanvi Kumar.png",
+   "Alt": "A screenshot from the p5js.org website referencing the colorPicker element. Pink square inside a gray square in p5.js sketch on website colorPicker element."
+},
+{
+   "Timestamp": "12/30/2019 14:29:39",
+   "Email Address": "tedshandy@gmail.com",
+   "Credit": "Ted Davis",
+   "Short": "Ted Davis",
+   "Contribution": "P5LIVE is a fullscreen, collaborative, live-coding environment for p5.js (the creative coding library for the browser, inspired by Processing). P5LIVE, is an interactive tool to enable artists and designers to create and perform live visuals with code, partaking in what some refer to as the Algorave Movement. Rather than code standing behind the visual, out of view, here the it's equally present and important as the process of creativity is made transparent and performative. Unique to this tool, is the development of a 'softCompile' mode, allowing changes within the code to be smoothly updated for smooth transitions and changes while VJ'ing. In addition, one key feature is called 'COCODING', think 'Google Docs' / 'Etherpad' in terms of allowing people from around the world to collaborate in realtime, coding the same document and seeing the same visual output behind it. This opens up possibilities for the realtime coding of artwork in new ways, crossing borders and cultures alike.",
+   "Image": "./Images/Ted Davis.png",
+   "Alt": "View of P5LIVE interface and code, overlaying a demo sketch that creates a meta-view of how COCODING works."
+},
+{
+   "Timestamp": "12/30/2019 14:35:39",
+   "Email Address": "tedshandy@gmail.com",
+   "Credit": "Ted Davis",
+   "Short": "Ted Davis",
+   "Contribution": "This is the cheatsheet I first created in Spring 2019 for my p5.js courses (made the mighty switch from Processing then) – there is a whole website with course material, but perhaps this cheatsheet could useful for some others. Fun side note, the word 'cheatsheet' doesn't really exist in German, so my first year bachelor students love to repeat the word 'cheatsheet' multiple times after I pass it out and announce what it is.",
+   "Image": "./Images/Ted Davis_1.png",
+   "Alt": "1 page cheatsheet with core p5.js functions I use in my courses"
+},
+{
+   "Timestamp": "12/30/2019 15:39:00",
+   "Email Address": "timothyshek01@gmail.com",
+   "Credit": "Timothy Shek\n@arandomtim",
+   "Short": "Timothy Shek",
+   "Contribution": "I recently discovered p5.js when looking for things for creative coding. So far, I absolutely love it. I’ve made a thing (my hex color clock https://editor.p5js.org/arandomtim/sketches/7g7wv82Dj) with others on my old account (https://editor.p5js.org/arandomperson/sketches). I’ve also used it as part of a STEM event at a local school - spreading awareness and showing what p5.js can be used for, and demonstrating just how easy creative coding can be. p5.js is really good for these kinds of things, and the community is really vibrant and friendly. I hope to make further contributions of various types in the future.",
+   "Image": "./Images/Timothy Shek.jpeg",
+   "Alt": "Clock with concentric rings showing time and color-changing background."
+},
+{
+   "Timestamp": "12/30/2019 8:40:02",
+   "Email Address": "info@codeguppy.com",
+   "Credit": "codeguppy.com\nTwitter @codeguppy",
+   "Short": "@codeguppy",
+   "Contribution": "p5.js is a great library with immense potential for teaching. It is the foundation of https://codeguppy.com website - a website that aim at teaching kids coding by building games. Students can begin coding with codeguppy.com and then graduate to bare-metal p5.js sketch programming when ready.",
+   "Image": "./Images/@codeguppy.PNG",
+   "Alt": "JavaScript programs for beginners"
+},
+{
+   "Timestamp": "12/29/2019 7:10:14",
+   "Email Address": "orban@physics.osu.edu",
+   "Credit": "IG, Twitter @STEMcoding",
+   "Short": "@STEMcoding",
+   "Contribution": "I tested p5.js on the iPad, documenting and providing a workaround for an issue with the iPad external keyboard. During fall 2019, apple issued an update that fixed this issue. So the code with my workaround was not actually merged into the main branch of p5.js but I was one of the few people watching this closely that had an iPad with an external keyboard that could be used to test workarounds. Here is the closed pull request:\nhttps://github.com/processing/p5.js/pull/3286\nI should mention that Ohio State bought thousands of iPads each year for the incoming freshman the last two years as we transition to a 1-to-1 iPad university. The issue affected all the students in the OSU classes I taught. I use p5.js coding activities in physics classes.",
+   "Image": "./Images/@STEMcoding.png",
+   "Alt": "Person holding an iPad on the left is talking to a person at a laptop on the right. In the background is the keyPressed reference page from http://p5js.org"
+},
+{
+   "Timestamp": "12/30/2019 20:45:27",
+   "Email Address": "hello@vijithassar.com",
+   "Credit": "Vijith Assar",
+   "Short": "Vijith Assar",
+   "Contribution": "wrote architectural documentation for Processing Foundation fellowship project",
+   "Image": "./Images/Vijith Assar.jpg",
+   "Alt": "smiley emoticon with exclamation point"
+},
+{
+   "Timestamp": "12/31/2019 3:58:16",
+   "Email Address": "xam4lor@gmail.com",
+   "Credit": "xam4lor",
+   "Short": "xam4lor",
+   "Contribution": "Title : PhysicsSimulationEngine\nGithub : https://github.com/mecanicascience/PhysicsSimulationEngine\nThe goal of this project was to create a tool for physics simulations and animations in the browser using Javascript, to help spreading Physics and Math content on the Internet.\nThis tool is still in early development but is already used by some science vulgarisation articles that you can find on mecanicascience.herokuapp.com.",
+   "Image": "./Images/xam4lor.jpg",
+   "Alt": "An example of the 1st Kepler's law using the engine"
+},
+{
+   "Timestamp": "12/8/2019 20:44:31",
+   "Email Address": "tega.brain@gmail.com",
+   "Credit": "Sam Lavigne and Tega Brain\nwith Contributions by Crystal\nChen and Paolla Bruno Dutra",
+   "Short": "Sam Lavigne and Tega Brain",
+   "Contribution": "p5.Riso.js is a p5.js library for generating files suitable for Risograph printing. It helps turn your sketches into multi-color prints. A Risograph is like a photocopier combined with a screen printer. Just like in screen printing, it prints one color at a time, each as a separate layer. To prepare digital files for riso printing, images need to be separated into individual colors, each saved out as a file. The p5.Riso Library helps automate color separation and lets you preview of how your prints will look. It makes it possible to turn your interactive p5 sketches into print art!\n\nhttps://antiboredom.github.io/p5.riso/",
+   "Image": "./Images/Sam Lavigne and Tega Brain.jpg",
+   "Alt": "p5.riso logo, protest poster, riso color test print and riso dithering test print."
+},
+{
+   "Timestamp": "12/30/2019 22:35:14",
+   "Email Address": "pyeseul@gmail.com",
+   "Credit": "Yeseul Song\n@yeseulsong_",
+   "Short": "Yeseul Song",
+   "Contribution": "As an educator, I have used p5.js in my workshops and classes. I also worked on translating some parts of the p5.js website to Korean, initially to be used at Lauren McCarthy's public art workshop in Seoul.",
+   "Image": "./Images/Yeseul Song.jpg",
+   "Alt": "An image from an exhibition at the Asia Culture Center in Gwangju, Korea where the translated p5 website was used to lead a workshop where participants explored the theme of home in interactive installations created with p5.js. Blue and white circular light inside animated gradient colored ring hanging in exhbition.",
+   "FIELD7": "Blue and white circular light inside animated gradient colored ring hanging in exhbition."
+},
+{
+   "Timestamp": "12/2/2019 17:24:11",
+   "Email Address": "yining@nyu.edu",
+   "Credit": "Yining Shi\nGithubyining1023\nTwitter @yining_shi",
+   "Short": "Yining Shi",
+   "Contribution": "p5.ble.js, p5 web editor",
+   "Image": "./Images/Yining Shi.gif",
+   "Alt": "Connect to any Bluetooth Low Energy device to your p5 sketch. "
+}
+]

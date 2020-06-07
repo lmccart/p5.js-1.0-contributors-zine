@@ -25,7 +25,7 @@ class IndexEntry extends Component {
 
 	render() {
     return (
-    <li key={this.props.index} className="contentLabel">
+    <li key={this.props.index} className="contentLabel" role="listitem">
     <Row>
       <Col sm={12} className="indexEntry">
         <div className="indexCurveHolder">

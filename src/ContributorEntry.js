@@ -24,10 +24,10 @@ class ContributorEntry extends Component {
       return n.length >= data.d ? n : new Array(data.d - n.length + 1).join('0') + n;
     };
     return (
-      <li key={this.props.index} id={"contributor-"+this.props.index} className="contributorEntry">
+      <div key={this.props.index} id={"contributor-"+this.props.index} className="contributorEntry">
         <Row>
           <Col sm={3} className="contributorCurve">
-            <span className="figLabel">FIG. <Pad n={this.props.index+1} d='3'/></span>
+            <span aria-label="figure number" className="figLabel">FIG. <Pad n={this.props.index+1} d='3'/></span>
             <div className="curveHolder">
               <Curve first/>
               {this.props.obj.Credit.split('\n').map(function(item, key) {
@@ -40,20 +40,22 @@ class ContributorEntry extends Component {
             </div>
           </Col>
           <Col sm={9} className="contributorCredit">
-            <div className="headingPiece">Contributor</div>
-            <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
-            <a target="blank" href={decoratedHref} key={key} className='link'>
-              {decoratedText}
-            </a>
-          )}>{this.props.obj.Credit.split('\n').map(function(item, key) {
-            return (<div className="headingPiece" key={key}>{item}</div>)
-          })}</Linkify>
+            <h3>
+              <div className="headingPiece">Contributor</div>
+              <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
+              <a target="blank" href={decoratedHref} key={key} className='link'>
+                {decoratedText}
+              </a>
+            )}>{this.props.obj.Credit.split('\n').map(function(item, key) {
+              return (<div className="headingPiece" key={key}>{item}</div>)
+            })}</Linkify>
+            </h3>
           </Col>
         </Row>
         <Row>
           <Col sm={{ size: 6, offset: 3 }}><img src={this.props.obj.Image} alt={this.props.obj.Alt} className="contributorImg"/></Col>
           <Col sm={12}>
-            <div ><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
+            <div><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
               <a target="blank" href={decoratedHref} key={key} className='link'>{decoratedText}</a>
             )}>{this.props.obj.Contribution}</Linkify></div>
           </Col>
@@ -69,7 +71,7 @@ class ContributorEntry extends Component {
             <div>{this.props.obj.Alt}</div>
           </Col>
         </Row>
-      </li>
+      </div>
     );
   }
 }

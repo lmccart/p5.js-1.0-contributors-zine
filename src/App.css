@@ -84,6 +84,11 @@ h2 {
   line-height: 1.33em;
 }
 
+h3 {
+  font-size: 18pt;
+  line-height: 1.33em;
+}
+
 hr {
   margin: 0 0 2em 0;
   border: 1px solid black;
@@ -171,7 +176,7 @@ nav a:hover, nav button:hover {
 
 nav li {
   display: inline;
-  margin: 0.5em;
+  margin: 4vw;
 }
 
 .clickable {
@@ -445,7 +450,7 @@ code {
     width: 18vw;
   }
   nav li {
-    margin: 1vw;
+    margin: 3vw;
   }
 
 }
@@ -467,9 +472,6 @@ code {
 
   h1, h2, nav {
     font-size: 18pt;
-  }
-  nav li {
-    margin: 0.5vw;
   }
 
   #navButton {
@@ -493,7 +495,7 @@ code {
     font-size: 24pt;
   }
   nav li {
-    margin: 0.2vw;
+    margin: 1.5vw;
   }
 
   #navButton {

@@ -5,6 +5,8 @@ class Intro extends Component {
 
 	render() {
 		return (
+<>
+<h1 id='intro-heading' class='sr-only'>Intro</h1>
 <Col className="intoSvg">
 	<svg focusable="false" aria-hidden="true" role="img" preserveAspectRatio="none" version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 		width="100%" height="100%" viewBox="0 0 750 505.09" >
@@ -24,6 +26,7 @@ class Intro extends Component {
 		c59.71,0,93.63-18.61,93.63-37.23"/>
 	</svg>
 </Col>
+</>
 		);
 	}
 }

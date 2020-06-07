@@ -24,29 +24,31 @@ class ReflectionEntry extends Component {
       return n.length >= data.d ? data.name+' '+n : data.name+' '+new Array(data.d - n.length + 1).join('0') + n;
     };
     return (
-      <li key={this.props.index} id={"reflection-"+this.props.index} className="contributorEntry">
+      <div key={this.props.index} id={"reflection-"+this.props.index} className="contributorEntry">
         <Row sm={12}>
         <Col sm={3} className="contributorCurve">
-          <span className="figLabel">{this.props.obj.Illustration ? <Pad name="TEXT" n={this.props.index+1} d='2'/> : "IMAGES"}</span>
+          <span aria-label="text label" className="figLabel">{this.props.obj.Illustration ? <Pad name="TEXT" n={this.props.index+1} d='2'/> : "IMAGES"}</span>
           <div className="curveHolder">
             <Curve first/>
             {this.props.obj.Title.split('\n').map(function(item, key) {
                 return (
-                  <Curve key={key}/>
+                  <Curve key={key} />
                 )
             })}
           </div>
           </Col>
             <Col sm={9} className="contributorCredit">
-              <div className="headingPiece">Reflection</div>
-              <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
-              <a target="blank" href={decoratedHref} key={key} className='link'>
-                {decoratedText}
-              </a>
-            )}>{this.props.obj.Title.split('\n').map(function(item, key) {
-              return (<div className="headingPiece" key={key}>{item}</div>)
-            })}</Linkify>
-            <div className="headingPiece">{this.props.obj.Author}</div>
+              <h3>
+                <div className="headingPiece">Reflection</div>
+                <Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
+                <a target="blank" href={decoratedHref} key={key} className='link'>
+                  {decoratedText}
+                </a>
+              )}>{this.props.obj.Title.split('\n').map(function(item, key) {
+                return (<div className="headingPiece" key={key}>{item}</div>)
+              })}</Linkify>
+              <div className="headingPiece">{this.props.obj.Author}</div>
+            </h3>
           </Col>
         </Row>
         <Row>
@@ -81,7 +83,7 @@ class ReflectionEntry extends Component {
             </Col>
           </Row>
         )})}
-      </li>
+      </div>
     );
   }
 }

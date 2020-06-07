@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Col } from 'reactstrap';
 import IndexEntry from './IndexEntry.js';
-import ContentEntry from './ContributorEntry';
+import ContributorEntry from './ContributorEntry';
 import ReflectionEntry from './ReflectionEntry';
 
 class DesktopRead extends Component {	 
@@ -16,12 +16,22 @@ class DesktopRead extends Component {
 
   componentDidMount() {
     let component = this;
-    fetch('./data.json')
+    fetch('./Assets/data.json', {
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+    })
     .then(res => res.json())
     .then(result => {
       component.setState({ data: result })
 
-      fetch('./reflections.json')
+      fetch('./Assets/reflections.json', {
+        headers : { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+         }
+      })
       .then(res => res.json())
       .then(result => {
         component.setState({ reflections: result })
@@ -39,9 +49,11 @@ class DesktopRead extends Component {
 	render() {
     const { data, reflections } = this.state
 		return (
+      <main>
       <Container className="d-none d-sm-block">
+        <h1 id='read-heading' class='sr-only'>Read</h1>
         <div id="hiddenLoad">
-        <Col xs={12} sm={4} className="index">
+        <Col xs={12} sm={4} className="index" role="navigation" aria-label="secondary">
           <h2 id='contributorsList'>Contributors</h2>
           <ul aria-labelledby='contributorsList'>
           {
@@ -68,28 +80,25 @@ class DesktopRead extends Component {
           }
           </ul>
         </Col>
-        <Col sx={12} sm={8} className="content">
+        <Col sx={12} sm={8} className="content" role="navigation" aria-label="secondary">
           <h2 id='contributorsEntries'className='sr-only'>Contributors Entries</h2>
-          <ul aria-labelledby='contributorsEntries'>
           {
             data.map((obj, index) => {
-              return <ContentEntry key={index} index={index} obj={obj}/>
+              return <ContributorEntry key={index} index={index} obj={obj}/>
             })
           }
-          </ul>
           <hr/>
 
           <h2 id='reflectionsEntries'>Contributor Reflections</h2>
-          <ul aria-labelledby='reflectionsEntries'>
           {
             reflections.map((obj, index) => {
               return <ReflectionEntry key={index} index={index} obj={obj}/>
             })
           }
-          </ul>
         </Col>
         </div>
       </Container>
+      </main>
 
     );
   }

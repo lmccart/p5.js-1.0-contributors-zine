@@ -7,6 +7,7 @@ import Intro from './Intro';
 import About from './About';
 import MobileRead from './MobileRead';
 import DesktopRead from './DesktopRead';
+import Asterisk from './Assets/asterisk.png';
 
 class App extends Component {
   constructor() {
@@ -72,7 +73,7 @@ class App extends Component {
   }
 
   render() {
-    const { gridOpen, navOpen, aboutOpen, introOpen, isMobile } = this.state
+    const { gridOpen, navOpen, aboutOpen, introOpen } = this.state
     
     return (
       <Container fluid className="h-100">
@@ -92,15 +93,13 @@ class App extends Component {
         )}
       
         <Col sx={12} sm={8} className="menu">
-          <nav tab-index="1" className={`${navOpen ? "" : "navCondensed"} ${aboutOpen ? "gray" : ""}`}>
-            <h2 id='mainNav' className="sr-only">Main Nav</h2>
-            <ul aria-labelledby='mainNav'>
+          <nav tab-index="1" className={`${navOpen ? "" : "navCondensed"} ${aboutOpen ? "gray" : ""}`} aria-label="main">
+            <ul>
               <li><button id='readButton' className='current'>Read</button></li>
               <li><button id='aboutButton'>About</button></li>
               <li><a href="http://processingfoundation.press/" target="_blank" rel="noreferrer">Purchase</a></li>
-              <li><a href="mailto:hello@p5js.org" target="_blank">Contact</a></li>
             </ul>
-            <img id='navButton' src='./Assets/asterisk.png' alt='p5 asterisk logo'/>
+            <img id='navButton' src={Asterisk} alt='p5 asterisk logo' aria-expanded={`${navOpen ? "true" : "false"}`}/>
           </nav>
         </Col>
         {!introOpen && !aboutOpen && (		
