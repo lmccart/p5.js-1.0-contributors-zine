@@ -59,8 +59,6 @@ class App extends Component {
     document.querySelector('nav').addEventListener('mouseout', this.navOff);
     document.getElementById('aboutButton').addEventListener('click', this.showAbout);
     document.getElementById('readButton').addEventListener('click', this.showRead);
-    window.addEventListener("resize", this.resize.bind(this));
-    this.resize();
   }
 
   render() {
