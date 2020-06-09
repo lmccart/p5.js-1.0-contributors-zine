@@ -15,7 +15,7 @@ class App extends Component {
     this.state = {
       gridOpen: false,
       navOpen: true,
-      introOpen: true,
+      introOpen: false,
       aboutOpen: false,
       isMobile: false
     }
@@ -77,9 +77,12 @@ class App extends Component {
     
     return (
       <Container fluid className="h-100">
-        <a id='skipToContent' className='sr-only' href='/#contributor-0'>Skip To Content</a>
+
+        {!introOpen && (	
+          <a id='skipToContent' className='sr-only' href='#main'>Skip To Content</a>
+        )}
         <Col xs={12} sm={4} id="headingBox" className={`justify-content-end ${aboutOpen ? "gray" : ""}`}>
-          <h1>p5.js 1.0<br/>Contributors Zine&nbsp;</h1>
+          <h1>p5.js 1.0<br aria-hidden='true'/>Contributors Zine&nbsp;</h1>
         </Col>
         
         {gridOpen && (					
@@ -93,13 +96,13 @@ class App extends Component {
         )}
       
         <Col sx={12} sm={8} className="menu">
-          <nav tab-index="1" className={`${navOpen ? "" : "navCondensed"} ${aboutOpen ? "gray" : ""}`} aria-label="main">
+          <nav tabindex="1" className={`${navOpen ? "" : "navCondensed"} ${aboutOpen ? "gray" : ""}`} aria-label="main">
             <ul>
-              <li><button id='readButton' className='current'>Read</button></li>
-              <li><button id='aboutButton'>About</button></li>
+              <li><a href="#read" id='readButton' className='current'>Read</a></li>
+              <li><a href="#about" id='aboutButton'>About</a></li>
               <li><a href="http://processingfoundation.press/" target="_blank" rel="noreferrer">Purchase</a></li>
             </ul>
-            <img id='navButton' src={Asterisk} alt='p5 asterisk logo' aria-expanded={`${navOpen ? "true" : "false"}`}/>
+            <img tabindex="0" id='navButton' src={Asterisk} alt='p5 asterisk logo' aria-expanded={`${navOpen ? "true" : "false"}`}/>
           </nav>
         </Col>
         {!introOpen && !aboutOpen && (		

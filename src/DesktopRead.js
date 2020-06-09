@@ -49,9 +49,9 @@ class DesktopRead extends Component {
 	render() {
     const { data, reflections } = this.state
 		return (
-      <main>
+      <main id="main">
       <Container className="d-none d-sm-block">
-        <h1 id='read-heading' class='sr-only'>Read</h1>
+        <h1 id='read-heading' className='sr-only'>Read</h1>
         <div id="hiddenLoad">
         <Col xs={12} sm={4} className="index" role="navigation" aria-label="secondary">
           <h2 id='contributorsList'>Contributors</h2>
@@ -68,7 +68,7 @@ class DesktopRead extends Component {
             })
           }
           </ul>
-          <h2 id='reflectionsList'>Contributor<br/>Reflections</h2>
+          <h2 id='reflectionsList'>Contributor<br aria-hidden='true' />Reflections</h2>
           <ul aria-labelledby='reflectionsList' id='reflectionsUl'>
           {
             reflections.map((obj, index) => {
@@ -87,7 +87,6 @@ class DesktopRead extends Component {
               return <ContributorEntry key={index} index={index} obj={obj}/>
             })
           }
-          <hr/>
 
           <h2 id='reflectionsEntries'>Contributor Reflections</h2>
           {

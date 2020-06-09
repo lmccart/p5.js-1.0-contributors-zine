@@ -5,47 +5,47 @@ import Curve from './Curve.js';
 class About extends Component {	 
 	render() {
 		return (
-			<div className='aboutText'>
-				<h1 id='about-heading' class='sr-only'>About</h1>
+			<div className='aboutText' id="main">
+				<h1 id='about-heading' className='sr-only'>About</h1>
 				<Col xs={12} sm={12}>
 					<p>p5.js is a JavaScript library that aims to make creative expression and coding on the web accessible and inclusive for artists, designers, educators, beginners, and anyone else. It uses the metaphor of “sketching with code”, drawing inspiration from its precursor, Processing.  p5.js is free and open-source because we believe software, and the tools to learn it, should be accessible to everyone.</p>
 					<p className="d-none d-lg-block">To the p5.js community, “contributing” means many different things including:</p>
-					<Row  className="d-none d-lg-flex">
-						<Col xs={12} sm={4}>
+					<Row  className="d-none d-lg-flex" aria-hidden='true'>
+						<Col>
 							<div className="aboutCurves">
 							<Curve first/><Curve/><Curve/>
 							</div>
-							<div className="aboutList">
-								teaching,<br/>
-								documentation,<br/>
-								writing code,<br/>
-								making art,<br/>
-							</div>
+							<ul className="aboutList" aria-label="contributing ideas 1">
+								<li>teaching,</li>
+								<li>documentation,</li>
+								<li>writing code,</li>
+								<li>making art,</li>
+							</ul>
 						</Col>
 						<Col xs={12} sm={4}>
 							<div className="aboutCurves">
 							<Curve first/><Curve/><Curve/>
 							</div>
-							<div className="aboutList">
-								writing,<br/>
-								design,<br/>
-								activism,<br/>
-								curating,<br/>
-							</div>
+							<ul className="aboutList" aria-label="contributing ideas 2">
+								<li>writing,</li>
+								<li>design,</li>
+								<li>activism,</li>
+								<li>curating,</li>
+							</ul>
 						</Col>
 						<Col xs={12} sm={4}>
 							<div className="aboutCurves">
 							<Curve first/><Curve/><Curve/>
 							</div>
-							<div className="aboutList">
-								bug reporting,<br/>
-								organizing,<br/>
-								outreach,<br/>
-								and more.<br/>
-							</div>
+							<ul className="aboutList" aria-label="contributing ideas 3">
+								<li>bug reporting,</li>
+								<li>organizing,</li>
+								<li>outreach,</li>
+								<li>and more.</li>
+							</ul>
 						</Col>
 					</Row>
-					<Row  className="d-block d-lg-none">
+					<Row className="d-block d-lg-none sr-only">
 						<Col xs={12}>
 							<p>To the p5.js community “contributing” means many different things including: teaching, coding, documentation, making art, writing, design, activism, curating, bug reporting, outreach, and more.</p>
 						</Col>

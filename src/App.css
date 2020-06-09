@@ -440,10 +440,10 @@ code {
 }
 
 @media only screen and (max-width: 1215px) {
-  h1, h2, nav {
+  h1, nav {
     font-size: 24pt;
   }
-  body {
+  body, h2, h3 {
     font-size: 12pt;
   }
   .indexLabel {
@@ -470,7 +470,7 @@ code {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
 
-  h1, h2, nav {
+  h1, nav {
     font-size: 18pt;
   }
 
@@ -491,11 +491,12 @@ code {
 /* Small devices */
 @media only screen and (max-width: 576px) {
 
-  h1, h2, nav {
+  h1, nav {
     font-size: 24pt;
   }
   nav li {
     margin: 1.5vw;
+    font-size: 20pt;
   }
 
   #navButton {
@@ -510,5 +511,11 @@ code {
     height: 73vh;
     margin-top: 17vh;
   }
+  p {
+    text-align: left;
+  }
 }
 
+.li {
+  display: block;
+}
