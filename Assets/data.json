@@ -121,7 +121,7 @@
    "Credit": "Aarón Montoya-Moraga",
    "Short": "Aarón Montoya-Moraga",
    "Contribution": "p5.js translations to Spanish and teaching workshops :)",
-   "Image": "./Images/Aarón Montoya-Moraga.jpg",
+   "Image": "./Images/Montoya-Moraga.jpg",
    "Alt": "cover of the Spanish translation of the p5.js book"
 },
 {
@@ -184,7 +184,7 @@
    "Credit": "Antonio J. Sánchez-Padial\n@ajspadial",
    "Short": "Antonio J. Sánchez-Padial",
    "Contribution": "When I knew about P5.js I had enjoyed the original java-based Processing for a couple of years, and at the same time I had been learning Javascript and using it at job. \n\nI expected P5.js to allow chaining commands as many other Javascript did then, specially JQuery, which had been very popular until then. I realized this chainability was not a Javascript feature but, something offered by each API. It took me only a few hours to learn how to add this chainability feature to P5.js.\n\nI am not a great contributor to open source projects, but this opportunity made me very happy and proud. I wish these few lines had helped people to write easier-to-read code, and to bring to P5.js the techniques they may have learnt in other Javascript libraries.",
-   "Image": "./Images/Antonio J. Sánchez-Padial.png",
+   "Image": "./Images/Antonio.png",
    "Alt": "select('idElement').position(100,100).size(64,64);"
 },
 {
@@ -256,7 +256,7 @@
    "Credit": "Birger Eriksson and Lillian Brevik, Köpings kommun",
    "Short": "Birger Eriksson and Lillian Brevik, Köpings kommun",
    "Contribution": "We made a open programming course for Swedish teachers and students with P5.JS, the best JS library ever made! Visit us: https://köpingkodar.nu",
-   "Image": "./Images/Birger Eriksson and Lillian Brevik, Köpings kommun.png",
+   "Image": "./Images/Birger.png",
    "Alt": "Img from xn--kpingkodar-ecb.nu"
 },
 {
@@ -274,7 +274,7 @@
    "Credit": "Casey Conchinha\nSocials: @kcconch\nGithub: https://github.com/kcconch/\nLouise Lessél\n@louiselessel\nlouiselessel.com",
    "Short": "Casey Conchinha and Louise Lessél",
    "Contribution": "p5.js shaders is a guide by Casey Conchinha and Louise Lessél that removes some of the stumbling blocks of getting started learning shaders in p5.js.\n\nShaders are a great way to make moving graphics for your projects, without slowing down your sketch! They execute exclusively on your graphics card and can really supercharge your visuals. If you've ever used loadPixels() or done pixel by pixel manipulations in your code, it's likely that the same operation would run much faster as a shader. That being said, programmers often find shaders intimidating when try to start using them. This ongoing project aims to make getting started with shaders more accessible and less confusing. By placing shaders in p5.js, where many new programmers start out, we hope to show that shaders do not need to be for advanced programmers only.\n\nThere are a few examples from our guide on the p5.js examples page, for more please visit bit.ly/p5shadersexamples. \nFor the guide itself please visit bit.ly/p5shaders.",
-   "Image": "./Images/Casey Conchinha and Louise Lessél.png",
+   "Image": "./Images/Casey Conchinha.png",
    "Alt": "p5 shaders website getting started page"
 },
 {
@@ -797,7 +797,7 @@
    "Credit": "Marcos Giménez\nhttps://github.com/0000marcosg",
    "Short": "Marcos Giménez",
    "Contribution": "3 years ago I discovered p5.js and since then I have added it to my courses as an art teacher at a Faculty of Fine Arts in Uruguay. Today, it is part of the curriculum along with Processing. The versatility and communication possibilities make it a great tool both for education, and  development of narratives and inclusion. My contribution to this beautiful project has been teaching classes and workshops to coding beginners, from college students to high school students, creating examples and tutorials in Spanish.",
-   "Image": "./Images/Marcos Giménez.png",
+   "Image": "./Images/Marcos.png",
    "Alt": "A photo of a screen with the text \"its a undefined!\""
 },
 {
@@ -851,7 +851,7 @@
    "Credit": "Michael Zöllner",
    "Short": "Michael Zöllner",
    "Contribution": "My students are learning creative coding at Hof University from the first Semester on with P5.js and create wonderful projects with it.",
-   "Image": "./Images/Michael Zöllner.png",
+   "Image": "./Images/Michael.png",
    "Alt": "Drawing tools"
 },
 {
@@ -1148,7 +1148,7 @@
    "Credit": "Stephen Lewis\nwww.funkey.net",
    "Short": "Stephen Lewis",
    "Contribution": "A way to code in P5JS directly to Arduino. https://www.makesense.co/p5jsduino",
-   "Image": "./Images/Stephen Lewis_2.png",
+   "Image": "./Images/Stephen Lewis2.png",
    "Alt": "An Arduino Leonard with inputs and outputs coded in P5JS"
 },
 {
@@ -1157,7 +1157,7 @@
    "Credit": "Sylvia Aguiñaga",
    "Short": "Sylvia Aguiñaga",
    "Contribution": "As a part of DIY Girls, we led P5.js (6-8 grade) curriculum development and translation of the P5.js zine into Spanish. Vanessa, a PHD student in Biomedical Engineering, and I worked with our mentors Lauren McCarthy and Jesse Cahn-Thompson from the Processing Foundation to expand, iterate, and improve DIY Girls’ current P5.js curriculum & contracted with translator, Gabriela Hussong, to translate our work into Spanish. We held week-long creative coding camps for girls and used their feedback to further iterate and improve our work. The creation and implementation of our P5.js curriculum and zine has broadened our scope of impact with girls in underserved areas of Los Angeles and in Mexico. Our bilingual zine is a stand-alone resource for girls to explore -- a tool that encourages self-led learning and awakens a love for code. \n",
-   "Image": "./Images/Sylvia Aguiñaga.png",
+   "Image": "./Images/Sylvia.png",
    "Alt": "Our Spanish p5.js zine cover"
 },
 {
