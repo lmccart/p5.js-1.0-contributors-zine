@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/p5.js-1.0-contributors-zine/static/css/main.b5edd3a0.chunk.css",
-    "main.js": "/p5.js-1.0-contributors-zine/static/js/main.dfcf1a6d.chunk.js",
-    "main.js.map": "/p5.js-1.0-contributors-zine/static/js/main.dfcf1a6d.chunk.js.map",
+    "main.css": "/p5.js-1.0-contributors-zine/static/css/main.4d855b3a.chunk.css",
+    "main.js": "/p5.js-1.0-contributors-zine/static/js/main.23fa573c.chunk.js",
+    "main.js.map": "/p5.js-1.0-contributors-zine/static/js/main.23fa573c.chunk.js.map",
     "runtime-main.js": "/p5.js-1.0-contributors-zine/static/js/runtime-main.01b5d212.js",
     "runtime-main.js.map": "/p5.js-1.0-contributors-zine/static/js/runtime-main.01b5d212.js.map",
     "static/css/2.98bc8785.chunk.css": "/p5.js-1.0-contributors-zine/static/css/2.98bc8785.chunk.css",
-    "static/js/2.0df78d20.chunk.js": "/p5.js-1.0-contributors-zine/static/js/2.0df78d20.chunk.js",
-    "static/js/2.0df78d20.chunk.js.map": "/p5.js-1.0-contributors-zine/static/js/2.0df78d20.chunk.js.map",
+    "static/js/2.895b7057.chunk.js": "/p5.js-1.0-contributors-zine/static/js/2.895b7057.chunk.js",
+    "static/js/2.895b7057.chunk.js.map": "/p5.js-1.0-contributors-zine/static/js/2.895b7057.chunk.js.map",
     "index.html": "/p5.js-1.0-contributors-zine/index.html",
-    "precache-manifest.e68eebcfc9f3fec6cb5be00884c7cced.js": "/p5.js-1.0-contributors-zine/precache-manifest.e68eebcfc9f3fec6cb5be00884c7cced.js",
+    "precache-manifest.8f81c11a07f5f3fa99528b5d6a68bfb7.js": "/p5.js-1.0-contributors-zine/precache-manifest.8f81c11a07f5f3fa99528b5d6a68bfb7.js",
     "service-worker.js": "/p5.js-1.0-contributors-zine/service-worker.js",
     "static/css/2.98bc8785.chunk.css.map": "/p5.js-1.0-contributors-zine/static/css/2.98bc8785.chunk.css.map",
-    "static/css/main.b5edd3a0.chunk.css.map": "/p5.js-1.0-contributors-zine/static/css/main.b5edd3a0.chunk.css.map",
-    "static/js/2.0df78d20.chunk.js.LICENSE.txt": "/p5.js-1.0-contributors-zine/static/js/2.0df78d20.chunk.js.LICENSE.txt"
+    "static/css/main.4d855b3a.chunk.css.map": "/p5.js-1.0-contributors-zine/static/css/main.4d855b3a.chunk.css.map",
+    "static/js/2.895b7057.chunk.js.LICENSE.txt": "/p5.js-1.0-contributors-zine/static/js/2.895b7057.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.01b5d212.js",
     "static/css/2.98bc8785.chunk.css",
-    "static/js/2.0df78d20.chunk.js",
-    "static/css/main.b5edd3a0.chunk.css",
-    "static/js/main.dfcf1a6d.chunk.js"
+    "static/js/2.895b7057.chunk.js",
+    "static/css/main.4d855b3a.chunk.css",
+    "static/js/main.23fa573c.chunk.js"
   ]
 }
