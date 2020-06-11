@@ -46,7 +46,7 @@ body {
   background: rgb(215, 215, 215);
 }
 
-a, button {
+a {
   color: black;
   background: none;
   border: none;
@@ -128,7 +128,6 @@ nav {
   text-decoration: none;
   background-color: rgb(240, 95, 40);
   margin-right: -25px;
-  padding-top: 0.15em;
 }
 
 .navCondensed {
@@ -139,10 +138,27 @@ nav {
   display: none;
 }
 
+#mainNav {
+  padding: 0.1em 0;
+}
+
 #navButton {
   cursor: pointer;
-  height: 1em;
-  margin: 0.25em 0.4em;
+  margin: 0 0.3em;
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#navButton:focus {
+  border: auto;
+  outline: auto;
+}
+
+#navButton img {
+  height: 0.9em;
+  outline: none;
 }
 
 ul {
@@ -163,12 +179,12 @@ nav ul {
   display: inline-block;
 }
 
-nav a, nav button {
+nav a {
   margin: 0;
   transform: skew(-32DEG);
 }
 
-nav a:hover, nav button:hover {
+nav a:hover {
   color: black;
   transform: none;
   text-decoration: none;
@@ -474,10 +490,6 @@ code {
     font-size: 18pt;
   }
 
-  #navButton {
-    margin: 0.25em 0.25em;
-  }
-
   .aboutText {
     padding-bottom: 5em;
   }
@@ -499,9 +511,6 @@ code {
     font-size: 20pt;
   }
 
-  #navButton {
-    margin: 0.25em 0.25em;
-  }
 
   .aboutText {
     padding-bottom: 5em;

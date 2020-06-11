@@ -52,8 +52,8 @@ class DesktopRead extends Component {
       <main id="main">
       <Container className="d-none d-sm-block">
         <h1 id='read-heading' className='sr-only'>Read</h1>
-        <div id="hiddenLoad">
-        <Col xs={12} sm={4} className="index" role="navigation" aria-label="secondary">
+        <div id="hiddenLoad" role="navigation" aria-label="secondary">
+        <Col xs={12} sm={4} className="index">
           <h2 id='contributorsList'>Contributors</h2>
           <ul aria-labelledby='contributorsList'>
           {
@@ -80,7 +80,7 @@ class DesktopRead extends Component {
           }
           </ul>
         </Col>
-        <Col sx={12} sm={8} className="content" role="navigation" aria-label="secondary">
+        <Col sx={12} sm={8} className="content">
           <h2 id='contributorsEntries'className='sr-only'>Contributors Entries</h2>
           {
             data.map((obj, index) => {

@@ -23,6 +23,7 @@ class App extends Component {
     this.showRead = this.showRead.bind(this);
     this.navOn = this.navOn.bind(this);
     this.navOff = this.navOff.bind(this);
+    this.toggleNav = this.toggleNav.bind(this);
   }
 
   handleKey(e) {
@@ -44,6 +45,7 @@ class App extends Component {
     document.body.className = 'gray';
   }
   navOn(e) {
+    console.log('oh')
     if (this.state.introOpen) return;
     this.setState({ navOpen: true });
   }
@@ -51,12 +53,19 @@ class App extends Component {
     if (this.state.introOpen) return;
     this.setState({ navOpen: false });
   }
+  toggleNav(e) {
+    if (this.state.introOpen) return;
+    else if (this.state.navOpen) this.setState({ navOpen: false });
+    else this.setState({ navOpen: true });
+    
+  }
 
   componentDidMount() {
     document.body.className = 'gray';
     document.addEventListener('keyup', this.handleKey);
     document.querySelector('nav').addEventListener('mouseover', this.navOn);
     document.querySelector('nav').addEventListener('mouseout', this.navOff);
+    document.getElementById('navButton').addEventListener('click', this.toggleNav);
     document.getElementById('aboutButton').addEventListener('click', this.showAbout);
     document.getElementById('readButton').addEventListener('click', this.showRead);
   }
@@ -71,7 +80,8 @@ class App extends Component {
           <a id='skipToContent' className='sr-only' href='#main'>Skip To Content</a>
         )}
         <Col xs={12} sm={4} id="headingBox" className={`justify-content-end ${aboutOpen ? "gray" : ""}`}>
-          <h1>p5.js 1.0<br aria-hidden='true'/>Contributors Zine&nbsp;</h1>
+          {/* <div>p5.js 1.0 <br/> Contributors Zine&nbsp;</div> */}
+          <h1>p5.js 1.0 <br aria-hidden='true'/> Contributors Zine&nbsp;</h1>
         </Col>
         
         {gridOpen && (					
@@ -85,13 +95,13 @@ class App extends Component {
         )}
       
         <Col sx={12} sm={8} className="menu">
-          <nav tabindex="1" className={`${navOpen ? "" : "navCondensed"} ${aboutOpen ? "gray" : ""}`} aria-label="main">
+          <nav id='mainNav' tabIndex="1" className={`${navOpen ? "" : "navCondensed"} ${aboutOpen ? "gray" : ""}`} aria-label="main">
             <ul>
               <li><a href="#read" id='readButton' className='current'>Read</a></li>
               <li><a href="#about" id='aboutButton'>About</a></li>
               <li><a href="http://processingfoundation.press/" target="_blank" rel="noreferrer">Purchase</a></li>
             </ul>
-            <img tabindex="0" id='navButton' src={Asterisk} alt='p5 asterisk logo' aria-expanded={`${navOpen ? "true" : "false"}`}/>
+            <button id='navButton' aria-expanded={`${navOpen ? true : false}`}><img src={Asterisk} alt=''/></button>
           </nav>
         </Col>
         {!introOpen && !aboutOpen && (		
