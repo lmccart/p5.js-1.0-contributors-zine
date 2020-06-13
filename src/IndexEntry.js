@@ -50,7 +50,7 @@ class IndexEntry extends Component {
           : ""}
         </div>
         <span className="indexLabel" ref={indexRef => { this.indexRef = indexRef }}>
-          <a href={this.props.prefix+this.props.index}>
+          <a href={this.props.prefix+this.props.anchor}>
             {this.props.title ? <Skew hover="true" text={this.props.title}/> : ( "" )}
             {this.props.title ? <br/> : ( "" )}
             <Skew hover="true" text={this.props.short}/>

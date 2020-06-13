@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Col } from 'reactstrap';
-import './App.css';
+import './App.scss';
 
 import Grid from './Grid';
 import Intro from './Intro';
@@ -12,12 +12,14 @@ import Asterisk from './Assets/asterisk.png';
 class App extends Component {
   constructor() {
     super()
+    const hash = window.location.hash;
     this.state = {
       gridOpen: false,
       navOpen: true,
-      introOpen: true,
-      aboutOpen: false
+      introOpen: (!hash.includes('contributor') && !hash.includes('reflection') && !hash.includes('about')),
+      aboutOpen: hash === '#about'
     }
+    
     this.handleKey = this.handleKey.bind(this);
     this.showAbout = this.showAbout.bind(this);
     this.showRead = this.showRead.bind(this);
@@ -61,7 +63,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    document.body.className = 'gray';
+    document.body.className = window.location.hash === '#about' ? 'orange' : 'gray';
     document.addEventListener('keyup', this.handleKey);
     document.querySelector('nav').addEventListener('mouseover', this.navOn);
     document.querySelector('nav').addEventListener('mouseout', this.navOff);
@@ -81,7 +83,7 @@ class App extends Component {
         )}
         <Col xs={12} sm={4} id="headingBox" className={`justify-content-end ${aboutOpen ? "gray" : ""}`}>
           {/* <div>p5.js 1.0 <br/> Contributors Zine&nbsp;</div> */}
-          <h1>p5.js 1.0 <br aria-hidden='true'/> Contributors Zine&nbsp;</h1>
+          <h1 role="text">p5.js 1.0 <br aria-hidden='true'/> Contributors Zine&nbsp;</h1>
         </Col>
         
         {gridOpen && (					
@@ -99,7 +101,7 @@ class App extends Component {
             <ul>
               <li><a href="#read" id='readButton' className='current'>Read</a></li>
               <li><a href="#about" id='aboutButton'>About</a></li>
-              <li><a href="http://processingfoundation.press/" target="_blank" rel="noreferrer">Purchase</a></li>
+              <li><a href="http://processingfoundation.press/" target="_blank" rel="noopener noreferrer">Purchase</a></li>
             </ul>
             <button id='navButton' aria-expanded={`${navOpen ? true : false}`}><img src={Asterisk} alt=''/></button>
           </nav>

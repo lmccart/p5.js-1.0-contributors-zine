@@ -37,6 +37,10 @@ class DesktopRead extends Component {
         component.setState({ reflections: result })
         document.getElementById('hiddenLoad').style.display = 'flex';
         this.forceUpdate();
+        console.log('hash', window.location.hash)
+        const hash = window.location.hash;
+        window.location.hash = '#';
+        window.location.hash = hash;
       });
     });
 
@@ -63,7 +67,7 @@ class DesktopRead extends Component {
                 let type = index;
                 if (index === data.length - 2) type = -1;
                 if (index === data.length - 1) type = -2;
-                return <IndexEntry key={index} index={index} prefix='#contributor-' short={obj.Short} type={type}/>;
+                return <IndexEntry key={index} index={index} prefix='#contributor-' short={obj.Short} type={type} anchor={obj.Short.replace(/ /g, '-').toLowerCase()}/>;
               } return null;
             })
           }
@@ -75,7 +79,7 @@ class DesktopRead extends Component {
               let type = index;
               if (index === reflections.length - 2) type = -1;
               if (index === reflections.length - 1) type = -2;
-              return <IndexEntry key={index} index={index} prefix='#reflection-' short={obj.Author} title={obj.Title} type={type}/>
+              return <IndexEntry key={index} index={index} prefix='#reflection-' short={obj.Author} title={obj.Title} type={type} anchor={obj.Author.replace(/ /g, '-').toLowerCase()}/>
             })
           }
           </ul>

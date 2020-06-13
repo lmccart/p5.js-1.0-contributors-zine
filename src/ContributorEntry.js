@@ -24,7 +24,7 @@ class ContributorEntry extends Component {
       return n.length >= data.d ? n : new Array(data.d - n.length + 1).join('0') + n;
     };
     return (
-      <div key={this.props.index} id={"contributor-"+this.props.index} className="contributorEntry">
+      <div key={this.props.index} id={"contributor-"+this.props.obj.Short.replace(/ /g, '-').toLowerCase()} className="contributorEntry">
       <h3>
         <Row>
           <Col sm={3} className="contributorCurve">

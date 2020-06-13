@@ -24,7 +24,7 @@ class ReflectionEntry extends Component {
       return n.length >= data.d ? data.name+' '+n : data.name+' '+new Array(data.d - n.length + 1).join('0') + n;
     };
     return (
-      <div key={this.props.index} id={"reflection-"+this.props.index} className="contributorEntry">
+      <div key={this.props.index} id={"reflection-"+(this.props.obj.Author.replace(/ /g, '-').toLowerCase())} className="contributorEntry">
         <Row sm={12}>
         <Col sm={3} className="contributorCurve">
           <span aria-label="text label" className="figLabel">{this.props.obj.Illustration ? <Pad name="TEXT" n={this.props.index+1} d='2'/> : "IMAGES"}</span>
