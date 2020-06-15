@@ -59,7 +59,7 @@ class DesktopRead extends Component {
         <div id="hiddenLoad" role="navigation" aria-label="secondary">
         <Col xs={12} sm={4} className="index">
           <h2 id='contributorsList'>Contributors</h2>
-          <ul aria-labelledby='contributorsList'>
+          <ul aria-labelledby='contributorsList' role="list">
           {
             data.map((obj, index) => {
               if (obj.Short !== this.lastShort) { 
@@ -73,7 +73,7 @@ class DesktopRead extends Component {
           }
           </ul>
           <h2 id='reflectionsList'>Contributor<br aria-hidden='true' />Reflections</h2>
-          <ul aria-labelledby='reflectionsList' id='reflectionsUl'>
+          <ul aria-labelledby='reflectionsList' id='reflectionsUl' role="list">
           {
             reflections.map((obj, index) => {
               let type = index;
