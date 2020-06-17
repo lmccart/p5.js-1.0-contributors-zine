@@ -14,7 +14,7 @@ class App extends Component {
     super()
     const hash = window.location.hash;
     this.state = {
-      gridOpen: false,
+      gridOpen: true,
       navOpen: true,
       introOpen: (!hash.includes('contributor') && !hash.includes('reflection') && !hash.includes('about')),
       aboutOpen: hash === '#about'
@@ -23,8 +23,6 @@ class App extends Component {
     this.handleKey = this.handleKey.bind(this);
     this.showAbout = this.showAbout.bind(this);
     this.showRead = this.showRead.bind(this);
-    this.navOn = this.navOn.bind(this);
-    this.navOff = this.navOff.bind(this);
     this.toggleNav = this.toggleNav.bind(this);
   }
 
@@ -46,18 +44,9 @@ class App extends Component {
     this.setState({ navOpen: false, introOpen: false, aboutOpen: false });
     document.body.className = 'gray';
   }
-  navOn(e) {
-    console.log('oh')
-    if (this.state.introOpen) return;
-    this.setState({ navOpen: true });
-  }
-  navOff(e) {
-    if (this.state.introOpen) return;
-    this.setState({ navOpen: false });
-  }
   toggleNav(e) {
-    if (this.state.introOpen) return;
-    else if (this.state.navOpen) this.setState({ navOpen: false });
+    // if (this.state.introOpen) return;
+    if (this.state.navOpen) this.setState({ navOpen: false });
     else this.setState({ navOpen: true });
     
   }
@@ -65,8 +54,6 @@ class App extends Component {
   componentDidMount() {
     document.body.className = window.location.hash === '#about' ? 'orange' : 'gray';
     document.addEventListener('keyup', this.handleKey);
-    document.querySelector('nav').addEventListener('mouseover', this.navOn);
-    document.querySelector('nav').addEventListener('mouseout', this.navOff);
     document.getElementById('navButton').addEventListener('click', this.toggleNav);
     document.getElementById('aboutButton').addEventListener('click', this.showAbout);
     document.getElementById('readButton').addEventListener('click', this.showRead);
@@ -83,7 +70,7 @@ class App extends Component {
         )}
         <Col xs={12} sm={4} id="headingBox" className={`justify-content-end ${aboutOpen ? "gray" : ""}`}>
           {/* <div>p5.js 1.0 <br/> Contributors Zine&nbsp;</div> */}
-          <h1 role="text">p5.js 1.0 <br aria-hidden='true'/> Contributors Zine&nbsp;</h1>
+          <h1 role="text"><span className="border-bottom">&nbsp;p5.js 1.0&nbsp;</span> <br aria-hidden='true'/> <span className="border-bottom">&nbsp;Contributors Zine&nbsp;</span></h1>
         </Col>
         
         {gridOpen && (					
@@ -97,13 +84,14 @@ class App extends Component {
         )}
       
         <Col sx={12} sm={8} className="menu">
-          <nav id='mainNav' tabIndex="1" className={`${navOpen ? "" : "navCondensed"} ${aboutOpen ? "gray" : ""}`} aria-label="main">
-            <ul>
+          <nav id='mainNav' tabIndex="1" className={`${navOpen ? "navExpanded" : "navCondensed"}`} aria-label="main">
+            <ul className={`${aboutOpen ? "gray" : ""}`}>
               <li><a href="#read" id='readButton' className='current'>Read</a></li>
               <li><a href="#about" id='aboutButton'>About</a></li>
               <li><a href="http://processingfoundation.press/" target="_blank" rel="noopener noreferrer">Purchase</a></li>
+              <li id='p5'><a href="https://p5js.org/" target="_blank" rel="noopener noreferrer">p5.js</a></li>
             </ul>
-            <button id='navButton' aria-expanded={`${navOpen ? true : false}`}><img src={Asterisk} alt=''/></button>
+            <button id='navButton' aria-expanded={`${navOpen ? true : false}`} className={`${aboutOpen ? "gray" : ""}`}><img src={Asterisk} alt=''/></button>
           </nav>
         </Col>
         {!introOpen && !aboutOpen && (		

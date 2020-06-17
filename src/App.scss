@@ -1,5 +1,7 @@
+
 html,body {
   height: 100%;
+  color: black;
 }
 
 .h-100 {
@@ -50,7 +52,6 @@ a {
   color: black;
   background: none;
   border: none;
-  display: inline-block;
   padding: 0;
 }
 
@@ -65,16 +66,22 @@ a {
   transform: skew(-32DEG);
 }
 
+.border-bottom {
+  border-bottom: 2px solid black !important; 
+  line-height: 0.9;
+  display: inline-block;
+}
+
 h1 {
   font-size: 32pt;
   line-height: 1.19em;
   transform: skew(-32DEG);
-  text-decoration: underline;
+  // text-decoration: underline;
   padding: 0.75em 0 0 0;
   text-align: left;
   display: inline-block;
-  text-indent: -1em;
-  margin: 0 -1.4em -0.5em 0;
+  text-indent: -0.5em;
+  margin: 0 -1.4em 0em 0;
 }
 
 h2 {
@@ -99,6 +106,10 @@ hr {
   text-align: right;
   margin-left: -25px;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 #headingBox .row {
@@ -126,34 +137,48 @@ nav {
   font-size: 32pt;
   line-height: 1.19em;
   text-decoration: none;
-  background-color: rgb(240, 95, 40);
   margin-right: -25px;
 }
 
-.navCondensed {
-  display: inline-block;
+.menu ul {
+  background-color: rgb(240, 95, 40);
+  padding: 0.1em;
+  padding-right: 2em;
+  width: 100%;
+}
+
+.navExpanded ul {
+  transform: translate(0%, 0%);
+  transition: transform 2s; 
+
 }
 
 .navCondensed ul {
-  display: none;
-}
-
-#mainNav {
-  padding: 0.1em 0;
+  transform: translate(100%, 0%);
+  transition: transform 2s; 
 }
 
 #navButton {
   cursor: pointer;
-  margin: 0 0.3em;
-  padding: 0;
-  background: none;
+  margin: 0;
+  padding: 0.1em 0.3em;
   border: none;
   outline: none;
+  background-color: rgb(240, 95, 40);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+
+#navButton img:hover {
+  transform-origin: center;
+  transform: rotate(90DEG);
 }
 
 #navButton:focus {
-  border: auto;
-  outline: auto;
+  // border: auto;
+  // outline: auto;
 }
 
 #navButton img {
@@ -182,6 +207,7 @@ nav ul {
 nav a {
   margin: 0;
   transform: skew(-32DEG);
+  display: inline-block;
 }
 
 nav a:hover {
@@ -192,7 +218,7 @@ nav a:hover {
 
 nav li {
   display: inline;
-  margin: 4vw;
+  margin: 2.5vw;
 }
 
 .clickable {
@@ -306,27 +332,16 @@ code {
   padding-bottom: 2em;
 }
 
-.link {
-  /* These are technically the same, but use both */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-
-  -ms-word-break: break-all;
-  /* This is the dangerous one in WebKit, as it breaks things wherever */
-  word-break: break-all;
-  /* Instead use this non-standard one: */
-  word-break: break-word;
-
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-}
 
 .contributorImg {
   width: 100%;
   margin: 2em 0;
+  filter: grayscale(100%);
+  mix-blend-mode: darken;
+}
+
+.contributorImgContainer {
+  background: #d7d7d7;
 }
 
 .alt {
@@ -381,6 +396,7 @@ code {
   width: 1.84em;
   display: block;
   margin-top: -0.03em;
+  margin-left: 25px;
 }
 
 .aboutText {
@@ -388,8 +404,12 @@ code {
   overflow-y: scroll;
   font-size: 24pt;
   line-height: 1.33em;
-  padding: 1em 0 7em 0;
+  padding: 5em 0 0 0;
   margin-left: 0.25em;
+}
+
+.margTop {
+  margin-top: 0.5em;
 }
 
 .mobileText p{
@@ -455,6 +475,14 @@ code {
   src: url("/fonts/Union-Regular.woff") format("woff");
 }
 
+
+@media only screen and (max-width: 1400px) {
+  nav li {
+    margin: 1.5vw;
+
+  }
+}
+
 @media only screen and (max-width: 1215px) {
   h1, nav {
     font-size: 24pt;
@@ -466,7 +494,12 @@ code {
     width: 18vw;
   }
   nav li {
-    margin: 3vw;
+    margin: 1.8vw;
+  }
+
+  .aboutText {
+    padding-top: 4em;
+    padding-bottom: 3em;
   }
 
 }
@@ -476,6 +509,9 @@ code {
   }
   .indexLabel {
     width: 16vw;
+  }
+  nav li {
+    margin: 1vw;
   }
 
   .aboutCurve {
@@ -490,10 +526,6 @@ code {
     font-size: 18pt;
   }
 
-  .aboutText {
-    padding-bottom: 5em;
-  }
-
   #svg {
     height: 73vh;
     margin-top: 17vh;
@@ -503,6 +535,9 @@ code {
 /* Small devices */
 @media only screen and (max-width: 576px) {
 
+  #p5 {
+    display: none;
+  }
   h1, nav {
     font-size: 24pt;
   }
@@ -511,17 +546,17 @@ code {
     font-size: 20pt;
   }
 
-
-  .aboutText {
-    padding-bottom: 5em;
-  }
-
   #svg {
     height: 73vh;
     margin-top: 17vh;
   }
   p {
     text-align: left;
+  }
+
+
+  #navButton {
+    padding: 0.12em 0.3em;
   }
 }
 

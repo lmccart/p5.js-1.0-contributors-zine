@@ -53,7 +53,7 @@ class ReflectionEntry extends Component {
         </Row>
         <Row>
           { this.props.obj.Illustration ? 
-            <Col sm={{ size: 6, offset: 3 }}><img src={'./Illustrations/'+this.props.obj.Illustration} alt={this.props.obj.Alt} className="contributorImg"/></Col>
+            <Col sm={{ size: 6, offset: 3 }} className="contributorImgContainer"><img src={'./Illustrations/'+this.props.obj.Illustration} alt={this.props.obj.Alt} className="contributorImg"/></Col>
             : <Col sm={{ size: 6, offset: 3 }}>&nbsp;</Col>}
           <Col sm={12}>
             <div><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (

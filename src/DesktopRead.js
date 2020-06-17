@@ -67,7 +67,7 @@ class DesktopRead extends Component {
                 let type = index;
                 if (index === data.length - 2) type = -1;
                 if (index === data.length - 1) type = -2;
-                return <IndexEntry key={index} index={index} prefix='#contributor-' short={obj.Short} type={type} anchor={obj.Short.replace(/ /g, '-').toLowerCase()}/>;
+                return <IndexEntry key={index} index={index} prefix='contributor-' short={obj.Short} type={type} anchor={obj.Short.replace(/ /g, '-').toLowerCase()}/>;
               } return null;
             })
           }
@@ -79,7 +79,7 @@ class DesktopRead extends Component {
               let type = index;
               if (index === reflections.length - 2) type = -1;
               if (index === reflections.length - 1) type = -2;
-              return <IndexEntry key={index} index={index} prefix='#reflection-' short={obj.Author} title={obj.Title} type={type} anchor={obj.Author.replace(/ /g, '-').toLowerCase()}/>
+              return <IndexEntry key={index} index={index} prefix='reflection-' short={obj.Author} title={obj.Title} type={type} anchor={obj.Author.replace(/ /g, '-').toLowerCase()}/>
             })
           }
           </ul>

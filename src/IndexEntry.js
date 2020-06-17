@@ -21,6 +21,17 @@ class IndexEntry extends Component {
 
       }
     }
+    this.indexRef.addEventListener('click', (e) => {
+      let anchor = e.target.parentElement.dataset.anchor;
+      this.scrollTo(anchor);
+    });
+  }
+
+  scrollTo(anchor) {
+    console.log(anchor)
+    const elem = document.getElementById(anchor);
+    console.log(elem)
+    elem.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
 	render() {
@@ -49,13 +60,11 @@ class IndexEntry extends Component {
           </span>
           : ""}
         </div>
-        <span className="indexLabel" ref={indexRef => { this.indexRef = indexRef }}>
-          <a href={this.props.prefix+this.props.anchor}>
-            {this.props.title ? <Skew hover="true" text={this.props.title}/> : ( "" )}
-            {this.props.title ? <br/> : ( "" )}
-            <Skew hover="true" text={this.props.short}/>
-          </a>
-          </span>
+        <span className="indexLabel" ref={indexRef => { this.indexRef = indexRef }} data-anchor={this.props.prefix+this.props.anchor}>
+          {this.props.title ? <Skew hover="true" text={this.props.title}/> : ( "" )}
+          {this.props.title ? <br/> : ( "" )}
+          <Skew hover="true" text={this.props.short}/>
+        </span>
       </Col>
     </Row>
     </li>

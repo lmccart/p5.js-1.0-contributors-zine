@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
+import Hyphenated from 'react-hyphen';
 import Linkify from 'react-linkify';
 import Curve from './Curve.js';
 
@@ -53,11 +54,11 @@ class ContributorEntry extends Component {
         </Row>
             </h3>
         <Row>
-          <Col sm={{ size: 6, offset: 3 }}><img src={this.props.obj.Image} alt={this.props.obj.Alt} className="contributorImg"/></Col>
+          <Col sm={{ size: 6, offset: 3 }} className="contributorImgContainer"><img src={this.props.obj.Image} alt={this.props.obj.Alt} className="contributorImg"/></Col>
           <Col sm={12}>
-            <div><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
+            <Hyphenated><Linkify componentDecorator={(decoratedHref, decoratedText, key) => (
               <a target="blank" href={decoratedHref} key={key} className='link'>{decoratedText}</a>
-            )}>{this.props.obj.Contribution}</Linkify></div>
+            )}>{this.props.obj.Contribution}</Linkify></Hyphenated>
           </Col>
         </Row>
         <Row className="alt">
