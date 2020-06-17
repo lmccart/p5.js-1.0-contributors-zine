@@ -337,7 +337,7 @@ code {
   width: 100%;
   margin: 2em 0;
   filter: grayscale(100%);
-  mix-blend-mode: darken;
+  mix-blend-mode: multiply;
 }
 
 .contributorImgContainer {
