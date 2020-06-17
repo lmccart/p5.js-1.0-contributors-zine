@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 import Skew from './Skew.js';
 
+let scrollListener;
+let scrollTimeout;
+
 class IndexEntry extends Component {	 
   constructor() {
     super()
@@ -18,7 +21,6 @@ class IndexEntry extends Component {
         this.imgRef.style.height = (1.33 * n) + 'em';
         this.imgRef.style.width = '1.84em';
         // this.imgRef.style.marginTop = (0.6-0.05*n) + 'em';
-
       }
     }
     this.indexRef.addEventListener('click', (e) => {
@@ -28,14 +30,17 @@ class IndexEntry extends Component {
   }
 
   scrollTo(anchor) {
+    if (scrollListener) document.getElementsByClassName('content')[0].removeEventListener('scroll', scrollListener);
+    if (scrollTimeout) clearTimeout(scrollTimeout);
     const elem = document.getElementById(anchor);
+    console.log(elem);
     elem.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
-    let scrollTimeout;
-    document.getElementsByClassName('content')[0].addEventListener('scroll', function(e) {
+    scrollListener = document.getElementsByClassName('content')[0].addEventListener('scroll', function(e) {
       clearTimeout(scrollTimeout);
       scrollTimeout = setTimeout(function() {
         window.location.hash = '#'+anchor;
+        if (scrollListener) document.getElementsByClassName('content')[0].removeEventListener('scroll', scrollListener);
       }, 100);
     });
   }

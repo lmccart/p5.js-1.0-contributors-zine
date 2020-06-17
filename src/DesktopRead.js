@@ -43,7 +43,6 @@ class DesktopRead extends Component {
         window.location.hash = hash;
       });
     });
-
   }
 
   shouldComponentUpdate() {
