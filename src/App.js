@@ -14,7 +14,7 @@ class App extends Component {
     super()
     const hash = window.location.hash;
     this.state = {
-      gridOpen: true,
+      gridOpen: false,
       navOpen: true,
       introOpen: (!hash.includes('contributor') && !hash.includes('reflection') && !hash.includes('about')),
       aboutOpen: hash === '#about'
