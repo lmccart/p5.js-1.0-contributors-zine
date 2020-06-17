@@ -24,7 +24,18 @@ html,body {
   display: inline-block;
 }
 
+a {
+  cursor: pointer;
+}
+
 a:hover > .skewHover {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  transform: skew(-32DEG);
+}
+
+.link:hover {
   display: inline-block;
   color: black;
   text-decoration: none;
@@ -247,9 +258,9 @@ code {
 }
 
 .index {
-  height: calc(100vh - 6em);
+  height: calc(100vh);
   position: absolute;
-  padding-top: 1em;
+  padding-top: 6.5em;
   left: 0;
   overflow-y: scroll;
   overflow-x: hidden;

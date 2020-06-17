@@ -28,10 +28,16 @@ class IndexEntry extends Component {
   }
 
   scrollTo(anchor) {
-    console.log(anchor)
     const elem = document.getElementById(anchor);
-    console.log(elem)
     elem.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    let scrollTimeout;
+    document.getElementsByClassName('content')[0].addEventListener('scroll', function(e) {
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(function() {
+        window.location.hash = '#'+anchor;
+      }, 100);
+    });
   }
 
 	render() {
@@ -60,11 +66,11 @@ class IndexEntry extends Component {
           </span>
           : ""}
         </div>
-        <span className="indexLabel" ref={indexRef => { this.indexRef = indexRef }} data-anchor={this.props.prefix+this.props.anchor}>
+        <a className="indexLabel" ref={indexRef => { this.indexRef = indexRef }} data-anchor={this.props.prefix+this.props.anchor}>
           {this.props.title ? <Skew hover="true" text={this.props.title}/> : ( "" )}
           {this.props.title ? <br/> : ( "" )}
           <Skew hover="true" text={this.props.short}/>
-        </span>
+        </a>
       </Col>
     </Row>
     </li>
