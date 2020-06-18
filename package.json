@@ -2,7 +2,7 @@
   "name": "p5.js-1.0-contributors-zine",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://lmccart.github.io/p5.js-1.0-contributors-zine",
+  "homepage": "http://contributors-zine.p5js.org",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
