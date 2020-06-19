@@ -128,7 +128,7 @@ class App extends Component {
             <ul className={`${aboutOpen ? "gray" : ""}`} ref={ulRef => { this.ulRef = ulRef }}>
               <li><a href="#read" id='readButton' className='current'>Read</a></li>
               <li><a href="#about" id='aboutButton'>About</a></li>
-              <li><a href="http://processingfoundation.press/" target="_blank" rel="noopener noreferrer">Purchase</a></li>
+              <li><a href="https://processingfoundation.press/product/p5-js-1-0-contributors-zine-entries/" target="_blank" rel="noopener noreferrer">Purchase</a></li>
               <li id='p5'><a href="https://p5js.org/" target="_blank" rel="noopener noreferrer">p5.js</a></li>
             </ul>
             <button id='navButton' aria-expanded={`${navOpen ? true : false}`} className={`${aboutOpen ? "gray" : ""}`}><img src={Asterisk} alt=''/></button>
