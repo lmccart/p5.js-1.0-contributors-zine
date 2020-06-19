@@ -52,7 +52,7 @@ class About extends Component {
 					</Row>
 					<p className="margTop">We seek to erase the line between user and contributor, and expand the definitions of both as far and wide as possible. Diverse perspectives come together to make a tool that enables many different people to express themselves creatively.</p>
 					<p>To celebrate our 1.0 Release in February 2020, all contributors were invited to submit an image representing their contribution. Designer Stefanie Tam worked with Lauren Lee McCarthy to create the p5.js 1.0 Contributors Zine. An edition of 200 copies were printed.</p>
-					<p>This is the digital version of the zine publication. It contains manifestations of p5.js through art, code, community events, workshops, educational programs, publications, and more. These 141 entries and 12 essays and illustrations represent a subset of the thousands of p5.js contributors worldwide that worked together toward the p5.js 1.0 Release.</p>
+					<p>This is the digital version of the zine publication. It contains manifestations of p5.js through art, code, community events, workshops, educational programs, publications, and more. These 140 entries and 12 essays and illustrations represent a subset of the thousands of p5.js contributors worldwide that worked together toward the p5.js 1.0 Release.</p>
 				</Col>
 			</div>
 		);
