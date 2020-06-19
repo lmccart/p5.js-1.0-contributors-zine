@@ -63,6 +63,7 @@ class App extends Component {
     }
   }
   openNav() {
+    if (intervalId) clearInterval(intervalId);
     let ul = this.ulRef;
     intervalId = setInterval(frame, 10);
     ul.style.display = 'block';
@@ -76,6 +77,7 @@ class App extends Component {
     }
   }
   closeNav() {
+    if (intervalId) clearInterval(intervalId);
     let ul = this.ulRef;
     intervalId = setInterval(frame, 10);
     function frame() {
