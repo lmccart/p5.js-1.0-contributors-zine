@@ -9,6 +9,9 @@ import MobileRead from './MobileRead';
 import DesktopRead from './DesktopRead';
 import Asterisk from './Assets/asterisk.png';
 
+let intervalId = 0;
+let pos = 0;
+
 class App extends Component {
   constructor() {
     super()
@@ -24,6 +27,8 @@ class App extends Component {
     this.showAbout = this.showAbout.bind(this);
     this.showRead = this.showRead.bind(this);
     this.toggleNav = this.toggleNav.bind(this);
+    this.openNav = this.openNav.bind(this);
+    this.closeNav = this.closeNav.bind(this);
   }
 
   handleKey(e) {
@@ -39,16 +44,49 @@ class App extends Component {
   showAbout(e) {
     this.setState({ navOpen: false, introOpen: false, aboutOpen: true });
     document.body.className = 'orange';
+    this.closeNav();
   }
   showRead(e) {
     this.setState({ navOpen: false, introOpen: false, aboutOpen: false });
     document.body.className = 'gray';
+    this.closeNav();
   }
   toggleNav(e) {
     // if (this.state.introOpen) return;
     if (this.state.navOpen) this.setState({ navOpen: false });
     else this.setState({ navOpen: true });
-    
+
+    if (this.state.navOpen) {
+      this.openNav();
+    } else {
+      this.closeNav();
+    }
+  }
+  openNav() {
+    let ul = this.ulRef;
+    intervalId = setInterval(frame, 10);
+    ul.style.display = 'block';
+    function frame() {
+      if (pos === 0) {
+        clearInterval(intervalId);
+      } else {
+        pos--; 
+        ul.style.transform = 'translateX('+pos+'%)';
+      }
+    }
+  }
+  closeNav() {
+    let ul = this.ulRef;
+    intervalId = setInterval(frame, 10);
+    function frame() {
+      if (pos === 100) {
+        clearInterval(intervalId);
+        ul.style.display = 'none';
+      } else {
+        pos++; 
+        ul.style.transform = 'translateX('+pos+'%)';
+      }
+    }
   }
 
   componentDidMount() {
@@ -85,7 +123,7 @@ class App extends Component {
       
         <Col sx={12} sm={8} className="menu">
           <nav id='mainNav' tabIndex="1" className={`${navOpen ? "navExpanded" : "navCondensed"}`} aria-label="main">
-            <ul className={`${aboutOpen ? "gray" : ""}`}>
+            <ul className={`${aboutOpen ? "gray" : ""}`} ref={ulRef => { this.ulRef = ulRef }}>
               <li><a href="#read" id='readButton' className='current'>Read</a></li>
               <li><a href="#about" id='aboutButton'>About</a></li>
               <li><a href="http://processingfoundation.press/" target="_blank" rel="noopener noreferrer">Purchase</a></li>

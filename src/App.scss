@@ -158,16 +158,16 @@ nav {
   width: 100%;
 }
 
-.navExpanded ul {
-  transform: translate(0%, 0%);
-  transition: transform 2s; 
+// .navExpanded ul {
+//   transform: translate(0%, 0%);
+//   transition: transform 2s; 
 
-}
+// }
 
-.navCondensed ul {
-  transform: translate(100%, 0%);
-  transition: transform 2s; 
-}
+// .navCondensed ul {
+//   transform: translate(100%, 0%);
+//   transition: transform 2s; 
+// }
 
 #navButton {
   cursor: pointer;
@@ -482,8 +482,8 @@ code {
 /* FONTS */
 @font-face {
   font-family: Union;
-  /* src: url("/public/Union-Regular.otf") format("opentype"); */
-  src: url("/fonts/Union-Regular.woff") format("woff");
+  src: url("/Fonts/Union-Regular.otf") format("opentype");
+  src: url("/Fonts/Union-Regular.woff") format("woff");
 }
 
 
