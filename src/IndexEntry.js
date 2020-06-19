@@ -25,16 +25,16 @@ class IndexEntry extends Component {
     }
     this.indexRef.addEventListener('click', (e) => {
       e.preventDefault();
-      let anchor = e.target.parentElement.dataset.anchor;
+      let anchor = e.target.dataset.anchor || e.target.parentElement.dataset.anchor;
       this.scrollTo(anchor);
     });
   }
 
   scrollTo(anchor) {
+    console.log(anchor);
     if (scrollListener) document.getElementsByClassName('content')[0].removeEventListener('scroll', scrollListener);
     if (scrollTimeout) clearTimeout(scrollTimeout);
     const elem = document.getElementById(anchor);
-    console.log(elem);
     elem.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
     scrollListener = document.getElementsByClassName('content')[0].addEventListener('scroll', function(e) {
